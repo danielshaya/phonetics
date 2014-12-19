@@ -59,6 +59,12 @@ public class PhoneticsProcessor {
             }
         }
         System.out.println(results);
+
+        if(results.size()==0){
+            throw new AssertionError("No match for " + word + " for these IPA objects " + IPA.getSymbolsAsString(ipaCombinations.get(0)));
+        }else if(results.size() >1){
+            throw new AssertionError("Warning more than one mapping valid for " + ipaWord);
+        }
         return results;
     }
 

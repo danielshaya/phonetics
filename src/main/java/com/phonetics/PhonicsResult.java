@@ -25,6 +25,6 @@ public class PhonicsResult {
     }
 
     public String toString(){
-        return splitWord + "\t{ " + ipas.stream().map(IPA::getSymbol).collect(Collectors.joining(", ")) + " }";
+        return splitWord + "\t{ " + IPA.getSymbolsAsString(ipas) + " }";
     }
 }

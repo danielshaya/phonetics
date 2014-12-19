@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.util.*;
+import java.util.stream.Collectors;
 
 class IPA{
     final String symbol;
@@ -64,5 +65,9 @@ class IPA{
         }
         reader.close();
         return ipas;
+    }
+
+    public static String getSymbolsAsString(List<IPA> ipas){
+        return ipas.stream().map(IPA::getSymbol).collect(Collectors.joining(", "));
     }
 }

@@ -37,6 +37,11 @@ public class TestPhonetics {
         results = phoneticsProcessor.process("kəmˈpjuːtə", "computer");
         testIPAs(results, new String[]{"k", "ə", "m", "p", "juː", "t", "ə"});
         testSplitWords(results, new String[]{"c", "o", "m", "p", "u", "t", "er"});
+
+        //results = phoneticsProcessor.process("ˈɒksn", "oxen");
+        //testIPAs(results, new String[]{"ɒ", "ks", "n"});
+        //testSplitWords(results, new String[]{"o", "x", "en"});
+        //doesn't work need to map n -> en
     }
 
     private void testSplitWords(List<PhonicsResult> results, String[] matches) {
