@@ -30,6 +30,10 @@ public class TestPhonetics {
         testIPAs(results, new String[]{"h", "aɪ", "t"});
         testSplitWords(results, new String[]{"h", "eigh", "t"});
 
+        results = phoneticsProcessor.process("hem", "hem");
+        testIPAs(results, new String[]{"h", "e", "m"});
+        testSplitWords(results, new String[]{"h", "e", "m"});
+
         results = phoneticsProcessor.process("əʊʃiˈænɪk", "oceanic");
         testIPAs(results, new String[]{"əʊ", "ʃ", "i", "æ", "n", "ɪ", "k"});
         testSplitWords(results, new String[]{"o", "c", "e", "a", "n", "i", "c"});
@@ -37,6 +41,14 @@ public class TestPhonetics {
         results = phoneticsProcessor.process("kəmˈpjuːtə", "computer");
         testIPAs(results, new String[]{"k", "ə", "m", "p", "juː", "t", "ə"});
         testSplitWords(results, new String[]{"c", "o", "m", "p", "u", "t", "er"});
+
+//        results = phoneticsProcessor.process("njuːˈməʊniə", "pneumonia");
+//        testIPAs(results, new String[]{"k", "ə", "m", "p", "juː", "t", "ə"});
+//        testSplitWords(results, new String[]{"c", "o", "m", "p", "u", "t", "er"});
+
+//        results = phoneticsProcessor.process("ɪkˈskruːʃieɪtɪŋ", "excruciating");
+//        testIPAs(results, new String[]{"k", "ə", "m", "p", "juː", "t", "ə"});
+//        testSplitWords(results, new String[]{"c", "o", "m", "p", "u", "t", "er"});
 
         //results = phoneticsProcessor.process("ˈɒksn", "oxen");
         //testIPAs(results, new String[]{"ɒ", "ks", "n"});

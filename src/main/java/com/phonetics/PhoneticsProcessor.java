@@ -40,7 +40,7 @@ public class PhoneticsProcessor {
         }
 
         if(ipaCombinations.size()==0){
-            throw new AssertionError("ipaWord " + ipaWord + " can not be mapped to IPA objects and is there not valid");
+            throw new AssertionError("ipaWord '" + ipaWord + "' for '"+ word + "' can not be mapped to IPA objects");
         }
 
         //STEP 3: Spliterate the word
@@ -58,7 +58,7 @@ public class PhoneticsProcessor {
                 }
             }
         }
-        System.out.println(results);
+        //System.out.println(results);
 
         if(results.size()==0){
             throw new AssertionError("No match for " + word + " for these IPA objects " + IPA.getSymbolsAsString(ipaCombinations.get(0)));

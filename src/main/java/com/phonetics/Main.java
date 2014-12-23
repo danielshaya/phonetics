@@ -9,27 +9,31 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) throws Exception{
-        Deque<String> stack = new ArrayDeque<String>();
-
-
-        InputStreamReader reader = new InputStreamReader(new FileInputStream("src/main/resources/wordlist.txt"), "UTF-16");
+        InputStreamReader reader = new InputStreamReader(new FileInputStream("src/main/resources/mappedWords.txt"), "UTF-8");
         BufferedReader buff = new BufferedReader(reader);
 
-        PhoneticsProcessor_Old phoneticsProcessor = new PhoneticsProcessor_Old();
+        PhoneticsProcessor phoneticsProcessor = new PhoneticsProcessor();
         phoneticsProcessor.setIpas(IPA.createIPAsFromFile("src/main/resources/dictionary.txt"));
 
         String line;
+        int valid = 0;
+        int error = 0;
         while((line = buff.readLine()) != null) {
-            stack.clear();
-            String IPAword = line.split("\\t")[0];
-            String word = line.split("\\t")[1];
+            String word = line.split("\\t")[0];
+            String IPAword = line.split("\\t")[1];
 
-            if (phoneticsProcessor.process(stack, IPAword, word)) continue;
-            Iterator<String> it = stack.descendingIterator();
-            while(it.hasNext()){
-                System.out.println(it.next());
+            try {
+                phoneticsProcessor.process(IPAword, word);
+            }catch(AssertionError e){
+                System.out.println(e.getMessage());
+                error++;
+                continue;
+
             }
+            valid++;
 
         }
+        System.out.println("valid " + valid);
+        System.out.println("error " + error);
     }
 }

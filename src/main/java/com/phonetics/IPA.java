@@ -41,13 +41,10 @@ class IPA{
         Reader reader = new InputStreamReader(new FileInputStream(file), "UTF-16");
         BufferedReader buff = new BufferedReader(reader);
         String line;
-        int counter =0;
         Map<String, IPA> ipas = new HashMap<String, IPA>();
 
 
         while((line = buff.readLine()) != null){
-            counter ++;
-            if(counter ==1)continue;
 
             String[] parts = line.split("\\t");
 
@@ -59,9 +56,11 @@ class IPA{
                 }
             }
 
-            IPA ipa = new IPA(parts[0], parts[1], letters);
+            if(parts.length > 1) {
+                IPA ipa = new IPA(parts[0], parts[1], letters);
 
-            ipas.put(ipa.getSymbol(), ipa);
+                ipas.put(ipa.getSymbol(), ipa);
+            }
         }
         reader.close();
         return ipas;
