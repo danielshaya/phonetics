@@ -38,9 +38,11 @@ public class TestPhonetics {
         testIPAs(results, new String[]{"əʊ", "ʃ", "i", "æ", "n", "ɪ", "k"});
         testSplitWords(results, new String[]{"o", "c", "e", "a", "n", "i", "c"});
 
-        results = phoneticsProcessor.process("kəmˈpjuːtə", "computer");
-        testIPAs(results, new String[]{"k", "ə", "m", "p", "juː", "t", "ə"});
-        testSplitWords(results, new String[]{"c", "o", "m", "p", "u", "t", "er"});
+        results = phoneticsProcessor.process("əbændənd", "abandoned");
+        testIPAs(results,       new String[]{"ə", "b", "æ", "n", "d", "ə", "n", "d"});
+        testSplitWords(results, new String[]{"a", "b", "a", "n", "d", "o", "ne", "d"});
+
+
 
 //        results = phoneticsProcessor.process("njuːˈməʊniə", "pneumonia");
 //        testIPAs(results, new String[]{"k", "ə", "m", "p", "juː", "t", "ə"});
@@ -55,6 +57,25 @@ public class TestPhonetics {
         //testSplitWords(results, new String[]{"o", "x", "en"});
         //doesn't work need to map n -> en
     }
+
+    @Test
+    public void testPhonetics1() throws Exception {
+        List<PhonicsResult> results = phoneticsProcessor.process("kəmˈpjuːtə", "computer");
+        testIPAs(results, new String[]{"k", "ə", "m", "p", "juː", "t", "ə"});
+        testSplitWords(results, new String[]{"c", "o", "m", "p", "u", "te", "r"});
+    }
+
+    @Test
+    public void testEI() throws Exception {
+        List<PhonicsResult> results = phoneticsProcessor.process("əbeɪəns", "abeyance");
+        testIPAs(results, new String[]{"ə", "b", "eɪ", "ə", "n", "s"});
+        testSplitWords(results, new String[]{"a", "b", "ey", "a", "n", "ce"});
+
+        results = phoneticsProcessor.process("ˈdeɪbreɪk", "daybreak");
+        testIPAs(results, new String[]{"d", "eɪ", "b", "r", "eɪ", "k"});
+        testSplitWords(results, new String[]{"d", "ay", "b", "re", "a", "k"});
+    }
+
 
     private void testSplitWords(List<PhonicsResult> results, String[] matches) {
         List<String> splitWord = results.get(0).getSplitWords();

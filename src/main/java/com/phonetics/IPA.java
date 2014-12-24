@@ -69,4 +69,21 @@ class IPA{
     public static String getSymbolsAsString(List<IPA> ipas){
         return ipas.stream().map(IPA::getSymbol).collect(Collectors.joining(", "));
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        IPA ipa = (IPA) o;
+
+        if (symbol != null ? !symbol.equals(ipa.symbol) : ipa.symbol != null) return false;
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        return symbol != null ? symbol.hashCode() : 0;
+    }
 }
