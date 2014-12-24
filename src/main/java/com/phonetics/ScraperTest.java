@@ -14,37 +14,42 @@ public class ScraperTest {
     static UserAgent userAgent = new UserAgent();
 
     public static void main(String[] args) {
-        test();
+        test("absorbent");
     }
 
-    private static void test(){
+    private static void test(String word){
         try{
             //create new userAgent (headless browser).
-            userAgent.visit("http://www.oxfordlearnersdictionaries.com/definition/english/go_1");
+            userAgent.visit("http://www.oxfordlearnersdictionaries.com/definition/english/" + word + "_1");
 
-            List<Element> es = userAgent.doc.findEvery("<span class=\"i\"").toList();
-            List<Element> dr = userAgent.doc.findEvery("<span class=\"dr\"").toList();
-            List<Element> iff = userAgent.doc.findEvery("<span class=\"if\"").toList();
+            Element es = userAgent.doc.findFirst("<span class=\"i\"");
+            List<Element> drs = userAgent.doc.findEvery("<span class=\"dr\"").toList();
+            List<Element> iffs = userAgent.doc.findEvery("<span class=\"if\"").toList();
+
+
 
             List mappedWords = new ArrayList<>();
-            System.out.println(userAgent.doc.innerHTML());
-            int count =0;
-            for(Element e : es){
-                if(count==0){
-                    mappedWords.add(e.getAt("id").split("_")[0] + "\t" + e.getText());
-                }else {
-                    if(dr.size()>0) {
-                        mappedWords.add(dr.get(count - 1).getText() + "\t" + e.getText());
-                    }else{
-                        mappedWords.add(iff.get(count - 1).getText() + "\t" + e.getText());
-                    }
-                }
-                count++;
+            //System.out.println(userAgent.doc.innerHTML());
+            mappedWords.add(es.getAt("id").split("_")[0] + "\t" + es.getText());
+
+            for(Element dr : drs){
+                Element p = dr.getParent();
+                Element ch = p.findFirst("<div class=\"ei-g\"");
+                Element i = p.findFirst("<span class=\"i\"");
+
+                mappedWords.add(dr.getText() + "\t" + i.getText());
+            }
+
+            for(Element iff : iffs){
+                Element p = iff.getParent();
+                Element ch = p.findFirst("<div class=\"ei-g\"");
+                Element i = p.findFirst("<span class=\"i\"");
+
+                mappedWords.add(iff.getText() + "\t" + i.getText());
             }
 
             System.out.println(mappedWords);
-            //print the content as HTML
-                          //print the content as HTML
+
 
         }
         catch(JauntException e){         //if an HTTP/connection error occurs, handle JauntException.

@@ -1,13 +1,13 @@
 package com.phonetics;
 
 import com.jaunt.Element;
-import com.jaunt.Elements;
 import com.jaunt.JauntException;
 import com.jaunt.UserAgent;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -25,14 +25,16 @@ public class Scraper {
         int mapped = 0;
         int count = 0;
 
-        FileWriter writer = new FileWriter("src/main/resources/mappedWords.txt");
+        FileWriter writer = new FileWriter("src/main/resources/mappedWords2.txt");
 
         while((line = reader.readLine()) != null){
             line = line.trim();
-            String mappedWord = map(line);
-            if(mappedWord != null){
-                mapped ++;
-                writer.write(mappedWord + "\n");
+            List<String> mappedWords = map(line);
+            if(mappedWords != null){
+                for(String mappedWord : mappedWords) {
+                    mapped++;
+                    writer.write(mappedWord + "\n");
+                }
             }
             if(mapped % 100 == 0){
                 System.out.println(mapped);
@@ -45,27 +47,45 @@ public class Scraper {
         writer.close();
 
         System.out.println("Mapped words " + mapped);
-        System.out.println("Total words " + count);
+        System.out.println("Original list in file " + count);
 
 
     }
 
-    private static String map(String word) {
+    private static List<String> map(String word) {
         try{
-                                  //create new userAgent (headless browser).
             userAgent.visit("http://www.oxfordlearnersdictionaries.com/definition/english/" + word + "_1");
 
-            List<Element> es = userAgent.doc.findEvery("<span class=\"i\"").toList();
+            Element es = userAgent.doc.findFirst("<span class=\"i\"");
+            List<Element> drs = userAgent.doc.findEvery("<span class=\"dr\"").toList();
+            List<Element> iffs = userAgent.doc.findEvery("<span class=\"if\"").toList();
 
-            String mappedWord = null;
-            for(Element e : es){
-                mappedWord = e.getAt("id").split("_")[0] + " -> " + e.getText();
-                continue;
+
+
+            List mappedWords = new ArrayList<>();
+            //System.out.println(userAgent.doc.innerHTML());
+            mappedWords.add(es.getAt("id").split("_")[0] + "\t" + es.getText());
+
+            for(Element dr : drs){
+                Element p = dr.getParent();
+                Element ch = p.findFirst("<div class=\"ei-g\"");
+                Element i = p.findFirst("<span class=\"i\"");
+
+                mappedWords.add(dr.getText() + "\t" + i.getText());
             }
 
-            //print the content as HTML
-            //System.out.println(userAgent.doc.innerHTML());              //print the content as HTML
-            return mappedWord;
+            for(Element iff : iffs){
+                Element p = iff.getParent();
+                Element ch = p.findFirst("<div class=\"ei-g\"");
+                Element i = p.findFirst("<span class=\"i\"");
+
+                mappedWords.add(iff.getText() + "\t" + i.getText());
+            }
+
+            System.out.println(mappedWords);
+
+
+            return mappedWords;
         }
         catch(JauntException e){         //if an HTTP/connection error occurs, handle JauntException.
             return null;
