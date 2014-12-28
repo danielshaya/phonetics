@@ -17,14 +17,16 @@ import java.util.concurrent.Executors;
 public class ScraperMT {
     ArrayBlockingQueue<List<String>> resultsQueue = new ArrayBlockingQueue(10);
     ArrayBlockingQueue<String> workQueue = new ArrayBlockingQueue(10);
+    int allwords=0;
 
     public static void main(String[] args)throws Exception{
         new ScraperMT().init();
     }
 
     public void init(){
-        ExecutorService executor = Executors.newFixedThreadPool(50);
-        for (int i = 0; i < 50; i++) {
+
+        ExecutorService executor = Executors.newFixedThreadPool(100);
+        for (int i = 0; i < 200; i++) {
             Runnable worker = new Fetcher();
             executor.execute(worker);
         }
@@ -33,7 +35,7 @@ public class ScraperMT {
             public void run() {
                 BufferedReader reader = null;
                 try {
-                    reader = new BufferedReader(new FileReader("src/main/resources/words.txt"));
+                    reader = new BufferedReader(new FileReader("src/main/resources/allwords.txt"));
                 } catch (FileNotFoundException e) {
                     e.printStackTrace();
                 }
@@ -45,6 +47,8 @@ public class ScraperMT {
                     while ((line = reader.readLine()) != null)
                     {
                         line = line.trim();
+                        allwords++;
+                        if(line.contains(" ") || line.contains("-") || line.contains("'") || line.contains("‡"))continue;
                         workQueue.put(line);
                     }
                 } catch (IOException e) {
@@ -60,7 +64,7 @@ public class ScraperMT {
 
         FileWriter writer = null;
         try {
-            writer = new FileWriter("src/main/resources/mappedWords3.txt");
+            writer = new FileWriter("src/main/resources/mappedWords4.txt");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -75,7 +79,7 @@ public class ScraperMT {
                     }
                 }
                 if (mapped % 100 == 0) {
-                    System.out.println(mapped);
+                    System.out.println(mapped + " from " + allwords);
                     writer.flush();
                 }
             }catch(Exception e){

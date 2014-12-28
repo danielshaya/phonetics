@@ -10,10 +10,12 @@ import java.util.stream.Collectors;
 public class PhonicsResult {
     private List<IPA> ipas;
     private String splitWord;
+    private String word;
 
-    public PhonicsResult(List<IPA> ipas, String splitWord) {
+    public PhonicsResult(List<IPA> ipas, String splitWord, String word) {
         this.ipas = ipas;
         this.splitWord = splitWord;
+        this.word = word;
     }
 
     public List<IPA> getIpas() {
@@ -22,6 +24,10 @@ public class PhonicsResult {
 
     public List<String> getSplitWords() {
         return Arrays.asList(splitWord.split("~"));
+    }
+
+    public String getWord(){
+        return word;
     }
 
     public String toString(){

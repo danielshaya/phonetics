@@ -16,7 +16,7 @@ public class TestPhonetics {
     @BeforeClass
     public static void setup()throws Exception{
         phoneticsProcessor = new PhoneticsProcessor();
-        phoneticsProcessor.setIpas(IPA.createIPAsFromFile("src/main/resources/dictionary.txt"));
+        phoneticsProcessor.setIpas(IPA.createIPAsFromFile("src/main/resources/dictionary9.txt"));
     }
 
     @Test
@@ -42,19 +42,9 @@ public class TestPhonetics {
         testIPAs(results,       new String[]{"ə", "b", "æ", "n", "d", "ə", "n", "d"});
         testSplitWords(results, new String[]{"a", "b", "a", "n", "d", "o", "ne", "d"});
 
-
-
-//        results = phoneticsProcessor.process("njuːˈməʊniə", "pneumonia");
-//        testIPAs(results, new String[]{"k", "ə", "m", "p", "juː", "t", "ə"});
-//        testSplitWords(results, new String[]{"c", "o", "m", "p", "u", "t", "er"});
-
-//        results = phoneticsProcessor.process("ɪkˈskruːʃieɪtɪŋ", "excruciating");
-//        testIPAs(results, new String[]{"k", "ə", "m", "p", "juː", "t", "ə"});
-//        testSplitWords(results, new String[]{"c", "o", "m", "p", "u", "t", "er"});
-
-        //results = phoneticsProcessor.process("ˈɒksn", "oxen");
-        //testIPAs(results, new String[]{"ɒ", "ks", "n"});
-        //testSplitWords(results, new String[]{"o", "x", "en"});
+//        results = phoneticsProcessor.process("ˈɒksn", "oxen");
+//        testIPAs(results, new String[]{"ɒ", "ks", "n"});
+//        testSplitWords(results, new String[]{"o", "x", "en"});
         //doesn't work need to map n -> en
     }
 

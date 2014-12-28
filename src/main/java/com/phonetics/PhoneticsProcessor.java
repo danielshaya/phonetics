@@ -56,16 +56,39 @@ public class PhoneticsProcessor {
                 if(valid){
                     boolean equal = checkForEqualIPALists(results, ipas);
                     if(!equal){
-                        results.add(new PhonicsResult(ipas, wordPart));
+                        results.add(new PhonicsResult(ipas, wordPart, word));
                     }
                 }
             }
         }
 
         try {
-            removeEI(results);
+            removeEI(results, "e", "ɪ");
+            removeEI(results, "d", "ʒ");
+            removeEI(results, "e", "ə");
+            removeEI(results, "eə", "(r)");
+            removeEI(results, "e", "ə(r)");
+            removeEI(results, "ə", "r");
+            removeEI(results, "ɪ", "ə");
+            removeEI(results, "ɪ", "ə(r)");
+            removeEI(results, "jʊ", "ə");
+            removeEI(results, "jʊ", "ə(r)");
+            removeEI(results, "a", "ɪ");
+            removeEI(results, "ə", "ʊ");
+            removeEI(results, "j", "u");
+            removeEI(results, "j", "uː");
+            removeEI(results, "o", "ʊ");
+            removeEI(results, "t", "ʃ");
+            removeEI(results, "ʊ", "ə");
+            removeEI(results, "ʊ", "ə(r)");
+            removeEI(results, "k", "s");
+            removeEI(results, "k", "ʃ");
+            removeEI(results, "j", "ʊ");
+            removeEI(results, "j", "ə");
+            removeEI(results, "j", "ə(r)");
+
         }catch(Exception e){
-            Thread.yield();
+            e.printStackTrace();
         }
         //System.out.println(results);
 
@@ -110,7 +133,7 @@ public class PhoneticsProcessor {
         return ret;
     }
 
-    private void removeEI(List<PhonicsResult> inResults){
+    private void removeEI(List<PhonicsResult> inResults, String first, String second){
         if(inResults.size() <= 1)return;
 
         Iterator<PhonicsResult> it = inResults.iterator();
@@ -118,9 +141,9 @@ public class PhoneticsProcessor {
             List<IPA> ipas = it.next().getIpas();
             boolean e = false;
             for(IPA ipa : ipas){
-                if(ipa.getSymbol().equals("e")){
+                if(ipa.getSymbol().equals(first)){
                     e=true;
-                } else if(ipa.getSymbol().equals("ɪ") && e){
+                } else if(ipa.getSymbol().equals(second) && e){
                     //We have eɪ so remove it
                     it.remove();
                     break;

@@ -13,20 +13,24 @@ public class Main {
         BufferedReader buff = new BufferedReader(reader);
 
         PhoneticsProcessor phoneticsProcessor = new PhoneticsProcessor();
-        phoneticsProcessor.setIpas(IPA.createIPAsFromFile("src/main/resources/dictionary.txt"));
+        phoneticsProcessor.setIpas(IPA.createIPAsFromFile("src/main/resources/dictionary10.txt"));
 
         String line;
         int valid = 0;
         int error = 0;
 
-        FileWriter fw = new FileWriter("src/main/resources/output.txt");
+        FileWriter fw = new FileWriter("src/main/resources/errors.txt");
+        FileWriter fw1 = new FileWriter("src/main/resources/wordlist.txt");
 
         while((line = buff.readLine()) != null) {
             String word = line.split("\\t")[0];
             String IPAword = line.split("\\t")[1];
 
             try {
-                phoneticsProcessor.process(IPAword, word);
+                List<PhonicsResult> results = phoneticsProcessor.process(IPAword, word);
+                for(PhonicsResult result : results){
+                    fw1.write(result.getWord() + " -> " +  IPA.getSymbolsAsString(result.getIpas()) + "\n");
+                }
             }catch(AssertionError e){
                 fw.write(e.getMessage() + "\n");
                 System.out.println(e.getMessage());
@@ -39,9 +43,13 @@ public class Main {
         }
         fw.write("valid " + valid + "\n");
         fw.write("error " + error + "\n");
+
         System.out.println("valid " + valid);
         System.out.println("error " + error);
         fw.flush();
         fw.close();
+
+        fw1.flush();
+        fw1.close();
     }
 }
