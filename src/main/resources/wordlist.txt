@@ -2923,6 +2923,7 @@ blooming -> b, l, uː, m, ɪ, ŋ
 blowback -> b, l, ə, ʊ, b, æ, k
 bloviate -> b, l, əʊ, v, i, eɪ, t
 blowhard -> b, l, ə, ʊ, h, ɑː, d
+blowhole -> b, l, ə, ʊ, h, əʊ, l
 blower -> b, l, ə, ʊ, ə(r)
 blowout -> b, l, ə, ʊ, aʊ, t
 blowpipe -> b, l, ə, ʊ, p, aɪ, p
@@ -4251,6 +4252,7 @@ chalky -> tʃ, ɔː, k, i
 challenged -> tʃ, æ, l, ɪ, n, dʒ, d
 chameleon -> k, ə, m, iː, l, i, ə, n
 chamberlain -> tʃ, eɪ, m, b, ə, l, ɪ, n
+chambermaid -> tʃ, eɪ, m, b, ə, m, e, ɪ, d
 champers -> ʃ, æ, m, p, ə, z
 chamfer -> tʃ, æ, m, f, ə(r)
 champagne -> ʃ, æ, m, p, eɪ, n
@@ -5613,6 +5615,7 @@ consumptive -> k, ə, n, s, ʌ, m, p, t, ɪ, v
 consuming -> k, ə, n, s, juː, m, ɪ, ŋ
 contain -> k, ə, n, t, e, ɪ, n
 containerized -> k, ə, n, t, e, ɪ, n, ə, r, aɪ, z, d
+containerization -> k, ə, n, t, e, ɪ, n, ə, r, aɪ, z, eɪ, ʃ, n
 consumption -> k, ə, n, s, ʌ, m, p, ʃ, n
 contagious -> k, ə, n, t, eɪ, dʒ, ə, s
 contagiously -> k, ə, n, t, eɪ, dʒ, ə, s, l, i
@@ -9077,6 +9080,7 @@ eugenic -> juː, dʒ, e, n, ɪ, k
 eugenist -> juː, dʒ, iː, n, ɪ, s, t
 eulogize -> juː, l, ə, dʒ, aɪ, z
 eulogistic -> juː, l, ə, dʒ, ɪ, s, t, ɪ, k
+euphemism -> juː, f, ə, m, ɪ, z, əm
 euphemistic -> juː, f, ə, m, ɪ, s, t, ɪ, k
 euphemistically -> juː, f, ə, m, ɪ, s, t, ɪ, k, l, i
 eunuch -> juː, n, ə, k
@@ -10896,6 +10900,7 @@ gastronomic -> ɡ, æ, s, t, r, ə, n, ɒ, m, ɪ, k
 gastronomically -> ɡ, æ, s, t, r, ə, n, ɒ, m, ɪ, k, l, i
 gate -> ɡ, eɪ, t
 gated -> ɡ, eɪ, t, ɪ, d
+gateway -> ɡ, eɪ, t, w, e, ɪ
 gathering -> ɡ, æ, ð, ə, r, ɪ, ŋ
 gator -> ɡ, eɪ, t, ə(r)
 gauche -> ɡ, ə, ʊ, ʃ
@@ -12345,6 +12350,7 @@ hole -> h, əʊ, l
 holdall -> h, əʊ, l, d, ɔː, l
 holiday -> h, ɒ, l, ə, d, e, ɪ
 holder -> h, əʊ, l, d, ə(r)
+holidaymaker -> h, ɒ, l, ə, d, e, ɪ, m, eɪ, k, ə(r)
 holey -> h, əʊ, l, i
 holdover -> h, əʊ, l, d, əʊ, v, ə(r)
 holiness -> h, əʊ, l, i, n, ə, s
@@ -12376,6 +12382,7 @@ homecoming -> h, əʊ, m, k, ʌ, m, ɪ, ŋ
 homage -> h, ɒ, m, ɪ, dʒ
 homemaker -> h, əʊ, m, m, eɪ, k, ə(r)
 homemaking -> h, əʊ, m, m, eɪ, k, ɪ, ŋ
+homeowner -> h, əʊ, m, ə, ʊ, n, ə(r)
 homeopath -> h, əʊ, m, i, ə, p, æ, θ
 homer -> h, əʊ, m, ə(r)
 homeostasis -> h, əʊ, m, i, ə, s, t, eɪ, s, ɪ, s
@@ -14078,6 +14085,8 @@ ironically -> aɪ, r, ɒ, n, ɪ, k, l, i
 iron -> aɪ, ə, n
 irradiance -> ɪ, r, e, ɪ, d, i, ə, n, s
 ironstone -> aɪ, ə, n, s, t, əʊ, n
+irradiate -> ɪ, r, e, ɪ, d, i, eɪ, t
+irradiation -> ɪ, r, e, ɪ, d, i, eɪ, ʃ, n
 irreconcilable -> ɪ, r, e, k, ə, n, s, aɪ, l, ə, b, l
 ironwork -> aɪ, ə, n, w, ɜː, k
 irrational -> ɪ, r, æ, ʃ, ə, n, l
@@ -14144,6 +14153,7 @@ isolate -> aɪ, s, ə, l, eɪ, t
 isolating -> aɪ, s, ə, l, eɪ, t, ɪ, ŋ
 isomer -> aɪ, s, ə, m, ə(r)
 isomeric -> aɪ, s, ə, m, e, r, ɪ, k
+isomerism -> aɪ, s, ə, m, ə, r, ɪ, z, əm
 isolationism -> aɪ, s, ə, l, eɪ, ʃ, ə, n, ɪ, z, əm
 isolationist -> aɪ, s, ə, l, eɪ, ʃ, ə, n, ɪ, s, t
 isolated -> aɪ, s, ə, l, eɪ, t, ɪ, d
@@ -14354,8 +14364,10 @@ judder -> dʒ, ʌ, d, ə(r)
 judicious -> dʒ, u, d, ɪ, ʃ, ə, s
 judiciously -> dʒ, u, d, ɪ, ʃ, ə, s, l, i
 judicature -> dʒ, uː, d, ɪ, k, ə, tʃ, ə(r)
+judge -> dʒ, ʌ, d, ʒ
 judicial -> dʒ, u, d, ɪ, ʃ, l
 judicially -> dʒ, u, d, ɪ, ʃ, ə, l, i
+judgement -> dʒ, ʌ, d, ʒ, m, ə, n, t
 jubilee -> dʒ, uː, b, ɪ, l, iː
 judo -> dʒ, uː, d, əʊ
 juggler -> dʒ, ʌ, ɡ, l, ə(r)
@@ -14685,6 +14697,7 @@ lament -> l, ə, m, e, n, t
 lamb -> l, æ, m
 lamentable -> l, æ, m, ə, n, t, ə, b, l
 lamentably -> l, æ, m, ə, n, t, ə, b, l, i
+lamebrain -> l, eɪ, m, b, r, e, ɪ, n
 lamented -> l, ə, m, e, n, t, ɪ, d
 lamentation -> l, æ, m, ə, n, t, eɪ, ʃ, n
 lamely -> l, eɪ, m, l, i
@@ -15609,6 +15622,7 @@ maidservant -> m, e, ɪ, d, s, ɜː, v, ə, n, t
 main -> m, e, ɪ, n
 mainline -> m, e, ɪ, n, l, aɪ, n
 maidenhair -> m, e, ɪ, d, n, h, e, ə(r)
+mainframe -> m, e, ɪ, n, f, r, eɪ, m
 mailer -> m, e, ɪ, l, ə(r)
 mailbag -> m, e, ɪ, l, b, æ, ɡ
 mainstream -> m, e, ɪ, n, s, t, r, iː, m
@@ -15843,6 +15857,7 @@ marquetry -> m, ɑː, k, ɪ, t, r, i
 marriage -> m, æ, r, ɪ, dʒ
 marshal -> m, ɑː, ʃ, l
 marsala -> m, ɑː, s, ɑː, l, ə
+marrowbone -> m, æ, r, ə, ʊ, b, əʊ, n
 marquess -> m, ɑː, kw, ɪ, s
 marshland -> m, ɑː, ʃ, l, æ, n, d
 marsupial -> m, ɑː, s, uː, p, i, ə, l
@@ -16005,7 +16020,6 @@ meanwhile -> m, iː, n, w, aɪ, l
 meadowlark -> m, e, d, ə, ʊ, l, ɑː, k
 mead -> m, iː, d
 may -> m, e, ɪ
-mayn't -> m, eɪ, ə, n, t
 measly -> m, iː, z, l, i
 meaningless -> m, iː, n, ɪ, ŋ, l, ə, s
 meaninglessly -> m, iː, n, ɪ, ŋ, l, ə, s, l, i
@@ -16545,6 +16559,8 @@ mishear -> m, ɪ, s, h, ɪ, ə(r)
 misheard -> m, ɪ, s, h, ɜː, d
 misheard -> m, ɪ, s, h, ɜː, d
 mishap -> m, ɪ, s, h, æ, p
+misjudge -> m, ɪ, s, dʒ, ʌ, d, ʒ
+misjudgement -> m, ɪ, s, dʒ, ʌ, d, ʒ, m, ə, n, t
 misinterpret -> m, ɪ, s, ɪ, n, t, ɜː, p, r, ɪ, t
 misinterpretation -> m, ɪ, s, ɪ, n, t, ɜː, p, r, ɪ, t, eɪ, ʃ, n
 mislay -> m, ɪ, s, l, e, ɪ
@@ -17078,7 +17094,6 @@ mutely -> m, juː, t, l, i
 mutable -> m, juː, t, ə, b, l
 mutability -> m, juː, t, ə, b, ɪ, l, ə, t, i
 mutter -> m, ʌ, t, ə(r)
-mustn't -> m, ʌ, s, n, t
 mutinous -> m, juː, t, ə, n, ə, s
 mutinously -> m, juː, t, ə, n, ə, s, l, i
 mutineer -> m, juː, t, ə, n, ɪ, ə(r)
@@ -18238,6 +18253,7 @@ overboard -> əʊ, v, ə, b, ɔː, d
 overbite -> əʊ, v, ə, b, aɪ, t
 over -> əʊ, v, ə(r)
 overbook -> əʊ, v, ə, b, ʊ, k
+overblown -> əʊ, v, ə, b, l, ə, ʊ, n
 overburden -> əʊ, v, ə, b, ɜː, d, n
 overcast -> əʊ, v, ə, k, ɑː, s, t
 overcame -> əʊ, v, ə, k, eɪ, m
@@ -18272,6 +18288,7 @@ overextended -> əʊ, v, ə, r, ɪ, ks, t, e, n, d, ɪ, d
 overextend -> əʊ, v, ə, r, ɪ, ks, t, e, n, d
 overexpose -> əʊ, v, ə, r, ɪ, ks, p, əʊ, z
 overexposure -> əʊ, v, ə, r, ɪ, ks, p, əʊ, ʒ, ə(r)
+overflow -> əʊ, v, ə, f, l, ə, ʊ
 overfeed -> əʊ, v, ə, f, iː, d
 overfed -> əʊ, v, ə, f, e, d
 overfed -> əʊ, v, ə, f, e, d
@@ -18283,9 +18300,11 @@ overgarment -> əʊ, v, ə, ɡ, ɑː, m, ə, n, t
 overfond -> əʊ, v, ə, f, ɒ, n, d
 overgraze -> əʊ, v, ə, ɡ, r, eɪ, z
 overhand -> əʊ, v, ə, h, æ, n, d
+overgrown -> əʊ, v, ə, ɡ, r, ə, ʊ, n
 overhang -> əʊ, v, ə, h, æ, ŋ
 overhung -> əʊ, v, ə, h, ʌ, ŋ
 overhung -> əʊ, v, ə, h, ʌ, ŋ
+overgrowth -> əʊ, v, ə, ɡ, r, ə, ʊ, θ
 overhead -> əʊ, v, ə, h, e, d
 overhaul -> əʊ, v, ə, h, ɔː, l
 overhasty -> əʊ, v, ə, h, eɪ, s, t, i
@@ -18339,6 +18358,7 @@ overrate -> əʊ, v, ə, r, e, ɪ, t
 overreact -> əʊ, v, ə, r, i, æ, k, t
 overreaction -> əʊ, v, ə, r, i, æ, k, ʃ, n
 override -> əʊ, v, ə, r, aɪ, d
+overrode -> əʊ, v, ə, r, ə, ʊ, d
 overripe -> əʊ, v, ə, r, r, aɪ, p
 overriding -> əʊ, v, ə, r, aɪ, d, ɪ, ŋ
 overrule -> əʊ, v, ə, r, uː, l
@@ -18374,6 +18394,7 @@ overstay -> əʊ, v, ə, s, t, e, ɪ
 oversubscribed -> əʊ, v, ə, s, ə, b, s, k, r, aɪ, b, d
 overtake -> əʊ, v, ə, t, eɪ, k
 overtook -> əʊ, v, ə, t, ʊ, k
+overthrow -> əʊ, v, ə, θ, r, ə, ʊ
 overthrew -> əʊ, v, ə, θ, r, uː
 overtax -> əʊ, v, ə, t, æ, ks
 overtired -> əʊ, v, ə, t, aɪ, ə, d
@@ -18481,6 +18502,8 @@ pail -> p, e, ɪ, l
 pained -> p, e, ɪ, n, d
 pain -> p, e, ɪ, n
 painfully -> p, e, ɪ, n, f, ə, l, i
+painstaking -> p, e, ɪ, n, z, t, eɪ, k, ɪ, ŋ
+painstakingly -> p, e, ɪ, n, z, t, eɪ, k, ɪ, ŋ, l, i
 paint -> p, e, ɪ, n, t
 painkiller -> p, e, ɪ, n, k, ɪ, l, ə(r)
 painkilling -> p, e, ɪ, n, k, ɪ, l, ɪ, ŋ
@@ -19615,6 +19638,7 @@ playfulness -> p, l, e, ɪ, f, l, n, ə, s
 playgoer -> p, l, e, ɪ, ɡ, əʊ, ə(r)
 playing -> p, l, e, ɪ, ɪ, ŋ
 playboy -> p, l, e, ɪ, b, ɔɪ
+playmate -> p, l, e, ɪ, m, eɪ, t
 playroom -> p, l, e, ɪ, r, uː, m
 playsuit -> p, l, e, ɪ, s, uː, t
 plaything -> p, l, e, ɪ, θ, ɪ, ŋ
@@ -19627,6 +19651,7 @@ pled -> p, l, e, d
 playpen -> p, l, e, ɪ, p, e, n
 pleadingly -> p, l, iː, d, ɪ, ŋ, l, i
 plaza -> p, l, ɑː, z, ə
+playmaker -> p, l, e, ɪ, m, eɪ, k, ə(r)
 pleased -> p, l, iː, z, d
 playwright -> p, l, e, ɪ, r, aɪ, t
 playtime -> p, l, e, ɪ, t, aɪ, m
@@ -20166,6 +20191,7 @@ prehistoric -> p, r, iː, h, ɪ, s, t, ɒ, r, ɪ, k
 pregnant -> p, r, e, ɡ, n, ə, n, t
 prejudice -> p, r, e, dʒ, u, d, ɪ, s
 prejudicial -> p, r, e, dʒ, u, d, ɪ, ʃ, l
+prejudge -> p, r, iː, dʒ, ʌ, d, ʒ
 prejudiced -> p, r, e, dʒ, ə, d, ɪ, s, t
 prelate -> p, r, e, l, ə, t
 prelude -> p, r, e, l, juː, d
@@ -21039,6 +21065,7 @@ raccoon -> r, ə, k, uː, n
 racehorse -> r, eɪ, s, h, ɔː, s
 racetrack -> r, eɪ, s, t, r, æ, k
 racer -> r, eɪ, s, ə(r)
+raceway -> r, eɪ, s, w, e, ɪ
 race -> r, eɪ, s
 racial -> r, eɪ, ʃ, l
 racially -> r, eɪ, ʃ, ə, l, i
@@ -21121,6 +21148,7 @@ rail -> r, e, ɪ, l
 raillery -> r, e, ɪ, l, ə, r, i
 rainfall -> r, e, ɪ, n, f, ɔː, l
 raincoat -> r, e, ɪ, n, k, əʊ, t
+rainmaker -> r, e, ɪ, n, m, eɪ, k, ə(r)
 rainproof -> r, e, ɪ, n, p, r, uː, f
 rainwear -> r, e, ɪ, n, w, e, ə(r)
 raisin -> r, e, ɪ, z, n
@@ -21212,6 +21240,7 @@ rasp -> r, ɑː, s, p
 rat -> r, æ, t
 raspy -> r, ɑː, s, p, i
 ratbag -> r, æ, t, b, æ, ɡ
+ratepayer -> r, eɪ, t, p, e, ɪ, ə(r)
 ratatouille -> r, æ, t, ə, t, uː, i
 ratchet -> r, æ, t, ʃ, ɪ, t
 ratiocination -> r, æ, t, i, ɒ, s, ɪ, n, eɪ, ʃ, n
@@ -22369,6 +22398,7 @@ roadholding -> r, əʊ, d, h, əʊ, l, d, ɪ, ŋ
 roam -> r, əʊ, m
 roadster -> r, əʊ, d, s, t, ə(r)
 roaring -> r, ɔː, r, ɪ, ŋ
+roadshow -> r, əʊ, d, ʃ, ə, ʊ
 roaming -> r, əʊ, m, ɪ, ŋ
 roadworks -> r, əʊ, d, w, ɜː, k, s
 robe -> r, əʊ, b
@@ -22489,6 +22519,7 @@ router -> r, uː, t, ə(r)
 rousing -> r, aʊ, z, ɪ, ŋ
 roving -> r, əʊ, v, ɪ, ŋ
 rove -> r, əʊ, v
+rowboat -> r, ə, ʊ, b, əʊ, t
 routine -> r, uː, t, iː, n
 rower -> r, ə, ʊ, ə(r)
 rowdyism -> r, aʊ, d, i, ɪ, z, əm
@@ -23494,7 +23525,6 @@ shah -> ʃ, ɑː
 shakedown -> ʃ, eɪ, k, d, aʊ, n
 shaking -> ʃ, eɪ, k, ɪ, ŋ
 shallot -> ʃ, ə, l, ɒ, t
-shan't -> ʃ, ɑː, n, t
 shallows -> ʃ, æ, l, ə, ʊ, z
 shalt -> ʃ, æ, l, t
 shame -> ʃ, eɪ, m
@@ -23684,6 +23714,8 @@ shovelful -> ʃ, ʌ, v, l, f, ʊ, l
 shoulder -> ʃ, ə, ʊ, l, d, ə(r)
 shower -> ʃ, aʊ, ə(r)
 showdown -> ʃ, ə, ʊ, d, aʊ, n
+showboat -> ʃ, ə, ʊ, b, əʊ, t
+showboating -> ʃ, ə, ʊ, b, əʊ, t, ɪ, ŋ
 showcase -> ʃ, ə, ʊ, k, eɪ, s
 showery -> ʃ, aʊ, ə, r, i
 showman -> ʃ, ə, ʊ, m, ə, n
@@ -24093,6 +24125,7 @@ slowdown -> s, l, ə, ʊ, d, aʊ, n
 sludge -> s, l, ʌ, d, ʒ
 slugger -> s, l, ʌ, ɡ, ə(r)
 slugfest -> s, l, ʌ, ɡ, f, e, s, t
+slowpoke -> s, l, ə, ʊ, p, əʊ, k
 sluice -> s, l, uː, s
 slug -> s, l, ʌ, ɡ
 slowly -> s, l, ə, ʊ, l, i
@@ -25133,6 +25166,7 @@ straighten -> s, t, r, eɪ, t, n
 straightforward -> s, t, r, eɪ, t, f, ɔː, w, ə, d
 straightforwardly -> s, t, r, eɪ, t, f, ɔː, w, ə, d, l, i
 straightforwardness -> s, t, r, eɪ, t, f, ɔː, w, ə, d, n, ə, s
+straightaway -> s, t, r, eɪ, t, ə, w, e, ɪ
 strain -> s, t, r, e, ɪ, n
 strait -> s, t, r, e, ɪ, t
 straggly -> s, t, r, æ, ɡ, l, i
@@ -25903,9 +25937,11 @@ tag -> t, æ, ɡ
 taiga -> t, aɪ, ɡ, ə
 tailbone -> t, e, ɪ, l, b, əʊ, n
 tailboard -> t, e, ɪ, l, b, ɔː, d
+tailgate -> t, e, ɪ, l, ɡ, eɪ, t
 tailback -> t, e, ɪ, l, b, æ, k
 tailcoat -> t, e, ɪ, l, k, əʊ, t
 tailoring -> t, e, ɪ, l, ə, r, ɪ, ŋ
+tailplane -> t, e, ɪ, l, p, l, eɪ, n
 tailored -> t, e, ɪ, l, ə, d
 tailpipe -> t, e, ɪ, l, p, aɪ, p
 tailwind -> t, e, ɪ, l, w, ɪ, n, d
@@ -25914,6 +25950,7 @@ tailpiece -> t, e, ɪ, l, p, iː, s
 tailspin -> t, e, ɪ, l, s, p, ɪ, n
 taipan -> t, aɪ, p, æ, n
 tala -> t, ɑː, l, ə
+takeaway -> t, eɪ, k, ə, w, e, ɪ
 takedown -> t, eɪ, k, d, aʊ, n
 taker -> t, eɪ, k, ə(r)
 takeover -> t, eɪ, k, ə, ʊ, v, ə(r)
@@ -26873,6 +26910,8 @@ trade -> t, r, eɪ, d
 tragedienne -> t, r, ə, dʒ, iː, d, i, e, n
 tragedian -> t, r, ə, dʒ, iː, d, i, ə, n
 traduce -> t, r, ə, d, juː, s
+trailblazer -> t, r, e, ɪ, l, b, l, eɪ, z, ə(r)
+trailblazing -> t, r, e, ɪ, l, b, l, eɪ, z, ɪ, ŋ
 tragic -> t, r, æ, dʒ, ɪ, k
 tragically -> t, r, æ, dʒ, ɪ, k, l, i
 trailer -> t, r, e, ɪ, l, ə(r)
@@ -29305,7 +29344,6 @@ willingly -> w, ɪ, l, ɪ, ŋ, l, i
 willingness -> w, ɪ, l, ɪ, ŋ, n, ə, s
 wiles -> w, aɪ, l, z
 wildly -> w, aɪ, l, d, l, i
-'ll -> l
 wildlife -> w, aɪ, l, d, l, aɪ, f
 willow -> w, ɪ, l, ə, ʊ
 willies -> w, ɪ, l, i, z

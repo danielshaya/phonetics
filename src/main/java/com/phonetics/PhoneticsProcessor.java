@@ -149,6 +149,9 @@ public class PhoneticsProcessor {
         boolean found = false;
         Iterator<PhonicsResult> it = inResults.iterator();
 
+        int foundIn = -1;
+        int count = 0;
+
         while (it.hasNext()) {
             List<IPA> ipas = it.next().getIpas();
             boolean e = false;
@@ -158,25 +161,32 @@ public class PhoneticsProcessor {
                 } else if (ipa.getSymbol().equals(second) && e) {
                     //We have eɪ so remove it
                     found=true;
+                    foundIn = count;
                     break;
                 } else {
                     e = false;
                 }
             }
+            count++;
         }
 
 
         if(found) {
+            count=0;
             String combined = first + second;
             it = inResults.iterator();
             while (it.hasNext()) {
                 List<IPA> ipas = it.next().getIpas();
                 for (IPA ipa : ipas) {
                     if (ipa.getSymbol().equals(combined)) {
-                        it.remove();
-                        break;
+                        //make sure not to remove it from the wrong result
+                        if(foundIn != count) {
+                            it.remove();
+                            break;
+                        }
                     }
                 }
+                count++;
             }
         }
     }

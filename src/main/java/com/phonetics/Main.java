@@ -40,6 +40,10 @@ public class Main {
             String IPAword = line.split("\\t")[1];
 
             if(exclusions.contains(word))continue;
+            if(word.contains(" "))continue;
+            if(word.contains("-"))continue;
+            if(word.contains("'"))continue;
+
 
             try {
                 List<PhonicsResult> results = phoneticsProcessor.process(IPAword, word);

@@ -87,6 +87,14 @@ public class TestPhonetics {
         testSplitWords(results, new String[]{"ch", "r", "y", "s", "a", "n", "th","e", "m", "u", "m"});
     }
 
+
+    @Test
+    public void testMisjudge() throws Exception {
+        List<PhonicsResult> results = phoneticsProcessor.process("mɪsdʒʌdʒ", "misjudge");
+        testIPAs(results,       new String[]{"m", "ɪ", "s", "dʒ", "ʌ", "d", "ʒ"});
+        testSplitWords(results, new String[]{"m", "i", "s", "j", "u", "d","ge"});
+    }
+
     private void testSplitWords(List<PhonicsResult> results, String[] matches) {
         List<String> splitWord = results.get(0).getSplitWords();
         Assert.assertEquals(matches.length, splitWord.size());
