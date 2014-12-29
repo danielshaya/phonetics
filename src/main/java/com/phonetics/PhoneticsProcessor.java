@@ -141,19 +141,34 @@ public class PhoneticsProcessor {
     private void replaceCombinedWithSingles(List<PhonicsResult> inResults, String first, String second){
         if(inResults.size() <= 1)return;
 
-        Iterator<PhonicsResult> it = inResults.iterator();
+        String combined = first+second;
+        boolean found = false;
+        Iterator<PhonicsResult>  it = inResults.iterator();
         while(it.hasNext()){
             List<IPA> ipas = it.next().getIpas();
-            boolean e = false;
             for(IPA ipa : ipas){
-                if(ipa.getSymbol().equals(first)){
-                    e=true;
-                } else if(ipa.getSymbol().equals(second) && e){
-                    //We have eɪ so remove it
-                    it.remove();
+                if(ipa.getSymbol().equals(combined)){
+                    found=true;
                     break;
-                }else {
-                    e = false;
+                }
+            }
+        }
+
+        it = inResults.iterator();
+        if(found) {
+            while (it.hasNext()) {
+                List<IPA> ipas = it.next().getIpas();
+                boolean e = false;
+                for (IPA ipa : ipas) {
+                    if (ipa.getSymbol().equals(first)) {
+                        e = true;
+                    } else if (ipa.getSymbol().equals(second) && e) {
+                        //We have eɪ so remove it
+                        it.remove();
+                        break;
+                    } else {
+                        e = false;
+                    }
                 }
             }
         }

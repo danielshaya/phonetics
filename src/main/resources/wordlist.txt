@@ -28,6 +28,7 @@ abdomen -> æ, b, d, ə, m, ə, n
 abed -> ə, b, e, d
 abduct -> æ, b, d, ʌ, k, t
 abduction -> æ, b, d, ʌ, k, ʃ, n
+aberration -> æ, b, ər, e, ɪ, ʃ, n
 aberrant -> æ, b, e, r, ə, n, t
 abhorrence -> ə, b, h, ɒ, r, ə, n, s
 abhorrent -> ə, b, h, ɒ, r, ə, n, t
@@ -138,7 +139,11 @@ academicism -> æ, k, ə, d, e, m, ɪ, s, ɪ, z, əm
 acanthus -> ə, k, æ, n, θ, ə, s
 accede -> ə, k, s, iː, d
 accent -> æ, k, s, e, n, t
+acceleration -> ə, k, s, e, l, ər, eɪ, ʃ, n
+accelerator -> ə, k, s, e, l, ər, eɪ, t, ə(r)
 accented -> æ, k, s, e, n, t, ɪ, d
+accelerometer -> ə, k, s, e, l, ər, ɒ, m, ɪ, t, ə(r)
+accelerate -> ə, k, s, e, l, ər, eɪ, t
 accentuate -> ə, k, s, e, n, tʃ, u, eɪ, t
 accentuation -> ə, k, s, e, n, tʃ, u, eɪ, ʃ, n
 accept -> ə, k, s, e, p, t
@@ -2155,7 +2160,6 @@ bankrupt -> b, æ, ŋ, k, r, ʌ, p, t
 banns -> b, æ, n, z
 banqueting -> b, æ, ŋ, kw, ɪ, t, ɪ, ŋ
 banking -> b, æ, ŋ, k, ɪ, ŋ
-banyan -> b, æ, nj, ə, n
 banshee -> b, æ, n, ʃ, iː
 banker -> b, æ, ŋ, k, ə(r)
 bantamweight -> b, æ, n, t, ə, m, w, eɪ, t
@@ -2624,6 +2628,7 @@ bicyclist -> b, aɪ, s, ɪ, k, l, ɪ, s, t
 bidding -> b, ɪ, d, ɪ, ŋ
 biddable -> b, ɪ, d, ə, b, l
 bide -> b, aɪ, d
+bidirectional -> b, aɪ, d, ər, e, k, ʃ, ə, n, l
 bier -> b, ɪə(r)
 biff -> b, ɪ, f
 bidder -> b, ɪ, d, ə(r)
@@ -2663,7 +2668,6 @@ billabong -> b, ɪ, l, ə, b, ɒ, ŋ
 billing -> b, ɪ, l, ɪ, ŋ
 billhook -> b, ɪ, l, h, ʊ, k
 billboard -> b, ɪ, l, b, ɔː, d
-billion -> b, ɪ, lj, ə, n
 billionaire -> b, ɪ, lj, ə, n, eə(r)
 billow -> b, ɪ, l, əʊ
 bilirubin -> b, ɪ, l, ɪ, r, uː, b, ɪ, n
@@ -3530,7 +3534,6 @@ bungalow -> b, ʌ, ŋ, ɡ, ə, l, əʊ
 bunker -> b, ʌ, ŋ, k, ə(r)
 bunk -> b, ʌ, ŋ, k
 bunkhouse -> b, ʌ, ŋ, k, h, aʊ, s
-bunion -> b, ʌ, nj, ə, n
 bunt -> b, ʌ, n, t
 buoy -> b, ɔɪ
 buoyant -> b, ɔɪ, ə, n, t
@@ -3850,7 +3853,6 @@ canvass -> k, æ, n, v, ə, s
 canvasser -> k, æ, n, v, ə, s, ə(r)
 canton -> k, æ, n, t, ɒ, n
 canvas -> k, æ, n, v, ə, s
-canyon -> k, æ, nj, ə, n
 capacitance -> k, ə, p, æ, s, ɪ, t, ə, n, s
 capacious -> k, ə, p, eɪ, ʃ, ə, s
 capacitor -> k, ə, p, æ, s, ɪ, t, ə(r)
@@ -4631,6 +4633,7 @@ circumflex -> s, ɜː, k, əm, f, l, e, ks
 circumlocution -> s, ɜː, k, əm, l, ə, k, juː, ʃ, n
 circumlocutory -> s, ɜː, k, əm, l, ɒ, k, jʊ, t, ə, r, i
 circumspect -> s, ɜː, k, əm, s, p, e, k, t
+circumspection -> s, ɜː, k, əm, s, p, e, k, ʃ, n
 circumspectly -> s, ɜː, k, əm, s, p, e, k, t, l, i
 circumscribe -> s, ɜː, k, əm, s, k, r, aɪ, b
 circumscription -> s, ɜː, k, əm, s, k, r, ɪ, p, ʃ, n
@@ -5382,6 +5385,7 @@ confabulation -> k, ə, n, f, æ, b, jə, l, eɪ, ʃ, n
 conductor -> k, ə, n, d, ʌ, k, t, ə(r)
 confection -> k, ə, n, f, e, k, ʃ, n
 confab -> k, ɒ, n, f, æ, b
+confectionery -> k, ə, n, f, e, k, ʃ, ə, n, ər, i
 conferment -> k, ə, n, f, ɜː, m, ə, n, t
 confectioner -> k, ə, n, f, e, k, ʃ, ə, n, ə(r)
 confederation -> k, ə, n, f, e, d, ər, eɪ, ʃ, n
@@ -7058,6 +7062,7 @@ derive -> d, ɪ, r, aɪ, v
 deregulate -> d, iː, r, e, ɡ, ju, l, eɪ, t
 deregulation -> d, iː, r, e, ɡ, ju, l, eɪ, ʃ, n
 deregulatory -> d, iː, r, e, ɡ, jə, l, ə, t, ə, r, i
+dereliction -> d, e, r, əl, ɪ, k, ʃ, n
 derisory -> d, ɪ, r, aɪ, s, ə, r, i
 derision -> d, ɪ, r, ɪ, ʒ, n
 derisive -> d, ɪ, r, aɪ, s, ɪ, v
@@ -7419,10 +7424,12 @@ dipper -> d, ɪ, p, ə(r)
 direct -> d, ər, e, k, t
 dipsomaniac -> d, ɪ, p, s, ə, m, eɪ, n, i, æ, k
 diptych -> d, ɪ, p, t, ɪ, k
+directionless -> d, ər, e, k, ʃ, n, l, ə, s
 directness -> d, ər, e, k, t, n, ə, s
 director -> d, ər, e, k, t, ə(r)
 directive -> d, ər, e, k, t, ɪ, v
 directorial -> d, aɪ, r, e, k, t, ɔː, r, i, ə, l
+directional -> d, ər, e, k, ʃ, ə, n, l
 dirigible -> d, ɪ, r, ɪ, dʒ, ə, b, l
 dirge -> d, ɜː, dʒ
 directorship -> d, ər, e, k, t, ə, ʃ, ɪ, p
@@ -7431,6 +7438,7 @@ directly -> d, ər, e, k, t, l, i
 dirigisme -> d, ɪ, r, ɪ, ʒ, ɪ, z, əm
 dirigiste -> d, ɪ, r, ɪ, ʒ, ɪ, s, t
 dirk -> d, ɜː, k
+direction -> d, ər, e, k, ʃ, n
 disable -> d, ɪ, s, eɪ, b, l
 disablement -> d, ɪ, s, eɪ, b, l, m, ə, n, t
 disadvantage -> d, ɪ, s, ə, d, v, ɑː, n, t, ɪ, dʒ
@@ -12235,6 +12243,7 @@ hideously -> h, ɪ, d, i, ə, s, l, i
 hieroglyph -> h, aɪ, ər, ə, ɡ, l, ɪ, f
 hieroglyphic -> h, aɪ, ər, ə, ɡ, l, ɪ, f, ɪ, k
 highball -> h, aɪ, b, ɔː, l
+hieroglyphics -> h, aɪ, ər, ə, ɡ, l, ɪ, f, ɪ, k, s
 highfalutin -> h, aɪ, f, ə, l, uː, t, ɪ, n
 highboy -> h, aɪ, b, ɔɪ
 hiding -> h, aɪ, d, ɪ, ŋ
@@ -13797,6 +13806,7 @@ intention -> ɪ, n, t, e, n, ʃ, n
 intensive -> ɪ, n, t, e, n, s, ɪ, v
 intensively -> ɪ, n, t, e, n, s, ɪ, v, l, i
 interact -> ɪ, n, t, ər, æ, k, t
+interaction -> ɪ, n, t, ər, æ, k, ʃ, n
 interactive -> ɪ, n, t, ər, æ, k, t, ɪ, v
 interactively -> ɪ, n, t, ər, æ, k, t, ɪ, v, l, i
 interactivity -> ɪ, n, t, ər, æ, k, t, ɪ, v, ə, t, i
@@ -13887,6 +13897,7 @@ interpreter -> ɪ, n, t, ɜː, p, r, ɪ, t, ə(r)
 interpret -> ɪ, n, t, ɜː, p, r, ɪ, t
 interpretable -> ɪ, n, t, ɜː, p, r, ɪ, t, ə, b, l
 interpose -> ɪ, n, t, ə, p, əʊ, z
+interracial -> ɪ, n, t, ər, e, ɪ, ʃ, l
 interrelationship -> ɪ, n, t, ə, r, ɪ, l, eɪ, ʃ, n, ʃ, ɪ, p
 interrogative -> ɪ, n, t, ə, r, ɒ, ɡ, ə, t, ɪ, v
 interrogatively -> ɪ, n, t, ə, r, ɒ, ɡ, ə, t, ɪ, v, l, i
@@ -15956,6 +15967,7 @@ matriculate -> m, ə, t, r, ɪ, k, ju, l, eɪ, t
 matriculation -> m, ə, t, r, ɪ, k, ju, l, eɪ, ʃ, n
 matronly -> m, eɪ, t, r, ə, n, l, i
 matricide -> m, æ, t, r, ɪ, s, aɪ, d
+mathematics -> m, æ, θ, əm, æ, t, ɪ, k, s
 mathematical -> m, æ, θ, əm, æ, t, ɪ, k, l
 mathematically -> m, æ, θ, əm, æ, t, ɪ, k, l, i
 matt -> m, æ, t
@@ -16073,6 +16085,7 @@ medlar -> m, e, d, l, ə(r)
 meet -> m, iː, t
 met -> m, e, t
 met -> m, e, t
+mediterranean -> m, e, d, ɪ, t, ər, e, ɪ, n, i, ə, n
 meerkat -> m, ɪə, k, æ, t
 megabit -> m, e, ɡ, ə, b, ɪ, t
 megabyte -> m, e, ɡ, ə, b, aɪ, t
@@ -16400,13 +16413,11 @@ milky -> m, ɪ, l, k, i
 miller -> m, ɪ, l, ə(r)
 millibar -> m, ɪ, l, i, b, ɑː(r)
 milliner -> m, ɪ, l, ɪ, n, ə(r)
-millionth -> m, ɪ, lj, ə, n, θ
 millet -> m, ɪ, l, ɪ, t
 millionaire -> m, ɪ, lj, ə, n, eə(r)
 millinery -> m, ɪ, l, ɪ, n, ər, i
 milligram -> m, ɪ, l, i, ɡ, r, æ, m
 millionairess -> m, ɪ, lj, ə, n, eə, r, ə, s
-million -> m, ɪ, lj, ə, n
 millipede -> m, ɪ, l, ɪ, p, iː, d
 milling -> m, ɪ, l, ɪ, ŋ
 millivolt -> m, ɪ, l, i, v, əʊ, l, t
@@ -16526,6 +16537,7 @@ misdiagnose -> m, ɪ, s, d, aɪ, ə, ɡ, n, əʊ, z
 misdiagnosis -> m, ɪ, s, d, aɪ, ə, ɡ, n, əʊ, s, ɪ, s
 misdiagnoses -> m, ɪ, s, d, aɪ, ə, ɡ, n, əʊ, s, iː, z
 misdirect -> m, ɪ, s, d, ər, e, k, t
+misdirection -> m, ɪ, s, d, ər, e, k, ʃ, n
 miserable -> m, ɪ, z, r, ə, b, l
 miserably -> m, ɪ, z, r, ə, b, l, i
 miser -> m, aɪ, z, ə(r)
@@ -17872,6 +17884,7 @@ omicron -> əʊ, m, aɪ, k, r, ɒ, n
 ominous -> ɒ, m, ɪ, n, ə, s
 ominously -> ɒ, m, ɪ, n, ə, s, l, i
 omission -> ə, m, ɪ, ʃ, n
+omnidirectional -> ɒ, m, n, ɪ, d, ər, e, k, ʃ, ə, n, l
 omnipotent -> ɒ, m, n, ɪ, p, ə, t, ə, n, t
 omnipotence -> ɒ, m, n, ɪ, p, ə, t, ə, n, s
 one -> wʌ, n
@@ -17897,7 +17910,6 @@ onomatopoeic -> ɒ, n, ə, m, æ, t, ə, p, iː, ɪ, k
 onrush -> ɒ, n, r, ʌ, ʃ
 onomastics -> ɒ, n, ə, m, æ, s, t, ɪ, k, s
 only -> əʊ, n, l, i
-onion -> ʌ, nj, ə, n
 onshore -> ɒ, n, ʃ, ɔː(r)
 onset -> ɒ, n, s, e, t
 onside -> ɒ, n, s, aɪ, d
@@ -17944,7 +17956,6 @@ ophthalmology -> ɒ, f, θ, æ, l, m, ɒ, l, ə, dʒ, i
 opine -> əʊ, p, aɪ, n
 opiate -> əʊ, p, i, ə, t
 opossum -> ə, p, ɒ, s, ə, m
-opinionated -> ə, p, ɪ, nj, ə, n, eɪ, t, ɪ, d
 opium -> əʊ, p, i, ə, m
 opportunistic -> ɒ, p, ə, t, juː, n, ɪ, s, t, ɪ, k
 opportunist -> ɒ, p, ə, t, juː, n, ɪ, s, t
@@ -17952,7 +17963,6 @@ opportunism -> ɒ, p, ə, t, juː, n, ɪ, z, əm
 opponent -> ə, p, əʊ, n, ə, n, t
 opportune -> ɒ, p, ə, t, juː, n
 opportunely -> ɒ, p, ə, t, juː, n, l, i
-opinion -> ə, p, ɪ, nj, ə, n
 opprobrium -> ə, p, r, əʊ, b, r, i, ə, m
 opprobrious -> ə, p, r, əʊ, b, r, i, ə, s
 oppress -> ə, p, r, e, s
@@ -18343,6 +18353,7 @@ overqualified -> əʊ, v, ə, kw, ɒ, l, ɪ, f, aɪ, d
 overprotective -> əʊ, v, ə, p, r, ə, t, e, k, t, ɪ, v
 overran -> əʊ, v, ə, r, æ, n
 overreach -> əʊ, v, ə, r, iː, tʃ
+overrate -> əʊ, v, ər, e, ɪ, t
 overreact -> əʊ, v, ə, r, i, æ, k, t
 overreaction -> əʊ, v, ə, r, i, æ, k, ʃ, n
 override -> əʊ, v, ə, r, aɪ, d
@@ -19464,7 +19475,6 @@ pinger -> p, ɪ, ŋ, ə(r)
 ping -> p, ɪ, ŋ
 pinhead -> p, ɪ, n, h, e, d
 pineapple -> p, aɪ, n, æ, p, l
-pinion -> p, ɪ, nj, ə, n
 pinhole -> p, ɪ, n, h, əʊ, l
 pinewood -> p, aɪ, n, w, ʊ, d
 pink -> p, ɪ, ŋ, k
@@ -20085,6 +20095,7 @@ praxis -> p, r, æ, ks, ɪ, s
 preachy -> p, r, iː, tʃ, i
 preach -> p, r, iː, tʃ
 preamble -> p, r, i, æ, m, b, l
+prearranged -> p, r, iː, ər, e, ɪ, n, dʒ, d
 precancerous -> p, r, iː, k, æ, n, s, ər, ə, s
 precaution -> p, r, ɪ, k, ɔː, ʃ, n
 precautionary -> p, r, ɪ, k, ɔː, ʃ, ə, n, ə, r, i
@@ -20921,7 +20932,6 @@ quad -> kw, ɒ, d
 quadruple -> kw, ɒ, d, r, uː, p, l
 quadraphonic -> kw, ɒ, d, r, ə, f, ɒ, n, ɪ, k
 quadratic -> kw, ɒ, d, r, æ, t, ɪ, k
-quadrillion -> kw, ɒ, d, r, ɪ, lj, ə, n
 quadruped -> kw, ɒ, d, r, u, p, e, d
 quadriplegic -> kw, ɒ, d, r, ɪ, p, l, iː, dʒ, ɪ, k
 quadriplegia -> kw, ɒ, d, r, ɪ, p, l, iː, dʒ, ə
@@ -21013,7 +21023,6 @@ quint -> kw, ɪ, n, t
 quip -> kw, ɪ, p
 quintuplet -> kw, ɪ, n, t, ʊ, p, l, ə, t
 quire -> kw, aɪ, ə(r)
-quintillion -> kw, ɪ, n, t, ɪ, lj, ə, n
 quixotic -> kw, ɪ, ks, ɒ, t, ɪ, k
 quiver -> kw, ɪ, v, ə(r)
 quisling -> kw, ɪ, z, l, ɪ, ŋ
@@ -21329,6 +21338,8 @@ reason -> r, iː, z, n
 rearing -> r, ɪə, r, ɪ, ŋ
 rearm -> r, i, ɑː, m
 rearmament -> r, i, ɑː, m, ə, m, ə, n, t
+rearrange -> r, iː, ər, e, ɪ, n, dʒ
+rearrangement -> r, iː, ər, e, ɪ, n, dʒ, m, ə, n, t
 reassemble -> r, iː, ə, s, e, m, b, l
 reasonably -> r, iː, z, n, ə, b, l, i
 rearward -> r, ɪə, w, ə, d
@@ -21343,7 +21354,6 @@ reassurance -> r, iː, ə, ʃ, ʊə, r, ə, n, s
 reawaken -> r, iː, ə, w, eɪ, k, ə, n
 rebate -> r, iː, b, eɪ, t
 rebarbative -> r, ɪ, b, ɑː, b, ə, t, ɪ, v
-rebellion -> r, ɪ, b, e, lj, ə, n
 rebellious -> r, ɪ, b, e, l, j, ə, s
 rebelliously -> r, ɪ, b, e, l, j, ə, s, l, i
 rebelliousness -> r, ɪ, b, e, l, j, ə, s, n, ə, s
@@ -23375,7 +23385,6 @@ separator -> s, e, p, ə, r, eɪ, t, ə(r)
 sepia -> s, iː, p, i, ə
 separates -> s, e, p, r, ə, t, s
 septic -> s, e, p, t, ɪ, k
-septillion -> s, e, p, t, ɪ, lj, ə, n
 separation -> s, e, p, ə, r, eɪ, ʃ, n
 septuagenarian -> s, e, p, t, ju, ə, dʒ, ə, n, eə, r, i, ə, n
 septet -> s, e, p, t, e, t
@@ -23426,6 +23435,7 @@ sera -> s, ɪə, r, ə
 serpentine -> s, ɜː, p, ə, n, t, aɪ, n
 serve -> s, ɜː, v
 servant -> s, ɜː, v, ə, n, t
+serrated -> s, ər, e, ɪ, t, ɪ, d
 serviceman -> s, ɜː, v, ɪ, s, m, ə, n
 servicemen -> s, ɜː, v, ɪ, s, m, ə, n
 serving -> s, ɜː, v, ɪ, ŋ
@@ -24483,7 +24493,6 @@ spaghetti -> s, p, ə, ɡ, e, t, i
 spandex -> s, p, æ, n, d, e, ks
 spank -> s, p, æ, ŋ, k
 spangle -> s, p, æ, ŋ, ɡ, l
-spaniel -> s, p, æ, nj, ə, l
 spanner -> s, p, æ, n, ə(r)
 spanking -> s, p, æ, ŋ, k, ɪ, ŋ
 sparing -> s, p, eə, r, ɪ, ŋ
@@ -25404,6 +25413,7 @@ substructure -> s, ʌ, b, s, t, r, ʌ, k, tʃ, ə(r)
 subtend -> s, ə, b, t, e, n, d
 subtext -> s, ʌ, b, t, e, ks, t
 subterfuge -> s, ʌ, b, t, ə, f, juː, dʒ
+subterranean -> s, ʌ, b, t, ər, e, ɪ, n, i, ə, n
 subtitle -> s, ʌ, b, t, aɪ, t, l
 subtotal -> s, ʌ, b, t, əʊ, t, l
 subtract -> s, ə, b, t, r, æ, k, t
@@ -26270,6 +26280,7 @@ termite -> t, ɜː, m, aɪ, t
 tern -> t, ɜː, n
 terrarium -> t, e, r, eə, r, i, ə, m
 terracing -> t, e, r, ə, s, ɪ, ŋ
+terrain -> t, ər, e, ɪ, n
 territorial -> t, e, r, ə, t, ɔː, r, i, ə, l
 territoriality -> t, e, r, ə, t, ɔː, r, i, æ, l, ə, t, i
 territorially -> t, e, r, ə, t, ɔː, r, i, ə, l, i
@@ -27094,7 +27105,6 @@ trike -> t, r, aɪ, k
 trill -> t, r, ɪ, l
 trilateral -> t, r, aɪ, l, æ, t, ər, ə, l
 trihedron -> t, r, aɪ, h, ɪ, d, r, ə, n
-trillion -> t, r, ɪ, lj, ə, n
 trimaran -> t, r, aɪ, m, ə, r, æ, n
 trimester -> t, r, aɪ, m, e, s, t, ə(r)
 trimeter -> t, r, ɪ, m, ɪ, t, ə(r)
@@ -27679,6 +27689,7 @@ underpaid -> ʌ, n, d, ə, p, eɪ, d
 underpaid -> ʌ, n, d, ə, p, eɪ, d
 underlying -> ʌ, n, d, ə, l, aɪ, ɪ, ŋ
 underprivileged -> ʌ, n, d, ə, p, r, ɪ, v, ə, l, ɪ, dʒ, d
+underrate -> ʌ, n, d, ər, e, ɪ, t
 underprepared -> ʌ, n, d, ə, p, r, ɪ, p, eə, d
 underpriced -> ʌ, n, d, ə, p, r, aɪ, s, t
 underscore -> ʌ, n, d, ə, s, k, ɔː(r)
@@ -29743,7 +29754,6 @@ zenith -> z, e, n, ɪ, θ
 zilch -> z, ɪ, l, tʃ
 zigzag -> z, ɪ, ɡ, z, æ, ɡ
 zester -> z, e, s, t, ə(r)
-zillion -> z, ɪ, lj, ə, n
 ziggurat -> z, ɪ, ɡ, ə, r, æ, t
 zeta -> z, iː, t, ə
 zip -> z, ɪ, p

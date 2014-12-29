@@ -64,6 +64,11 @@ public class TestPhonetics {
         results = phoneticsProcessor.process("ˈdeɪbreɪk", "daybreak");
         testIPAs(results, new String[]{"d", "eɪ", "b", "r", "eɪ", "k"});
         testSplitWords(results, new String[]{"d", "ay", "b", "re", "a", "k"});
+
+        results = phoneticsProcessor.process("mæθəmætɪks", "mathematics");
+        testIPAs(results,       new String[]{"m", "æ", "θ", "əm", "æ", "t", "ɪ", "k", "s"});
+        testSplitWords(results, new String[]{"m", "a", "the", "m", "a", "t", "i", "c", "s"});
+
     }
 
 
