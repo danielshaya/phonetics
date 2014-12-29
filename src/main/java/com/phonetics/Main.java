@@ -10,6 +10,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception{
         InputStreamReader reader = new InputStreamReader(new FileInputStream("src/main/resources/mappedWords3.txt"), "UTF-8");
+        //InputStreamReader reader = new InputStreamReader(new FileInputStream("src/main/resources/SpecialWordList.txt"), "UTF-16");
         BufferedReader buff = new BufferedReader(reader);
 
         PhoneticsProcessor phoneticsProcessor = new PhoneticsProcessor();
@@ -25,6 +26,9 @@ public class Main {
         while((line = buff.readLine()) != null) {
             String word = line.split("\\t")[0];
             String IPAword = line.split("\\t")[1];
+
+            //String word = line.split("\\t")[1];
+            //String IPAword = line.split("\\t")[0];
 
             try {
                 List<PhonicsResult> results = phoneticsProcessor.process(IPAword, word);

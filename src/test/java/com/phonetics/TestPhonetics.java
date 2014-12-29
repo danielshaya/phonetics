@@ -67,6 +67,14 @@ public class TestPhonetics {
     }
 
 
+    @Test
+    public void testReplaceWithCombined() throws Exception {
+        List<PhonicsResult> results = phoneticsProcessor.process("ælbəm", "album");
+        testIPAs(results, new String[]{"æ", "l", "b", "əm"});
+        testSplitWords(results, new String[]{"a", "l", "bu", "m"});
+    }
+
+
     private void testSplitWords(List<PhonicsResult> results, String[] matches) {
         List<String> splitWord = results.get(0).getSplitWords();
         Assert.assertEquals(matches.length, splitWord.size());

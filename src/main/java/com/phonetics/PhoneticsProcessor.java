@@ -14,7 +14,8 @@ public class PhoneticsProcessor {
 
     public List<PhonicsResult> process(String ipaWord, String word){
         //PRE PROCESS:
-        ipaWord = ipaWord.replace("ˈ", "");
+        ipaWord = ipaWord.replaceAll("ˈ", "");
+        ipaWord = ipaWord.replaceAll("ˌ", "");
 
         //STEP 1: Spliterate the IPAword
         List<String> ipaParts = Spliterator.split(ipaWord);
@@ -63,29 +64,33 @@ public class PhoneticsProcessor {
         }
 
         try {
-            removeEI(results, "e", "ɪ");
-            removeEI(results, "d", "ʒ");
-            removeEI(results, "e", "ə");
-            removeEI(results, "eə", "(r)");
-            removeEI(results, "e", "ə(r)");
-            removeEI(results, "ə", "r");
-            removeEI(results, "ɪ", "ə");
-            removeEI(results, "ɪ", "ə(r)");
-            removeEI(results, "jʊ", "ə");
-            removeEI(results, "jʊ", "ə(r)");
-            removeEI(results, "a", "ɪ");
-            removeEI(results, "ə", "ʊ");
-            removeEI(results, "j", "u");
-            removeEI(results, "j", "uː");
-            removeEI(results, "o", "ʊ");
-            removeEI(results, "t", "ʃ");
-            removeEI(results, "ʊ", "ə");
-            removeEI(results, "ʊ", "ə(r)");
-            removeEI(results, "k", "s");
-            removeEI(results, "k", "ʃ");
-            removeEI(results, "j", "ʊ");
-            removeEI(results, "j", "ə");
-            removeEI(results, "j", "ə(r)");
+            replaceCombinedWithSingles(results, "e", "ɪ");
+            replaceCombinedWithSingles(results, "d", "ʒ");
+            replaceCombinedWithSingles(results, "e", "ə");
+            replaceCombinedWithSingles(results, "eə", "(r)");
+            replaceCombinedWithSingles(results, "e", "ə(r)");
+            replaceCombinedWithSingles(results, "ɪ", "ə");
+            replaceCombinedWithSingles(results, "ɪ", "ə(r)");
+            replaceCombinedWithSingles(results, "jʊ", "ə");
+            replaceCombinedWithSingles(results, "jʊ", "ə(r)");
+            replaceCombinedWithSingles(results, "a", "ɪ");
+            replaceCombinedWithSingles(results, "ə", "ʊ");
+            replaceCombinedWithSingles(results, "j", "u");
+            replaceCombinedWithSingles(results, "j", "uː");
+            replaceCombinedWithSingles(results, "o", "ʊ");
+            replaceCombinedWithSingles(results, "t", "ʃ");
+            replaceCombinedWithSingles(results, "ʊ", "ə");
+            replaceCombinedWithSingles(results, "ʊ", "ə(r)");
+            replaceCombinedWithSingles(results, "k", "s");
+            replaceCombinedWithSingles(results, "k", "ʃ");
+            replaceCombinedWithSingles(results, "j", "ʊ");
+            replaceCombinedWithSingles(results, "j", "ə");
+            replaceCombinedWithSingles(results, "j", "ə(r)");
+
+            replaceSingleWithCombined(results, "ə", "m", "əm");
+            replaceSingleWithCombined(results, "ə", "n", "ən");
+            replaceSingleWithCombined(results, "ə", "l", "əl");
+            replaceSingleWithCombined(results, "ə", "r", "ər");
 
         }catch(Exception e){
             e.printStackTrace();
@@ -133,7 +138,7 @@ public class PhoneticsProcessor {
         return ret;
     }
 
-    private void removeEI(List<PhonicsResult> inResults, String first, String second){
+    private void replaceCombinedWithSingles(List<PhonicsResult> inResults, String first, String second){
         if(inResults.size() <= 1)return;
 
         Iterator<PhonicsResult> it = inResults.iterator();
@@ -149,6 +154,41 @@ public class PhoneticsProcessor {
                     break;
                 }else {
                     e = false;
+                }
+            }
+        }
+    }
+
+    private void replaceSingleWithCombined(List<PhonicsResult> inResults, String first, String second, String combined){
+        if(inResults.size() <= 1)return;
+
+        boolean found = false;
+        Iterator<PhonicsResult>  it = inResults.iterator();
+        while(it.hasNext()){
+            List<IPA> ipas = it.next().getIpas();
+            for(IPA ipa : ipas){
+                if(ipa.getSymbol().equals(combined)){
+                    found=true;
+                    break;
+                }
+            }
+        }
+
+        it = inResults.iterator();
+        if(found){
+            while(it.hasNext()){
+                List<IPA> ipas = it.next().getIpas();
+                boolean e = false;
+                for(IPA ipa : ipas){
+                    if(ipa.getSymbol().equals(first)){
+                        e=true;
+                    } else if(ipa.getSymbol().equals(second) && e){
+                        //We have eɪ so remove it
+                        it.remove();
+                        break;
+                    }else {
+                        e = false;
+                    }
                 }
             }
         }
