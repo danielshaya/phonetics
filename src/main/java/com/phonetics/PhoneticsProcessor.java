@@ -86,11 +86,15 @@ public class PhoneticsProcessor {
             replaceCombinedWithSingles(results, "j", "ʊ");
             replaceCombinedWithSingles(results, "j", "ə");
             replaceCombinedWithSingles(results, "j", "ə(r)");
+            replaceCombinedWithSingles(results, "n", "j");
+            replaceCombinedWithSingles(results, "l", "j");
+            replaceCombinedWithSingles(results, "ə", "m");
+            replaceCombinedWithSingles(results, "ə", "n");
+            replaceCombinedWithSingles(results, "ə", "l");
+            replaceCombinedWithSingles(results, "ə", "r");
 
-            replaceSingleWithCombined(results, "ə", "m", "əm");
-            replaceSingleWithCombined(results, "ə", "n", "ən");
-            replaceSingleWithCombined(results, "ə", "l", "əl");
-            replaceSingleWithCombined(results, "ə", "r", "ər");
+            replaceSingleWithCombined(results, "e", "ər", "eər");
+
 
         }catch(Exception e){
             e.printStackTrace();
@@ -141,33 +145,36 @@ public class PhoneticsProcessor {
     private void replaceCombinedWithSingles(List<PhonicsResult> inResults, String first, String second){
         if(inResults.size() <= 1)return;
 
-        String combined = first+second;
+
         boolean found = false;
-        Iterator<PhonicsResult>  it = inResults.iterator();
-        while(it.hasNext()){
+        Iterator<PhonicsResult> it = inResults.iterator();
+
+        while (it.hasNext()) {
             List<IPA> ipas = it.next().getIpas();
-            for(IPA ipa : ipas){
-                if(ipa.getSymbol().equals(combined)){
+            boolean e = false;
+            for (IPA ipa : ipas) {
+                if (ipa.getSymbol().equals(first)) {
+                    e = true;
+                } else if (ipa.getSymbol().equals(second) && e) {
+                    //We have eɪ so remove it
                     found=true;
                     break;
+                } else {
+                    e = false;
                 }
             }
         }
 
-        it = inResults.iterator();
+
         if(found) {
+            String combined = first + second;
+            it = inResults.iterator();
             while (it.hasNext()) {
                 List<IPA> ipas = it.next().getIpas();
-                boolean e = false;
                 for (IPA ipa : ipas) {
-                    if (ipa.getSymbol().equals(first)) {
-                        e = true;
-                    } else if (ipa.getSymbol().equals(second) && e) {
-                        //We have eɪ so remove it
+                    if (ipa.getSymbol().equals(combined)) {
                         it.remove();
                         break;
-                    } else {
-                        e = false;
                     }
                 }
             }

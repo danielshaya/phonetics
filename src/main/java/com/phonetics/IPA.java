@@ -51,7 +51,7 @@ class IPA{
 
             List<String> letters = new ArrayList<String>();
             for(int i=2; i<parts.length; i++){
-                if(!parts[i].isEmpty()){
+                if(parts[i].length() >0){
                     letters.add(parts[i]);
                 }
             }

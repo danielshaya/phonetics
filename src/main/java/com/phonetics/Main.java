@@ -9,14 +9,26 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) throws Exception{
+        InputStreamReader readerExclude = new InputStreamReader(new FileInputStream("src/main/resources/exclusions.txt"), "UTF-8");
+        BufferedReader buffexclude = new BufferedReader(readerExclude);
+
+        List<String>exclusions = new ArrayList<>();
+        String line;
+
+        while((line = buffexclude.readLine()) != null) {
+            line = line.trim();
+            exclusions.add(line);
+        }
+
+
+
         InputStreamReader reader = new InputStreamReader(new FileInputStream("src/main/resources/mappedWords3.txt"), "UTF-8");
-        //InputStreamReader reader = new InputStreamReader(new FileInputStream("src/main/resources/SpecialWordList.txt"), "UTF-16");
         BufferedReader buff = new BufferedReader(reader);
 
         PhoneticsProcessor phoneticsProcessor = new PhoneticsProcessor();
-        phoneticsProcessor.setIpas(IPA.createIPAsFromFile("src/main/resources/dictionary10.txt"));
+        phoneticsProcessor.setIpas(IPA.createIPAsFromFile("src/main/resources/dictionary11.txt"));
 
-        String line;
+
         int valid = 0;
         int error = 0;
 
@@ -27,8 +39,7 @@ public class Main {
             String word = line.split("\\t")[0];
             String IPAword = line.split("\\t")[1];
 
-            //String word = line.split("\\t")[1];
-            //String IPAword = line.split("\\t")[0];
+            if(exclusions.contains(word))continue;
 
             try {
                 List<PhonicsResult> results = phoneticsProcessor.process(IPAword, word);
