@@ -17,6 +17,9 @@ public class PhoneticsProcessor {
         ipaWord = ipaWord.replaceAll("ˈ", "");
         ipaWord = ipaWord.replaceAll("ˌ", "");
 
+        //We don't want spaces in the ipaWord
+        ipaWord = ipaWord.replaceAll(" ", "");
+
         //STEP 1: Spliterate the IPAword
         List<String> ipaParts = Spliterator.split(ipaWord);
 

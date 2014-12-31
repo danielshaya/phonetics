@@ -93,8 +93,8 @@ public class TestPhonetics {
     @Test
     public void testAA() throws Exception {
         List<PhonicsResult> results = phoneticsProcessor.process("eɪ eɪ", "aa");
-        testIPAs(results,       new String[]{"m", "ɪ", "s", "dʒ", "ʌ", "d", "ʒ"});
-        testSplitWords(results, new String[]{"m", "i", "s", "j", "u", "d","ge"});
+        testIPAs(results,       new String[]{"eɪ", "eɪ"});
+        testSplitWords(results, new String[]{"a", "a"});
     }
 
 

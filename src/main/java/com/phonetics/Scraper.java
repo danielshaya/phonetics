@@ -19,79 +19,105 @@ public class Scraper {
 
     public static void main(String[] args)throws Exception{
 
-        BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/words.txt"));
-        String line = null;
-        //String[] words = new String[]{"born", "holiday", "seem", "stretch", "bath"};
-        int mapped = 0;
-        int count = 0;
+//        BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/words.txt"));
+//        String line = null;
+//        //String[] words = new String[]{"born", "holiday", "seem", "stretch", "bath"};
+//        int mapped = 0;
+//        int count = 0;
+//
+//        FileWriter writer = new FileWriter("src/main/resources/mappedWords2.txt");
+//
+//        while((line = reader.readLine()) != null){
+//            line = line.trim();
+//            List<String> mappedWords = map(line);
+//            if(mappedWords != null){
+//                for(String mappedWord : mappedWords) {
+//                    mapped++;
+//                    writer.write(mappedWord + "\n");
+//                }
+//            }
+//            if(mapped % 100 == 0){
+//                System.out.println(mapped);
+//                writer.flush();
+//            }
+//            count++;
+//        }
+//
+//        writer.flush();
+//        writer.close();
+//
+//        System.out.println("Mapped words " + mapped);
+//        System.out.println("Original list in file " + count);
 
-        FileWriter writer = new FileWriter("src/main/resources/mappedWords2.txt");
-
-        while((line = reader.readLine()) != null){
-            line = line.trim();
-            List<String> mappedWords = map(line);
-            if(mappedWords != null){
-                for(String mappedWord : mappedWords) {
-                    mapped++;
-                    writer.write(mappedWord + "\n");
-                }
-            }
-            if(mapped % 100 == 0){
-                System.out.println(mapped);
-                writer.flush();
-            }
-            count++;
-        }
-
-        writer.flush();
-        writer.close();
-
-        System.out.println("Mapped words " + mapped);
-        System.out.println("Original list in file " + count);
+//        System.out.println(map("airman"));
+//        System.out.println(map("abate"));
+//        System.out.println(map("seat"));
+//        System.out.println(map("beat"));
+//        System.out.println(map("bespeak"));
+//        System.out.println(map("come"));
+       // System.out.println(map("absent"));
+        System.out.println(map("aa"));
 
 
     }
 
     private static List<String> map(String word) {
         try{
+            List mappedWords = new ArrayList<>();
             userAgent.visit("http://www.oxfordlearnersdictionaries.com/definition/english/" + word + "_1");
 
-            Element es = userAgent.doc.findFirst("<span class=\"i\"");
-            List<Element> drs = userAgent.doc.findEvery("<span class=\"dr\"").toList();
-            List<Element> iffs = userAgent.doc.findEvery("<span class=\"if\"").toList();
 
+            Element topg = userAgent.doc.findFirst("<div class=\"top-g\"");
 
+            //find the ei-g elements
+            List<Element> eigs = userAgent.doc.findEvery("<div class=\"ei-g\"").toList();
+            List<Element> iis = userAgent.doc.findEvery("<span class=\"i\"").toList();
 
-            List mappedWords = new ArrayList<>();
-            //System.out.println(userAgent.doc.innerHTML());
-            mappedWords.add(es.getAt("id").split("_")[0] + "\t" + es.getText());
+            //Must always be a first level word
+            mappedWords.add(eigs.get(0).getAt("id").split("_")[0] + "\t" + getUKPhonetic(eigs.get(0)));
 
-            for(Element dr : drs){
-                Element p = dr.getParent();
-                Element ch = p.findFirst("<div class=\"ei-g\"");
-                Element i = p.findFirst("<span class=\"i\"");
-
-                mappedWords.add(dr.getText() + "\t" + i.getText());
+            //Check for a second level words
+            try {
+                Element h2 = topg.findFirst("<span class=\"h2\"");
+                mappedWords.add(h2.getText() + "\t" + getUKPhonetic(eigs.get(1)));
+            }catch(JauntException e){
+                //No problem there may not be a second level word
             }
 
-            for(Element iff : iffs){
-                Element p = iff.getParent();
-                Element ch = p.findFirst("<div class=\"ei-g\"");
-                Element i = p.findFirst("<span class=\"i\"");
 
-                mappedWords.add(iff.getText() + "\t" + i.getText());
-            }
-
-            System.out.println(mappedWords);
+            mapSecondaryItems(mappedWords, "if");
+            mapSecondaryItems(mappedWords, "dr");
 
 
             return mappedWords;
         }
         catch(JauntException e){         //if an HTTP/connection error occurs, handle JauntException.
+
+            System.err.println(e);
             return null;
-            //System.err.println(e);
         }
     }
 
+    private static void mapSecondaryItems(List mappedWords, String secondary) {
+        try {
+            Element ifg = userAgent.doc.findFirst("<span class=\"" + secondary + "-g\"");
+            List<Element> children = ifg.getChildElements();
 
+            Element lastIf = null;
+            for(Element child: children){
+                if(child.getAt("class").equals(secondary)){
+                    lastIf = child;
+                }else if(child.getAt("class").equals("ei-g")){
+                    mappedWords.add(lastIf.getText() + "\t" + getUKPhonetic(child));
+                }
+            }
+        }catch(JauntException e){
+            //Not a problem may not be iffs
+        }
+    }
+
+    private static String getUKPhonetic(Element eig) throws JauntException{
+        Element i = eig.findFirst("<span class=\"i\"");
+        return i.getText();
+    }
 }

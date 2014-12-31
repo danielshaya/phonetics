@@ -64,7 +64,7 @@ public class ScraperMT {
 
         FileWriter writer = null;
         try {
-            writer = new FileWriter("src/main/resources/mappedWords4.txt");
+            writer = new FileWriter("src/main/resources/mappedWords6.txt");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -98,31 +98,31 @@ public class ScraperMT {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-
-                    Element es = userAgent.doc.findFirst("<span class=\"i\"");
-                    List<Element> drs = userAgent.doc.findEvery("<span class=\"dr\"").toList();
-                    List<Element> iffs = userAgent.doc.findEvery("<span class=\"if\"").toList();
-
-
                     List mappedWords = new ArrayList<>();
-                    //System.out.println(userAgent.doc.innerHTML());
-                    mappedWords.add(es.getAt("id").split("_")[0] + "\t" + es.getText());
 
-                    for (Element dr : drs) {
-                        Element p = dr.getParent();
-                        Element ch = p.findFirst("<div class=\"ei-g\"");
-                        Element i = p.findFirst("<span class=\"i\"");
+                    Element topg = userAgent.doc.findFirst("<div class=\"top-g\"");
 
-                        mappedWords.add(dr.getText() + "\t" + i.getText());
+                    //find the ei-g elements
+                    List<Element> eigs = userAgent.doc.findEvery("<div class=\"ei-g\"").toList();
+                    if(eigs.size()<1){
+                        //these words are not found in the dictionary
+                        //might be in the American dictionary.
+                        continue;
+                    }
+                    mappedWords.add(eigs.get(0).getAt("id").split("_")[0] + "\t" + getUKPhonetic(eigs.get(0)));
+
+                    //Check for a second level words
+                    try {
+                        Element h2 = topg.findFirst("<span class=\"h2\"");
+                        if(eigs.size()>=1)mappedWords.add(h2.getText() + "\t" + getUKPhonetic(eigs.get(1)));
+                    }catch(JauntException e){
+                        //No problem there may not be a second level word
                     }
 
-                    for (Element iff : iffs) {
-                        Element p = iff.getParent();
-                        Element ch = p.findFirst("<div class=\"ei-g\"");
-                        Element i = p.findFirst("<span class=\"i\"");
 
-                        mappedWords.add(iff.getText() + "\t" + i.getText());
-                    }
+                    mapSecondaryItems(mappedWords, "if", userAgent);
+                    mapSecondaryItems(mappedWords, "dr", userAgent);
+
 
                     System.out.println(mappedWords);
 
@@ -139,5 +139,27 @@ public class ScraperMT {
         }
     }
 
+    private static void mapSecondaryItems(List mappedWords, String secondary, UserAgent userAgent) {
+        try {
+            Element ifg = userAgent.doc.findFirst("<span class=\"" + secondary + "-g\"");
+            List<Element> children = ifg.getChildElements();
+
+            Element lastIf = null;
+            for(Element child: children){
+                if(child.getAt("class").equals(secondary)){
+                    lastIf = child;
+                }else if(child.getAt("class").equals("ei-g")){
+                    mappedWords.add(lastIf.getText() + "\t" + getUKPhonetic(child));
+                }
+            }
+        }catch(JauntException e){
+            //Not a problem may not be iffs
+        }
+    }
+
+    private static String getUKPhonetic(Element eig) throws JauntException{
+        Element i = eig.findFirst("<span class=\"i\"");
+        return i.getText();
+    }
 
 }
