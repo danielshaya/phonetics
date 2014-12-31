@@ -78,8 +78,8 @@ public class ScraperMT {
                         writer.write(mappedWord + "\n");
                     }
                 }
-                if (mapped % 100 == 0) {
-                    System.out.println(mapped + " from " + allwords);
+                if (mapped % 500 == 0) {
+                    System.out.println(mapped + " from " + allwords + mappedWords);
                     writer.flush();
                 }
             }catch(Exception e){
@@ -114,17 +114,15 @@ public class ScraperMT {
                     //Check for a second level words
                     try {
                         Element h2 = topg.findFirst("<span class=\"h2\"");
-                        if(eigs.size()>=1)mappedWords.add(h2.getText() + "\t" + getUKPhonetic(eigs.get(1)));
+                        if(eigs.size()>=2)mappedWords.add(h2.getText() + "\t" + getUKPhonetic(eigs.get(1)));
                     }catch(JauntException e){
                         //No problem there may not be a second level word
+                    }catch(Exception e){
+                        e.printStackTrace();
                     }
-
 
                     mapSecondaryItems(mappedWords, "if", userAgent);
                     mapSecondaryItems(mappedWords, "dr", userAgent);
-
-
-                    System.out.println(mappedWords);
 
                     try {
                         resultsQueue.put(mappedWords);
@@ -149,6 +147,7 @@ public class ScraperMT {
                 if(child.getAt("class").equals(secondary)){
                     lastIf = child;
                 }else if(child.getAt("class").equals("ei-g")){
+                    if(lastIf != null)
                     mappedWords.add(lastIf.getText() + "\t" + getUKPhonetic(child));
                 }
             }
