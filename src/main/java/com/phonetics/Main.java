@@ -48,7 +48,7 @@ public class Main {
             try {
                 List<PhonicsResult> results = phoneticsProcessor.process(IPAword, word);
                 for(PhonicsResult result : results){
-                    fw1.write(result.getWord() + " -> " +  IPA.getSymbolsAsString(result.getIpas()) + "\n");
+                    fw1.write(result.getWord() + " -> " +  IPA.getSymbolsAsString(result.getIpas()) + " -> " + result.getSplitWords() + "\n");
                 }
             }catch(AssertionError e){
                 fw.write(e.getMessage() + "\n");

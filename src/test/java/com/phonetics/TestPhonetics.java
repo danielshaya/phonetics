@@ -16,7 +16,7 @@ public class TestPhonetics {
     @BeforeClass
     public static void setup()throws Exception{
         phoneticsProcessor = new PhoneticsProcessor();
-        phoneticsProcessor.setIpas(IPA.createIPAsFromFile("src/main/resources/dictionary11.txt"));
+        phoneticsProcessor.setIpas(IPA.createIPAsFromFile("src/main/resources/dictionary12.txt"));
     }
 
     @Test
@@ -41,11 +41,6 @@ public class TestPhonetics {
         results = phoneticsProcessor.process("əbændənd", "abandoned");
         testIPAs(results,       new String[]{"ə", "b", "æ", "n", "d", "ə", "n", "d"});
         testSplitWords(results, new String[]{"a", "b", "a", "n", "d", "o", "ne", "d"});
-
-//        results = phoneticsProcessor.process("ˈɒksn", "oxen");
-//        testIPAs(results, new String[]{"ɒ", "ks", "n"});
-//        testSplitWords(results, new String[]{"o", "x", "en"});
-        //doesn't work need to map n -> en
     }
 
     @Test
@@ -95,6 +90,14 @@ public class TestPhonetics {
         testSplitWords(results, new String[]{"m", "i", "s", "j", "u", "d","ge"});
     }
 
+    @Test
+    public void testAA() throws Exception {
+        List<PhonicsResult> results = phoneticsProcessor.process("eɪ eɪ", "aa");
+        testIPAs(results,       new String[]{"m", "ɪ", "s", "dʒ", "ʌ", "d", "ʒ"});
+        testSplitWords(results, new String[]{"m", "i", "s", "j", "u", "d","ge"});
+    }
+
+
     private void testSplitWords(List<PhonicsResult> results, String[] matches) {
         List<String> splitWord = results.get(0).getSplitWords();
         Assert.assertEquals(matches.length, splitWord.size());
@@ -103,6 +106,7 @@ public class TestPhonetics {
             Assert.assertEquals(splitWord.get(i), matches[i]);
         }
     }
+
 
     private void testIPAs(List<PhonicsResult> results, String[] matches) {
         List<IPA> ipas = results.get(0).getIpas();
