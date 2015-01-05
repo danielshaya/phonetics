@@ -22,11 +22,11 @@ public class Main {
 
 
 
-        InputStreamReader reader = new InputStreamReader(new FileInputStream("src/main/resources/mappedWords3.txt"), "UTF-8");
+        InputStreamReader reader = new InputStreamReader(new FileInputStream("src/main/resources/mappedWords1.txt"), "UTF-8");
         BufferedReader buff = new BufferedReader(reader);
 
         PhoneticsProcessor phoneticsProcessor = new PhoneticsProcessor();
-        phoneticsProcessor.setIpas(IPA.createIPAsFromFile("src/main/resources/dictionary11.txt"));
+        phoneticsProcessor.setIpas(IPA.createIPAsFromFile("src/main/resources/dictionary12.txt"));
 
 
         int valid = 0;
@@ -39,7 +39,7 @@ public class Main {
             String word = line.split("\\t")[0];
             String IPAword = line.split("\\t")[1];
 
-            if(exclusions.contains(word))continue;
+            //if(exclusions.contains(word))continue;
             if(word.contains(" "))continue;
             if(word.contains("-"))continue;
             if(word.contains("'"))continue;

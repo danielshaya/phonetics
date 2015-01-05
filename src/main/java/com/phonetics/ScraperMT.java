@@ -10,13 +10,14 @@ import java.util.List;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by daniel on 22/12/2014.
  */
 public class ScraperMT {
-    ArrayBlockingQueue<List<String>> resultsQueue = new ArrayBlockingQueue(10);
-    ArrayBlockingQueue<String> workQueue = new ArrayBlockingQueue(10);
+    ArrayBlockingQueue<List<String>> resultsQueue = new ArrayBlockingQueue(200);
+    ArrayBlockingQueue<String> workQueue = new ArrayBlockingQueue(200);
     int allwords=0;
 
     public static void main(String[] args)throws Exception{
@@ -35,7 +36,8 @@ public class ScraperMT {
             public void run() {
                 BufferedReader reader = null;
                 try {
-                    reader = new BufferedReader(new FileReader("src/main/resources/allwords.txt"));
+                    //reader = new BufferedReader(new FileReader("src/main/resources/allwords.txt"));
+                    reader = new BufferedReader(new FileReader("src/main/resources/words.txt"));
                 } catch (FileNotFoundException e) {
                     e.printStackTrace();
                 }
@@ -64,7 +66,7 @@ public class ScraperMT {
 
         FileWriter writer = null;
         try {
-            writer = new FileWriter("src/main/resources/mappedWords6.txt");
+            writer = new FileWriter("src/main/resources/mappedWords2.txt");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -76,16 +78,31 @@ public class ScraperMT {
                     for (String mappedWord : mappedWords) {
                         mapped++;
                         writer.write(mappedWord + "\n");
+                        System.out.println(mappedWord);
                     }
                 }
                 if (mapped % 500 == 0) {
                     System.out.println(mapped + " from " + allwords + mappedWords);
                     writer.flush();
                 }
+
+                if(workQueue.isEmpty() && resultsQueue.isEmpty()){
+                    System.out.println("empty");
+                    Thread.sleep(5000);
+                    if(resultsQueue.peek()==null){
+                        writer.flush();
+                        writer.close();
+                        System.out.println("exit");
+                        System.exit(0);
+                    }
+                }
+
             }catch(Exception e){
                 e.printStackTrace();
             }
         }
+
+
     }
 
     private class Fetcher implements Runnable {
@@ -94,7 +111,9 @@ public class ScraperMT {
             while (true) {
                 try {
                     try {
-                        userAgent.visit("http://www.oxfordlearnersdictionaries.com/definition/english/" + workQueue.take() + "_1");
+                        String word = workQueue.poll(1, TimeUnit.SECONDS);
+                        if(word==null)return;
+                        userAgent.visit("http://www.oxfordlearnersdictionaries.com/definition/english/" + word + "_1");
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
