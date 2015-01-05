@@ -67,37 +67,81 @@ public class PhoneticsProcessor {
         }
 
         try {
-            replaceCombinedWithSingles(results, "e", "ɪ");
-            replaceCombinedWithSingles(results, "d", "ʒ");
-            replaceCombinedWithSingles(results, "e", "ə");
-            replaceCombinedWithSingles(results, "eə", "(r)");
-            replaceCombinedWithSingles(results, "e", "ə(r)");
-            replaceCombinedWithSingles(results, "ɪ", "ə");
-            replaceCombinedWithSingles(results, "ɪ", "ə(r)");
-            replaceCombinedWithSingles(results, "jʊ", "ə");
-            replaceCombinedWithSingles(results, "jʊ", "ə(r)");
-            replaceCombinedWithSingles(results, "a", "ɪ");
-            replaceCombinedWithSingles(results, "ə", "ʊ");
-            replaceCombinedWithSingles(results, "j", "u");
-            replaceCombinedWithSingles(results, "j", "uː");
-            replaceCombinedWithSingles(results, "o", "ʊ");
-            replaceCombinedWithSingles(results, "t", "ʃ");
-            replaceCombinedWithSingles(results, "ʊ", "ə");
-            replaceCombinedWithSingles(results, "ʊ", "ə(r)");
-            replaceCombinedWithSingles(results, "k", "s");
-            replaceCombinedWithSingles(results, "k", "ʃ");
-            replaceCombinedWithSingles(results, "j", "ʊ");
-            replaceCombinedWithSingles(results, "j", "ə");
-            replaceCombinedWithSingles(results, "j", "ə(r)");
-            replaceCombinedWithSingles(results, "n", "j");
-            replaceCombinedWithSingles(results, "l", "j");
-            replaceCombinedWithSingles(results, "ə", "m");
-            replaceCombinedWithSingles(results, "ə", "n");
-            replaceCombinedWithSingles(results, "ə", "l");
-            replaceCombinedWithSingles(results, "ə", "r");
 
-            replaceSingleWithCombined(results, "e", "ər", "eər");
+            replaceSingleWithCombined(results, "e", "ɪ");
 
+            replaceSingleWithCombined(results, "d", "ʒ");
+            replaceSingleWithCombined(results, "e", "ə");
+            replaceSingleWithCombined(results, "e", "ə(r)");
+            replaceSingleWithCombined(results, "ɪ", "ə");
+            replaceSingleWithCombined(results, "ɪ", "ə(r)");
+            replaceSingleWithCombined(results, "jʊ", "ə");
+            replaceSingleWithCombined(results, "jʊ", "ə(r)");
+            replaceSingleWithCombined(results, "a", "ɪ");
+            replaceSingleWithCombined(results, "ə", "ʊ");
+            replaceSingleWithCombined(results, "j", "u");
+            replaceSingleWithCombined(results, "j", "uː");
+            replaceSingleWithCombined(results, "o", "ʊ");
+            replaceSingleWithCombined(results, "t", "ʃ");
+            replaceSingleWithCombined(results, "ʊ", "ə");
+            replaceSingleWithCombined(results, "ʊ", "ə(r)");
+            replaceSingleWithCombined(results, "k", "s");
+            replaceSingleWithCombined(results, "k", "ʃ");
+            replaceSingleWithCombined(results, "j", "ʊ");
+            replaceSingleWithCombined(results, "j", "ʊə(r)");
+            replaceSingleWithCombined(results, "j", "ə");
+            replaceSingleWithCombined(results, "j", "ə(r)");
+            replaceSingleWithCombined(results, "n", "j");
+            replaceSingleWithCombined(results, "l", "j");
+            replaceSingleWithCombined(results, "ə", "m");
+            replaceSingleWithCombined(results, "ə", "n");
+            replaceSingleWithCombined(results, "ə", "l");
+            replaceSingleWithCombined(results, "ə", "r");
+
+            replaceSingleWithCombined(results, "e", "ər");
+
+            replaceCombinedWithSingles(results, "e", "s");
+            replaceCombinedWithSingles(results, "b", "iː");
+            replaceCombinedWithSingles(results, "v", "iː");
+            replaceCombinedWithSingles(results, "s", "iː");
+            replaceCombinedWithSingles(results, "d", "iː");
+            replaceCombinedWithSingles(results, "t", "iː");
+            replaceCombinedWithSingles(results, "p", "iː");
+            replaceCombinedWithSingles(results, "e", "ks");
+            replaceCombinedWithSingles(results, "e", "f");
+            replaceCombinedWithSingles(results, "e", "n");
+            replaceCombinedWithSingles(results, "e", "m");
+            replaceCombinedWithSingles(results, "e", "l");
+            replaceCombinedWithSingles(results, "dʒ", "iː");
+            replaceCombinedWithSingles(results, "dʒ", "eɪ");
+            replaceCombinedWithSingles(results, "k", "eɪ");
+            replaceCombinedWithSingles(results, "w", "aɪ");
+            replaceCombinedWithSingles(results, "z", "ed");
+            replaceCombinedWithSingles(results, "ze", "d");
+            replaceCombinedWithSingles(results, "eɪ", "tʃ");
+            replaceCombinedWithSingles(results, "k", "juː");
+
+            favourTwoForTwo(results, "nj", "uː", "n", "juː");
+            favourTwoForTwo(results, "nj", "ə(r)", "n", "jə(r)");
+            favourTwoForTwo(results, "nj", "ə", "n", "jə");
+            favourTwoForTwo(results, "nj", "u", "n", "ju");
+            favourTwoForTwo(results, "nj", "ʊ", "n", "jʊ");
+            favourTwoForTwo(results, "lj", "ə", "l", "jə");
+            favourTwoForTwo(results, "lj", "ə(r)", "l", "jə(r)");
+            favourTwoForTwo(results, "lj", "u", "l", "ju");
+            favourTwoForTwo(results, "lj", "ʊ", "l", "jʊ");
+            favourTwoForTwo(results, "nj", "ʊ", "n", "jʊ");
+            favourTwoForTwo(results, "nj", "ʊə(r)", "n", "jʊə(r)");
+            favourTwoForTwo(results, "nj", "ʊə", "n", "jʊə");
+            favourTwoForTwo(results, "lj", "ʊə", "l", "jʊə");
+            favourTwoForTwo(results, "eə", "r", "e", "ər");
+            favourTwoForTwo(results, "ɪə", "r", "ɪ", "ər");
+            favourTwoForTwo(results, "ɪə", "l", "ɪ", "əl");
+            favourTwoForTwo(results, "ʊə", "r", "ʊ", "ər");
+            favourTwoForTwo(results, "jʊə", "r", "jʊ", "ər");
+            favourTwoForTwo(results, "eɪ", "ə(r)", "e", "ɪə(r)");
+            favourTwoForTwo(results, "eɪ", "ə", "e", "ɪə");
+            favourTwoForTwo(results, "ɪə", "l", "ɪ", "əl");
 
         }catch(Exception e){
             e.printStackTrace();
@@ -139,11 +183,11 @@ public class PhoneticsProcessor {
                 if(!ipa.equals(ipas.get(count)))break;
                 count++;
             }
-            ret = true;
-            break;
+            if(count==ipas.size())ret = true;
         }
         return ret;
     }
+
 
     private void replaceCombinedWithSingles(List<PhonicsResult> inResults, String first, String second){
         if(inResults.size() <= 1)return;
@@ -194,9 +238,10 @@ public class PhoneticsProcessor {
         }
     }
 
-    private void replaceSingleWithCombined(List<PhonicsResult> inResults, String first, String second, String combined){
+    private void replaceSingleWithCombined(List<PhonicsResult> inResults, String first, String second){
         if(inResults.size() <= 1)return;
 
+        String combined = first+second;
         boolean found = false;
         Iterator<PhonicsResult>  it = inResults.iterator();
         while(it.hasNext()){
@@ -226,6 +271,64 @@ public class PhoneticsProcessor {
                     }
                 }
             }
+        }
+    }
+
+    private void favourTwoForTwo(List<PhonicsResult> inResults, String replaceFirst, String replaceSecond, String withFirst, String withSecond){
+        if(inResults.size() <= 1)return;
+
+
+        boolean found = false;
+        Iterator<PhonicsResult> it = inResults.iterator();
+
+        int foundIn = -1;
+        int count = 0;
+
+        //are the first two present
+        while (it.hasNext()) {
+            List<IPA> ipas = it.next().getIpas();
+            boolean e = false;
+            for (IPA ipa : ipas) {
+                if (ipa.getSymbol().equals(replaceFirst)) {
+                    e = true;
+                } else if (ipa.getSymbol().equals(replaceSecond) && e) {
+                    found=true;
+                    foundIn = count;
+                    break;
+                } else {
+                    e = false;
+                }
+            }
+            count++;
+        }
+
+
+        //are the second 2 present
+        if(found){
+            found = false;
+            count =0;
+            it = inResults.iterator();
+            while (it.hasNext()) {
+                List<IPA> ipas = it.next().getIpas();
+                boolean e = false;
+                for (IPA ipa : ipas) {
+                    if (ipa.getSymbol().equals(withFirst)) {
+                        e = true;
+                    } else if (ipa.getSymbol().equals(withSecond) && e) {
+                        found=true;
+                        break;
+                    } else {
+                        e = false;
+                    }
+                }
+                count++;
+            }
+        }
+
+
+        //all are present so
+        if(found) {
+            inResults.remove(foundIn);
         }
     }
 }

@@ -53,16 +53,16 @@ public class TestPhonetics {
     @Test
     public void testEI() throws Exception {
         List<PhonicsResult> results = phoneticsProcessor.process("əbeɪəns", "abeyance");
-        testIPAs(results, new String[]{"ə", "b", "e", "ɪ", "ə", "n", "s"});
-        testSplitWords(results, new String[]{"a", "b", "e", "y", "a", "n", "ce"});
+        testIPAs(results, new String[]{"ə", "b", "eɪ", "ə", "n", "s"});
+        testSplitWords(results, new String[]{"a", "b", "ey", "a", "n", "ce"});
 
         results = phoneticsProcessor.process("ˈdeɪbreɪk", "daybreak");
-        testIPAs(results, new String[]{"d", "e", "ɪ", "b", "r", "e", "ɪ", "k"});
-        testSplitWords(results, new String[]{"d", "a", "y", "b", "r", "e", "a", "k"});
+        testIPAs(results, new String[]{"d", "eɪ", "b", "r", "eɪ", "k"});
+        testSplitWords(results, new String[]{"d", "ay", "b", "re", "a", "k"});
 
         results = phoneticsProcessor.process("mæθəmætɪks", "mathematics");
-        testIPAs(results,       new String[]{"m", "æ", "θ", "ə", "m", "æ", "t", "ɪ", "k", "s"});
-        testSplitWords(results, new String[]{"m", "a", "th" ,"e", "m", "a", "t", "i", "c", "s"});
+        testIPAs(results,       new String[]{"m", "æ", "θ", "əm", "æ", "t", "ɪ", "k", "s"});
+        testSplitWords(results, new String[]{"m", "a", "the", "m", "a", "t", "i", "c", "s"});
 
     }
 
@@ -70,8 +70,8 @@ public class TestPhonetics {
     @Test
     public void testReplaceWithCombined() throws Exception {
         List<PhonicsResult> results = phoneticsProcessor.process("ælbəm", "album");
-        testIPAs(results, new String[]{"æ", "l", "b", "ə", "m"});
-        testSplitWords(results, new String[]{"a", "l", "b", "u", "m"});
+        testIPAs(results, new String[]{"æ", "l", "b", "əm"});
+        testSplitWords(results, new String[]{"a", "l", "bu", "m"});
     }
 
 
@@ -86,8 +86,8 @@ public class TestPhonetics {
     @Test
     public void testMisjudge() throws Exception {
         List<PhonicsResult> results = phoneticsProcessor.process("mɪsdʒʌdʒ", "misjudge");
-        testIPAs(results,       new String[]{"m", "ɪ", "s", "dʒ", "ʌ", "d", "ʒ"});
-        testSplitWords(results, new String[]{"m", "i", "s", "j", "u", "d","ge"});
+        testIPAs(results,       new String[]{"m", "ɪ", "s", "dʒ", "ʌ", "dʒ"});
+        testSplitWords(results, new String[]{"m", "i", "s", "j", "u", "dge"});
     }
 
     @Test
@@ -97,6 +97,40 @@ public class TestPhonetics {
         testSplitWords(results, new String[]{"a", "a"});
     }
 
+    @Test
+     public void testAm() throws Exception {
+        List<PhonicsResult> results = phoneticsProcessor.process("ˌeɪ ˈem", "am");
+        testIPAs(results,       new String[]{"eɪ", "em"});
+        testSplitWords(results, new String[]{"a", "m"});
+    }
+
+    @Test
+    public void testAngel() throws Exception {
+        List<PhonicsResult> results = phoneticsProcessor.process("eɪndʒl", "angel");
+        testIPAs(results,       new String[]{"eɪ", "n", "dʒ", "l"});
+        testSplitWords(results, new String[]{"a", "n", "ge", "l"});
+    }
+
+    @Test
+    public void testAbberation() throws Exception {
+        List<PhonicsResult> results = phoneticsProcessor.process("æbəreɪʃn", "aberration");
+        testIPAs(results,       new String[]{"æ", "b", "ə", "r", "eɪ", "ʃ", "n"});
+        testSplitWords(results, new String[]{"a", "be", "r", "r", "a", "ti", "on"});
+    }
+
+    @Test
+    public void testMenu() throws Exception {
+        List<PhonicsResult> results = phoneticsProcessor.process("ˈmenjuː", "menu");
+        testIPAs(results,       new String[]{"m", "e", "n", "juː"});
+        testSplitWords(results, new String[]{"m", "e", "n", "u"});
+    }
+
+    @Test
+    public void testChoir() throws Exception {
+        List<PhonicsResult> results = phoneticsProcessor.process("ˈkwaɪə(r)", "choir");
+        testIPAs(results,       new String[]{"eɪ", "em"});
+        testSplitWords(results, new String[]{"a", "m"});
+    }
 
     private void testSplitWords(List<PhonicsResult> results, String[] matches) {
         List<String> splitWord = results.get(0).getSplitWords();
