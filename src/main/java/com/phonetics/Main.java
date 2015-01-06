@@ -9,15 +9,16 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) throws Exception{
-        InputStreamReader readerExclude = new InputStreamReader(new FileInputStream("src/main/resources/exclusions.txt"), "UTF-8");
-        BufferedReader buffexclude = new BufferedReader(readerExclude);
+        InputStreamReader readerReplace = new InputStreamReader(new FileInputStream("src/main/resources/replace.txt"), "UTF-16");
+        BufferedReader buffReplace = new BufferedReader(readerReplace);
 
-        List<String>exclusions = new ArrayList<>();
+        Map<String, String>replacements = new HashMap<>();
         String line;
 
-        while((line = buffexclude.readLine()) != null) {
+        while((line = buffReplace.readLine()) != null) {
             line = line.trim();
-            exclusions.add(line);
+            String[] parts = line.split("\t");
+            replacements.put(parts[0], parts[1]);
         }
 
 
@@ -26,7 +27,7 @@ public class Main {
         BufferedReader buff = new BufferedReader(reader);
 
         PhoneticsProcessor phoneticsProcessor = new PhoneticsProcessor();
-        phoneticsProcessor.setIpas(IPA.createIPAsFromFile("src/main/resources/dictionary12.txt"));
+        phoneticsProcessor.setIpas(IPA.createIPAsFromFile("src/main/resources/dictionary13.txt"));
 
 
         int valid = 0;
@@ -39,7 +40,9 @@ public class Main {
             String word = line.split("\\t")[0];
             String IPAword = line.split("\\t")[1];
 
-            //if(exclusions.contains(word))continue;
+            if(replacements.containsKey(word)){
+                IPAword = replacements.get(word);
+            }
             if(word.contains(" "))continue;
             if(word.contains("-"))continue;
             if(word.contains("'"))continue;

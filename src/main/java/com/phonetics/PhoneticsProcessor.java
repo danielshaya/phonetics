@@ -69,7 +69,6 @@ public class PhoneticsProcessor {
         try {
 
             replaceSingleWithCombined(results, "e", "ɪ");
-
             replaceSingleWithCombined(results, "d", "ʒ");
             replaceSingleWithCombined(results, "e", "ə");
             replaceSingleWithCombined(results, "e", "ə(r)");
@@ -93,12 +92,18 @@ public class PhoneticsProcessor {
             replaceSingleWithCombined(results, "j", "ə(r)");
             replaceSingleWithCombined(results, "n", "j");
             replaceSingleWithCombined(results, "l", "j");
-            replaceSingleWithCombined(results, "ə", "m");
-            replaceSingleWithCombined(results, "ə", "n");
-            replaceSingleWithCombined(results, "ə", "l");
-            replaceSingleWithCombined(results, "ə", "r");
-
+            //replaceSingleWithCombined(results, "ə", "m");
+            //replaceSingleWithCombined(results, "ə", "n");
+            //replaceSingleWithCombined(results, "ə", "l");
+            //replaceSingleWithCombined(results, "ə", "r");
             replaceSingleWithCombined(results, "e", "ər");
+            replaceSingleWithCombined(results, "eə", "r");
+
+
+            replaceCombinedWithSingles(results, "ə", "r");
+            replaceCombinedWithSingles(results, "ə", "m");
+            replaceCombinedWithSingles(results, "ə", "l");
+            replaceCombinedWithSingles(results, "ə", "n");
 
             replaceCombinedWithSingles(results, "e", "s");
             replaceCombinedWithSingles(results, "b", "iː");
