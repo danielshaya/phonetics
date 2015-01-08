@@ -16,7 +16,7 @@ public class TestPhonetics {
     @BeforeClass
     public static void setup()throws Exception{
         phoneticsProcessor = new PhoneticsProcessor();
-        phoneticsProcessor.setIpas(IPA.createIPAsFromFile("src/main/resources/dictionary12.txt"));
+        phoneticsProcessor.setIpas(IPA.createIPAsFromFile("src/main/resources/dictionary14.txt"));
     }
 
     @Test
@@ -61,8 +61,8 @@ public class TestPhonetics {
         testSplitWords(results, new String[]{"d", "ay", "b", "re", "a", "k"});
 
         results = phoneticsProcessor.process("mæθəmætɪks", "mathematics");
-        testIPAs(results,       new String[]{"m", "æ", "θ", "əm", "æ", "t", "ɪ", "k", "s"});
-        testSplitWords(results, new String[]{"m", "a", "the", "m", "a", "t", "i", "c", "s"});
+        testIPAs(results,       new String[]{"m", "æ", "θ", "ə", "m", "æ", "t", "ɪ", "k", "s"});
+        testSplitWords(results, new String[]{"m", "a", "th", "e","m", "a", "t", "i", "c", "s"});
 
     }
 
@@ -70,8 +70,8 @@ public class TestPhonetics {
     @Test
     public void testReplaceWithCombined() throws Exception {
         List<PhonicsResult> results = phoneticsProcessor.process("ælbəm", "album");
-        testIPAs(results, new String[]{"æ", "l", "b", "əm"});
-        testSplitWords(results, new String[]{"a", "l", "bu", "m"});
+        testIPAs(results, new String[]{"æ", "l", "b", "ə", "m"});
+        testSplitWords(results, new String[]{"a", "l", "b","u", "m"});
     }
 
 

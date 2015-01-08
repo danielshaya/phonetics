@@ -8,6 +8,8 @@ import java.util.*;
  */
 public class Main {
 
+    public static final String DICTIONARY_VERSION = "14";
+
     public static void main(String[] args) throws Exception{
         InputStreamReader readerReplace = new InputStreamReader(new FileInputStream("src/main/resources/replace.txt"), "UTF-16");
         BufferedReader buffReplace = new BufferedReader(readerReplace);
@@ -27,7 +29,7 @@ public class Main {
         BufferedReader buff = new BufferedReader(reader);
 
         PhoneticsProcessor phoneticsProcessor = new PhoneticsProcessor();
-        phoneticsProcessor.setIpas(IPA.createIPAsFromFile("src/main/resources/dictionary13.txt"));
+        phoneticsProcessor.setIpas(IPA.createIPAsFromFile("src/main/resources/dictionary" + DICTIONARY_VERSION + ".txt"));
 
 
         int valid = 0;
