@@ -16,7 +16,7 @@ public class TestPhonetics {
     @BeforeClass
     public static void setup()throws Exception{
         phoneticsProcessor = new PhoneticsProcessor();
-        phoneticsProcessor.setIpas(IPA.createIPAsFromFile("src/main/resources/dictionary14.txt"));
+        phoneticsProcessor.setIpas(IPA.createIPAsFromFile("src/main/resources/dictionary" + Main.DICTIONARY_VERSION + ".txt"));
     }
 
     @Test
@@ -128,8 +128,8 @@ public class TestPhonetics {
     @Test
     public void testChoir() throws Exception {
         List<PhonicsResult> results = phoneticsProcessor.process("ˈkwaɪə(r)", "choir");
-        testIPAs(results,       new String[]{"eɪ", "em"});
-        testSplitWords(results, new String[]{"a", "m"});
+        testIPAs(results,       new String[]{"k", "waɪ", "ə(r)"});
+        testSplitWords(results, new String[]{"ch", "oi", "r"});
     }
 
     private void testSplitWords(List<PhonicsResult> results, String[] matches) {

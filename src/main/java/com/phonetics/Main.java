@@ -8,7 +8,7 @@ import java.util.*;
  */
 public class Main {
 
-    public static final String DICTIONARY_VERSION = "14";
+    public static final String DICTIONARY_VERSION = "15";
 
     public static void main(String[] args) throws Exception{
         InputStreamReader readerReplace = new InputStreamReader(new FileInputStream("src/main/resources/replace.txt"), "UTF-16");
@@ -19,6 +19,7 @@ public class Main {
 
         while((line = buffReplace.readLine()) != null) {
             line = line.trim();
+            if(line.isEmpty())continue;
             String[] parts = line.split("\t");
             replacements.put(parts[0], parts[1]);
         }
