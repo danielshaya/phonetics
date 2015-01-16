@@ -4,12 +4,12 @@
 
     <groupId>phonetics</groupId>
     <artifactId>phonetics</artifactId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
 
 	<scm>
 		<connection>scm:git:git@github.com:danielshaya/phonetics.git</connection>
 		<url>scm:git:git@github.com:danielshaya/phonetics.git</url>
-    <tag>phonetics-1.1</tag>
+    <tag>HEAD</tag>
   </scm>
 
     <dependencies>
