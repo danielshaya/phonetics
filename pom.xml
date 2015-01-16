@@ -9,7 +9,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:danielshaya/phonetics.git</connection>
 		<url>scm:git:git@github.com:danielshaya/phonetics.git</url>
-	  <tag>phonetics-1.0</tag>
+	  <tag>phonetics-1.0-SNAPSHOT</tag>
   </scm>
 
     <dependencies>
