@@ -200,7 +200,7 @@ cul-de-sac	ˈkʌl də sæk
 cul-de-sacs	ˈkʌl də sæks
 curriculum vitae	kəˌrɪkjələm ˈviːtaɪ
 curtain-raiser	ˈkɜːtn reɪzə
-Côte d'Ivoire	ˌkəʊt diːˈvwɑː
+Côte dˈIvoire	ˌkəʊt diːˈvwɑː
 cyclo-cross	ˈsaɪkləʊ krɒs
 Czech Republic	ˌtʃek rɪˈpʌblɪk
 delirium tremens	dɪˌlɪriəm ˈtriːmenz
@@ -659,7 +659,6 @@ dilly-dallying	ˈdɪli dæliɪŋ
 fly-kick	ˈflaɪ kɪk
 fly-kicks	ˈflaɪ kɪks
 lip-sync	ˈlɪp sɪŋk
-OK'd	əʊˈkeɪd
 pre-empt	priˈempt
 pre-empted	priˈemptɪd
 pre-empting	priˈemptɪŋ

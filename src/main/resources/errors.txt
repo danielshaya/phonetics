@@ -1,547 +1,77 @@
-ipaWord ''eɪsɪz' for 'aces' can not be mapped to IPA objects
 No match for advocaat for these IPA objects æ, d, v, ə, k, ɑː
-ipaWord ''ædzɪz' for 'adzes' can not be mapped to IPA objects
-ipaWord ''eɪdʒɪz' for 'ages' can not be mapped to IPA objects
-ipaWord ''eɪtʃɪz' for 'aitches' can not be mapped to IPA objects
 No match for anorexics for these IPA objects æ, n, ər, eks, ɪ, ks
-ipaWord ''æpsɪz' for 'apses' can not be mapped to IPA objects
-ipaWord ''ɑːtʃɪz' for 'arches' can not be mapped to IPA objects
-ipaWord ''æʃɪz' for 'ashes' can not be mapped to IPA objects
-ipaWord ''æsɪz' for 'asses' can not be mapped to IPA objects
-ipaWord ''æksɪz' for 'axes' can not be mapped to IPA objects
-ipaWord ''bædʒɪz' for 'badges' can not be mapped to IPA objects
-ipaWord ''bɑːdʒɪz' for 'barges' can not be mapped to IPA objects
-ipaWord ''beɪsɪz' for 'bases' can not be mapped to IPA objects
-ipaWord ''bæʃɪz' for 'bashes' can not be mapped to IPA objects
-ipaWord ''bætʃɪz' for 'batches' can not be mapped to IPA objects
-ipaWord ''biːtʃɪz' for 'beaches' can not be mapped to IPA objects
-ipaWord ''biːtʃɪz' for 'beeches' can not be mapped to IPA objects
-ipaWord ''beɪʒɪz' for 'beiges' can not be mapped to IPA objects
-ipaWord ''beltʃɪz' for 'belches' can not be mapped to IPA objects
-ipaWord ''bentʃɪz' for 'benches' can not be mapped to IPA objects
-ipaWord ''bɪldʒɪz' for 'bilges' can not be mapped to IPA objects
-ipaWord ''bɪndʒɪz' for 'binges' can not be mapped to IPA objects
-ipaWord ''bɜːtʃɪz' for 'birches' can not be mapped to IPA objects
-ipaWord ''bɪtʃɪz' for 'bitches' can not be mapped to IPA objects
-ipaWord ''bleɪzɪz' for 'blazes' can not be mapped to IPA objects
-ipaWord ''bliːtʃɪz' for 'bleaches' can not be mapped to IPA objects
-ipaWord ''blɪtsɪz' for 'blitzes' can not be mapped to IPA objects
-ipaWord ''blɒtʃɪz' for 'blotches' can not be mapped to IPA objects
-ipaWord ''blaʊzɪz' for 'blouses' can not be mapped to IPA objects
-ipaWord ''blʌdʒɪz' for 'bludges' can not be mapped to IPA objects
-ipaWord ''blʌʃɪz' for 'blushes' can not be mapped to IPA objects
 No match for Boer for these IPA objects b, ɔː
 No match for Boers for these IPA objects b, ɔː, z
 No match for bohrium for these IPA objects b, ɔː, r, i, əm
-ipaWord ''bɒnsɪz' for 'bonces' can not be mapped to IPA objects
-ipaWord ''bɒnzɪz' for 'bonzes' can not be mapped to IPA objects
-ipaWord ''buːzɪz' for 'boozes' can not be mapped to IPA objects
-ipaWord ''bɔːʃɪz' for 'borsches' can not be mapped to IPA objects
-ipaWord ''bɒsɪz' for 'bosses' can not be mapped to IPA objects
-ipaWord ''bɒtʃɪz' for 'botches' can not be mapped to IPA objects
-ipaWord ''baʊnsɪz' for 'bounces' can not be mapped to IPA objects
-ipaWord ''bʊəsɪz' for 'bourses' can not be mapped to IPA objects
-ipaWord ''bɒksɪz' for 'boxes' can not be mapped to IPA objects
 No match for braaivleis for these IPA objects b, r, aɪ, f, l, eɪ, s
-ipaWord ''breɪsɪz' for 'braces' can not be mapped to IPA objects
-ipaWord ''brɑːntʃɪz' for 'branches' can not be mapped to IPA objects
-ipaWord ''brɑːsɪz' for 'brasses' can not be mapped to IPA objects
-ipaWord ''brɔːlə' for 'brawler' can not be mapped to IPA objects
-ipaWord ''brɔːləz' for 'brawlers' can not be mapped to IPA objects
-ipaWord ''briːtʃɪz' for 'breaches' can not be mapped to IPA objects
-ipaWord ''briːzɪz' for 'breezes' can not be mapped to IPA objects
-ipaWord ''brɪdʒɪz' for 'bridges' can not be mapped to IPA objects
 ipaWord 'brɪtaniə' for 'Britannia' can not be mapped to IPA objects
-ipaWord ''brɒnzɪz' for 'bronzes' can not be mapped to IPA objects
-ipaWord ''brəʊtʃɪz' for 'brooches' can not be mapped to IPA objects
-ipaWord ''braʊzɪz' for 'browses' can not be mapped to IPA objects
-ipaWord ''bruːzɪz' for 'bruises' can not be mapped to IPA objects
-ipaWord ''brʌntʃɪz' for 'brunches' can not be mapped to IPA objects
-ipaWord ''brʌʃɪz' for 'brushes' can not be mapped to IPA objects
-ipaWord ''bʌldʒɪz' for 'bulges' can not be mapped to IPA objects
-ipaWord ''bʌntʃɪz' for 'bunches' can not be mapped to IPA objects
-ipaWord ''bʌsɪz' for 'buses' can not be mapped to IPA objects
-ipaWord ''bʊʃɪz' for 'bushes' can not be mapped to IPA objects
-ipaWord ''bʌzɪz' for 'buzzes' can not be mapped to IPA objects
-ipaWord ''keɪdʒɪz' for 'cages' can not be mapped to IPA objects
 No match for Camembert for these IPA objects k, æ, m, əm, b, eə
-ipaWord ''keɪsɪz' for 'cases' can not be mapped to IPA objects
-ipaWord ''kæʃɪz' for 'cashes' can not be mapped to IPA objects
-ipaWord ''kætʃɪz' for 'catches' can not be mapped to IPA objects
-ipaWord ''kɔːzɪz' for 'causes' can not be mapped to IPA objects
 No match for ceilidh for these IPA objects keɪ, l, i
 No match for ceilidhs for these IPA objects keɪ, l, i, z
-ipaWord ''ʃeɪzɪz' for 'chaises' can not be mapped to IPA objects
 No match for chamois for these IPA objects ʃ, æ, m, i
-ipaWord ''tʃɑːnsɪz' for 'chances' can not be mapped to IPA objects
-ipaWord ''tʃeɪndʒɪz' for 'changes' can not be mapped to IPA objects
-ipaWord ''tʃɑːdʒɪz' for 'charges' can not be mapped to IPA objects
-ipaWord ''tʃeɪsɪz' for 'chases' can not be mapped to IPA objects
-ipaWord ''tʃiːzɪz' for 'cheeses' can not be mapped to IPA objects
-ipaWord ''tʃesɪz' for 'chesses' can not be mapped to IPA objects
-ipaWord ''tʃɪntsɪz' for 'chintzes' can not be mapped to IPA objects
-ipaWord ''tʃɔɪsɪz' for 'choices' can not be mapped to IPA objects
-ipaWord ''tʃɜːtʃɪz' for 'churches' can not be mapped to IPA objects
-ipaWord ''sɪntʃɪz' for 'cinches' can not be mapped to IPA objects
-ipaWord ''klæʃɪz' for 'clashes' can not be mapped to IPA objects
-ipaWord ''klɑːsɪz' for 'classes' can not be mapped to IPA objects
-ipaWord ''klɔːzɪz' for 'clauses' can not be mapped to IPA objects
-ipaWord ''klɪntʃɪz' for 'clinches' can not be mapped to IPA objects
-ipaWord ''klʌtʃɪz' for 'clutches' can not be mapped to IPA objects
-ipaWord ''kəʊtʃɪz' for 'coaches' can not be mapped to IPA objects
 No match for compère for these IPA objects k, ɒ, m, p, eə
 No match for compères for these IPA objects k, ɒ, m, p, eə, z
-ipaWord ''kɒntʃɪz' for 'conches' can not be mapped to IPA objects
-ipaWord ''kɒpsɪz' for 'copses' can not be mapped to IPA objects
 No match for corps for these IPA objects k, ɔː
-ipaWord ''kɔːpsɪz' for 'corpses' can not be mapped to IPA objects
 No match for cortège for these IPA objects k, ɔː, t, e, ʒ
 No match for cortèges for these IPA objects k, ɔː, t, e, ʒ, ɪ, z
-ipaWord ''kɒʃɪz' for 'coshes' can not be mapped to IPA objects
-ipaWord ''kaʊtʃɪz' for 'couches' can not be mapped to IPA objects
-ipaWord ''kɔːsɪz' for 'courses' can not be mapped to IPA objects
-ipaWord ''kɒksɪz' for 'coxes' can not be mapped to IPA objects
-ipaWord ''kræʃɪz' for 'crashes' can not be mapped to IPA objects
-ipaWord ''kreɪzɪz' for 'crazes' can not be mapped to IPA objects
-ipaWord ''kriːsɪz' for 'creases' can not be mapped to IPA objects
 No match for crèche for these IPA objects k, r, e, ʃ
 No match for crèches for these IPA objects k, r, e, ʃ, z
-ipaWord ''kresɪz' for 'cresses' can not be mapped to IPA objects
-ipaWord ''krɒsɪz' for 'crosses' can not be mapped to IPA objects
-ipaWord ''krɒtʃɪz' for 'crotches' can not be mapped to IPA objects
-ipaWord ''kraʊtʃɪz' for 'crouches' can not be mapped to IPA objects
-ipaWord ''kruːzɪz' for 'cruises' can not be mapped to IPA objects
-ipaWord ''krʌntʃɪz' for 'crunches' can not be mapped to IPA objects
-ipaWord ''krʌʃɪz' for 'crushes' can not be mapped to IPA objects
-ipaWord ''krʌtʃɪz' for 'crutches' can not be mapped to IPA objects
-ipaWord ''krʌksɪz' for 'cruxes' can not be mapped to IPA objects
-ipaWord ''kɜːsɪz' for 'curses' can not be mapped to IPA objects
-ipaWord ''kʌsɪz' for 'cusses' can not be mapped to IPA objects
 No match for Cymru for these IPA objects k, ʌ, m, r, i
 No match for Dadaism for these IPA objects d, ɑː, d, ɑː, ɪ, s, t
-ipaWord ''dæʃɪz' for 'dashes' can not be mapped to IPA objects
-ipaWord 'daɪ'rekʃnz' for 'directions' can not be mapped to IPA objects
-ipaWord 'daɪ'rektɪvz' for 'directives' can not be mapped to IPA objects
-ipaWord 'daɪ'rektərəts' for 'directorates' can not be mapped to IPA objects
-ipaWord 'daɪ'rektəriz' for 'directories' can not be mapped to IPA objects
-ipaWord 'daɪ'rektəz' for 'directors' can not be mapped to IPA objects
-ipaWord 'daɪ'rektəʃɪps' for 'directorships' can not be mapped to IPA objects
-ipaWord ''dəʊsɪz' for 'doses' can not be mapped to IPA objects
-ipaWord ''dresɪz' for 'dresses' can not be mapped to IPA objects
-ipaWord ''iːzɪz' for 'eases' can not be mapped to IPA objects
-ipaWord ''edʒɪz' for 'edges' can not be mapped to IPA objects
 No match for épée for these IPA objects e, p, eɪ
 No match for épées for these IPA objects e, p, eɪ, z
-ipaWord ''feɪsɪz' for 'faces' can not be mapped to IPA objects
-ipaWord ''fensɪz' for 'fences' can not be mapped to IPA objects
-ipaWord ''fɪʃɪz' for 'fishes' can not be mapped to IPA objects
-ipaWord ''fleʃɪz' for 'fleshes' can not be mapped to IPA objects
-ipaWord ''flʌʃɪz' for 'flushes' can not be mapped to IPA objects
-ipaWord ''fɒksɪz' for 'foxes' can not be mapped to IPA objects
-ipaWord ''frɑːnsɪz' for 'Frances' can not be mapped to IPA objects
 ipaWord 'frɪːfəʊn' for 'freephone' can not be mapped to IPA objects
-ipaWord ''friːzɪz' for 'freezes' can not be mapped to IPA objects
-ipaWord ''frɪdʒɪz' for 'fridges' can not be mapped to IPA objects
-ipaWord ''friːzɪz' for 'friezes' can not be mapped to IPA objects
-ipaWord ''frɪndʒɪz' for 'fringes' can not be mapped to IPA objects
-ipaWord ''frɪzɪz' for 'frizzes' can not be mapped to IPA objects
-ipaWord ''fʌdʒɪz' for 'fudges' can not be mapped to IPA objects
-ipaWord ''fjuːzɪz' for 'fuses' can not be mapped to IPA objects
-ipaWord ''fʌsɪz' for 'fusses' can not be mapped to IPA objects
-ipaWord ''fʌzɪz' for 'fuzzes' can not be mapped to IPA objects
-ipaWord ''ɡæsɪz' for 'gases' can not be mapped to IPA objects
-ipaWord ''ɡæʃɪz' for 'gashes' can not be mapped to IPA objects
-ipaWord ''ɡeɪdʒɪz' for 'gauges' can not be mapped to IPA objects
-ipaWord ''ɡɔːzɪz' for 'gauzes' can not be mapped to IPA objects
-ipaWord ''ɡeɪzɪz' for 'gazes' can not be mapped to IPA objects
-ipaWord ''ɡɪəz' for 'gears' can not be mapped to IPA objects
-ipaWord ''ɡlɑːnsɪz' for 'glances' can not be mapped to IPA objects
-ipaWord ''ɡlɑːsɪz' for 'glasses' can not be mapped to IPA objects
-ipaWord ''ɡleɪzɪz' for 'glazes' can not be mapped to IPA objects
-ipaWord ''ɡlɪmpsɪz' for 'glimpses' can not be mapped to IPA objects
-ipaWord ''ɡlɪtʃɪz' for 'glitches' can not be mapped to IPA objects
-ipaWord ''ɡlɒsɪz' for 'glosses' can not be mapped to IPA objects
-ipaWord ''ɡɔːdʒɪz' for 'gorges' can not be mapped to IPA objects
-ipaWord ''ɡaʊdʒɪz' for 'gouges' can not be mapped to IPA objects
-ipaWord ''ɡreɪsɪz' for 'graces' can not be mapped to IPA objects
-ipaWord ''ɡreɪndʒɪz' for 'granges' can not be mapped to IPA objects
-ipaWord ''ɡrɑːsɪz' for 'grasses' can not be mapped to IPA objects
-ipaWord ''ɡreɪzɪz' for 'grazes' can not be mapped to IPA objects
-ipaWord ''ɡriːsɪz' for 'greases' can not be mapped to IPA objects
-ipaWord ''ɡriːsɪz' for 'greeces' can not be mapped to IPA objects
-ipaWord ''ɡrɪlsɪz' for 'grilses' can not be mapped to IPA objects
-ipaWord ''ɡrəʊsɪz' for 'grosses' can not be mapped to IPA objects
-ipaWord ''ɡraʊtʃɪz' for 'grouches' can not be mapped to IPA objects
-ipaWord ''ɡraʊsɪz' for 'grouses' can not be mapped to IPA objects
-ipaWord ''ɡrʌdʒɪz' for 'grudges' can not be mapped to IPA objects
 No match for Gruyère for these IPA objects ɡ, r, uː, j, ɜː
-ipaWord ''ɡesɪz' for 'guesses' can not be mapped to IPA objects
-ipaWord ''ɡaɪzɪz' for 'guises' can not be mapped to IPA objects
-ipaWord ''ɡʌltʃɪz' for 'gulches' can not be mapped to IPA objects
-ipaWord ''ɡʌndʒɪz' for 'gunges' can not be mapped to IPA objects
-ipaWord ''ɡʌʃɪz' for 'gushes' can not be mapped to IPA objects
-ipaWord ''heəz' for 'hairs' can not be mapped to IPA objects
-ipaWord ''hæʃɪz' for 'hashes' can not be mapped to IPA objects
-ipaWord ''hætʃɪz' for 'hatches' can not be mapped to IPA objects
-ipaWord ''heɪtə' for 'hater' can not be mapped to IPA objects
-ipaWord ''heɪtəz' for 'haters' can not be mapped to IPA objects
-ipaWord ''hɔːntʃɪz' for 'haunches' can not be mapped to IPA objects
-ipaWord ''heɪzɪz' for 'hazes' can not be mapped to IPA objects
 ipaWord 'hedstandz' for 'headstands' can not be mapped to IPA objects
-ipaWord ''hɜːsɪz' for 'hearses' can not be mapped to IPA objects
-ipaWord ''hedʒɪz' for 'hedges' can not be mapped to IPA objects
-ipaWord ''hendʒɪz' for 'henges' can not be mapped to IPA objects
-ipaWord ''heksɪz' for 'hexes' can not be mapped to IPA objects
-ipaWord ''hɪndʒɪz' for 'hinges' can not be mapped to IPA objects
-ipaWord ''hɪsɪz' for 'hisses' can not be mapped to IPA objects
-ipaWord ''hɪtʃɪz' for 'hitches' can not be mapped to IPA objects
-ipaWord ''hɔːdə' for 'hoarder' can not be mapped to IPA objects
-ipaWord ''hɔːdəz' for 'hoarders' can not be mapped to IPA objects
-ipaWord ''həʊksə' for 'hoaxer' can not be mapped to IPA objects
-ipaWord ''həʊksəz' for 'hoaxers' can not be mapped to IPA objects
-ipaWord ''həʊksɪz' for 'hoaxes' can not be mapped to IPA objects
-ipaWord ''huːtʃɪz' for 'hooches' can not be mapped to IPA objects
-ipaWord ''hɔːsɪz' for 'horses' can not be mapped to IPA objects
-ipaWord ''həʊzɪz' for 'hoses' can not be mapped to IPA objects
-ipaWord ''hʌntʃɪz' for 'hunches' can not be mapped to IPA objects
-ipaWord ''hʌʃɪz' for 'hushes' can not be mapped to IPA objects
-ipaWord ''hʌtʃɪz' for 'hutches' can not be mapped to IPA objects
 No match for hwyl for these IPA objects h, ɔɪ, l
 No match for hwyls for these IPA objects h, ɔɪ, l, z
-ipaWord ''aɪsɪz' for 'ices' can not be mapped to IPA objects
-ipaWord ''ɪntʃɪz' for 'inches' can not be mapped to IPA objects
 No match for inefficiencies for these IPA objects ɪ, n, ɪ, f, ɪ, ʃ, n, t, ə, n, s, i, z
-ipaWord ''ɪtʃɪz' for 'itches' can not be mapped to IPA objects
-ipaWord ''dʒæzɪz' for 'jazzes' can not be mapped to IPA objects
 No match for Jewry for these IPA objects dʒ, ʊə, r, i
-ipaWord ''dʒɪŋksɪz' for 'jinxes' can not be mapped to IPA objects
-ipaWord ''dʒɔɪz' for 'joys' can not be mapped to IPA objects
-ipaWord ''dʒʌdʒɪz' for 'judges' can not be mapped to IPA objects
-ipaWord ''dʒuːsɪz' for 'juices' can not be mapped to IPA objects
 No match for kalashnikov for these IPA objects k, əl, æ, ʃ, n, ɪ, k, ɒ, f
 No match for kalashnikovs for these IPA objects k, əl, æ, ʃ, n, ɪ, k, ɒ, f, s
-ipaWord ''keksɪz' for 'keckses' can not be mapped to IPA objects
-ipaWord ''ketʃɪz' for 'ketches' can not be mapped to IPA objects
-ipaWord ''kɪəʃɪz' for 'kirsches' can not be mapped to IPA objects
-ipaWord ''kɪsɪz' for 'kisses' can not be mapped to IPA objects
-ipaWord ''kluːdʒɪz' for 'kludges' can not be mapped to IPA objects
-ipaWord ''klʌtsɪz' for 'klutzes' can not be mapped to IPA objects
-ipaWord ''kriːsɪz' for 'krises' can not be mapped to IPA objects
-ipaWord ''leɪsɪz' for 'laces' can not be mapped to IPA objects
 No match for lacunae for these IPA objects l, ə, k, uː, n, ə, z
-ipaWord ''lɑːnsɪz' for 'lances' can not be mapped to IPA objects
-ipaWord ''læpsɪz' for 'lapses' can not be mapped to IPA objects
-ipaWord ''lɑːtʃɪz' for 'larches' can not be mapped to IPA objects
-ipaWord ''læʃɪz' for 'lashes' can not be mapped to IPA objects
-ipaWord ''læsɪz' for 'lasses' can not be mapped to IPA objects
-ipaWord ''lætʃɪz' for 'latches' can not be mapped to IPA objects
-ipaWord ''lɔːntʃɪz' for 'launches' can not be mapped to IPA objects
-ipaWord ''liːsɪz' for 'leases' can not be mapped to IPA objects
-ipaWord ''liːʃɪz' for 'leashes' can not be mapped to IPA objects
-ipaWord ''letʃɪz' for 'leches' can not be mapped to IPA objects
-ipaWord ''ledʒɪz' for 'ledges' can not be mapped to IPA objects
-ipaWord ''liːtʃɪz' for 'leeches' can not be mapped to IPA objects
 ipaWord 'leg' for 'leg' can not be mapped to IPA objects
 ipaWord 'legz' for 'legs' can not be mapped to IPA objects
-ipaWord ''lenzɪz' for 'lenses' can not be mapped to IPA objects
-ipaWord ''liːdʒɪz' for 'lieges' can not be mapped to IPA objects
-ipaWord ''lɒdʒɪz' for 'lodges' can not be mapped to IPA objects
 ipaWord 'lɔŋhɔːnz' for 'longhorns' can not be mapped to IPA objects
-ipaWord ''luːsɪz' for 'looses' can not be mapped to IPA objects
-ipaWord ''lɒsɪz' for 'losses' can not be mapped to IPA objects
-ipaWord ''laʊndʒɪz' for 'lounges' can not be mapped to IPA objects
-ipaWord ''lɒksɪz' for 'loxes' can not be mapped to IPA objects
-ipaWord ''luːʒɪz' for 'luges' can not be mapped to IPA objects
-ipaWord ''lʌntʃɪz' for 'lunches' can not be mapped to IPA objects
-ipaWord ''lʌndʒɪz' for 'lunges' can not be mapped to IPA objects
-ipaWord ''lɜːtʃɪz' for 'lurches' can not be mapped to IPA objects
-ipaWord ''lʌʃɪz' for 'lushes' can not be mapped to IPA objects
-ipaWord ''lɪŋksɪz' for 'lynxes' can not be mapped to IPA objects
-ipaWord ''meɪsɪz' for 'maces' can not be mapped to IPA objects
 No match for macramé for these IPA objects m, ə, k, r, ɑː, m, i
 No match for macramés for these IPA objects m, ə, k, r, ɑː, m, i, z
-ipaWord ''meɪzɪz' for 'maizes' can not be mapped to IPA objects
 No match for manège for these IPA objects m, æ, n, e, ʒ
 No match for manèges for these IPA objects m, æ, n, e, ʒ, ɪ, z
-ipaWord ''mænsɪz' for 'manses' can not be mapped to IPA objects
-ipaWord ''mɑːtʃɪz' for 'marches' can not be mapped to IPA objects
-ipaWord ''mɑːʃɪz' for 'marshes' can not be mapped to IPA objects
-ipaWord ''mæʃɪz' for 'mashes' can not be mapped to IPA objects
-ipaWord ''mæsɪz' for 'masses' can not be mapped to IPA objects
-ipaWord ''mætʃɪz' for 'matches' can not be mapped to IPA objects
-ipaWord ''meɪzɪz' for 'mazes' can not be mapped to IPA objects
 No match for McCarthyism for these IPA objects m, ə, k, ɑː, θ, i, ɪ, z, əm
 No match for McCoy for these IPA objects m, ə, k, ɔɪ
-ipaWord ''menʃɪz' for 'mensches' can not be mapped to IPA objects
-ipaWord ''meʃɪz' for 'meshes' can not be mapped to IPA objects
-ipaWord ''mesɪz' for 'messes' can not be mapped to IPA objects
 No match for métier for these IPA objects m, e, t, i, eɪ
 No match for métiers for these IPA objects m, e, t, i, eɪ, z
-ipaWord ''mjuːzɪz' for 'mewses' can not be mapped to IPA objects
 No match for Michaelmas for these IPA objects m, ɪ, k, l, m, ə, s
-ipaWord ''mɪdʒɪz' for 'midges' can not be mapped to IPA objects
-ipaWord ''mɪnsɪz' for 'minces' can not be mapped to IPA objects
-ipaWord ''mɪŋksɪz' for 'minxes' can not be mapped to IPA objects
-ipaWord ''mɪsɪz' for 'misses' can not be mapped to IPA objects
-ipaWord ''mɪksɪz' for 'mixes' can not be mapped to IPA objects
-ipaWord ''məʊnə' for 'moaner' can not be mapped to IPA objects
-ipaWord ''məʊnəz' for 'moaners' can not be mapped to IPA objects
 No match for mor for these IPA objects em, əʊ, ɑː
 No match for mors for these IPA objects em, əʊ, ɑː, z
-ipaWord ''mɒsɪz' for 'mosses' can not be mapped to IPA objects
-ipaWord ''muːsɪz' for 'mousses' can not be mapped to IPA objects
-ipaWord ''mʌltʃɪz' for 'mulches' can not be mapped to IPA objects
-ipaWord ''mjuːzɪz' for 'muses' can not be mapped to IPA objects
-ipaWord ''mʌʃɪz' for 'mushes' can not be mapped to IPA objects
 No match for Naafi for these IPA objects n, æ, f, i
-ipaWord ''nænsɪz' for 'nances' can not be mapped to IPA objects
-ipaWord ''njuːzɪz' for 'newses' can not be mapped to IPA objects
-ipaWord ''nɪksɪz' for 'nixes' can not be mapped to IPA objects
-ipaWord ''nɔɪzɪz' for 'noises' can not be mapped to IPA objects
-ipaWord ''nuːsɪz' for 'nooses' can not be mapped to IPA objects
-ipaWord ''nəʊzɪz' for 'noses' can not be mapped to IPA objects
-ipaWord ''nɒʃɪz' for 'noshes' can not be mapped to IPA objects
-ipaWord ''nɒtʃɪz' for 'notches' can not be mapped to IPA objects
-ipaWord ''nʌdʒɪz' for 'nudges' can not be mapped to IPA objects
-ipaWord ''nɜːsɪz' for 'nurses' can not be mapped to IPA objects
-ipaWord ''uːzɪz' for 'oozes' can not be mapped to IPA objects
-ipaWord ''aʊnsɪz' for 'ounces' can not be mapped to IPA objects
-ipaWord ''peɪdʒɪz' for 'pages' can not be mapped to IPA objects
 No match for parfait for these IPA objects p, ɑː, f, eɪ
-ipaWord ''pɑːsɪz' for 'passes' can not be mapped to IPA objects
-ipaWord ''pætʃɪz' for 'patches' can not be mapped to IPA objects
-ipaWord ''pɔːntʃɪz' for 'paunches' can not be mapped to IPA objects
-ipaWord ''pɔːzɪz' for 'pauses' can not be mapped to IPA objects
-ipaWord ''piːsɪz' for 'peaces' can not be mapped to IPA objects
-ipaWord ''piːtʃɪz' for 'peaches' can not be mapped to IPA objects
-ipaWord ''pɜːtʃɪz' for 'perches' can not be mapped to IPA objects
 No match for pétanque for these IPA objects p, ə, t, ɒ, ŋ, k
-ipaWord ''feɪzɪz' for 'phases' can not be mapped to IPA objects
-ipaWord ''flɒksɪz' for 'phloxes' can not be mapped to IPA objects
-ipaWord ''freɪzɪz' for 'phrases' can not be mapped to IPA objects
 No match for pianos for these IPA objects p, i, æ, n, əʊ, f, ɔː, t, i
-ipaWord ''piːsɪz' for 'pieces' can not be mapped to IPA objects
-ipaWord ''paɪz' for 'pies' can not be mapped to IPA objects
-ipaWord ''pɪləʊkeɪsɪz' for 'pillowcases' can not be mapped to IPA objects
-ipaWord ''pɪntʃɪz' for 'pinches' can not be mapped to IPA objects
-ipaWord ''pɪsɪz' for 'pisses' can not be mapped to IPA objects
-ipaWord ''pɪtʃɪz' for 'pitches' can not be mapped to IPA objects
-ipaWord ''pleɪsɪz' for 'places' can not be mapped to IPA objects
-ipaWord ''pleɪsɪz' for 'plaices' can not be mapped to IPA objects
 ipaWord 'pleɪhɑʊsɪz' for 'playhouses' can not be mapped to IPA objects
-ipaWord ''pledʒɪz' for 'pledges' can not be mapped to IPA objects
-ipaWord ''plʌndʒɪz' for 'plunges' can not be mapped to IPA objects
-ipaWord ''plʌʃɪz' for 'plushes' can not be mapped to IPA objects
-ipaWord ''pɔɪzɪz' for 'poises' can not be mapped to IPA objects
-ipaWord ''pɒnsɪz' for 'ponces' can not be mapped to IPA objects
-ipaWord ''puːtʃɪz' for 'pooches' can not be mapped to IPA objects
-ipaWord ''pɔːtʃɪz' for 'porches' can not be mapped to IPA objects
-ipaWord ''pəʊzɪz' for 'poses' can not be mapped to IPA objects
-ipaWord ''paʊtʃɪz' for 'pouches' can not be mapped to IPA objects
-ipaWord ''pɒksɪz' for 'poxes' can not be mapped to IPA objects
-ipaWord ''preɪzɪz' for 'praises' can not be mapped to IPA objects
-ipaWord ''presɪz' for 'presses' can not be mapped to IPA objects
-ipaWord ''praɪsɪz' for 'prices' can not be mapped to IPA objects
-ipaWord ''prɪnsɪz' for 'princes' can not be mapped to IPA objects
-ipaWord ''praɪzɪz' for 'prizes' can not be mapped to IPA objects
-ipaWord ''prəʊzɪz' for 'proses' can not be mapped to IPA objects
 No match for protégé for these IPA objects p, r, ɒ, t, ə, ʒ, eɪ
 No match for protégés for these IPA objects p, r, ɒ, t, ə, ʒ, eɪ, z
-ipaWord ''pʌlsɪz' for 'pulses' can not be mapped to IPA objects
-ipaWord ''pʌntʃəz' for 'punchers' can not be mapped to IPA objects
-ipaWord ''pʌntʃɪz' for 'punches' can not be mapped to IPA objects
-ipaWord ''pɜːdʒɪz' for 'purges' can not be mapped to IPA objects
-ipaWord ''pɜːsɪz' for 'purses' can not be mapped to IPA objects
-ipaWord ''pʊʃɪz' for 'pushes' can not be mapped to IPA objects
-ipaWord ''pʊsɪz' for 'pusses' can not be mapped to IPA objects
-ipaWord ''pʊtʃɪz' for 'putsches' can not be mapped to IPA objects
-ipaWord ''pʌtsɪz' for 'putzes' can not be mapped to IPA objects
-ipaWord ''kwɔːtsɪz' for 'quartzes' can not be mapped to IPA objects
-ipaWord ''kwɪnsɪz' for 'quinces' can not be mapped to IPA objects
-ipaWord ''kwɪzɪz' for 'quizes' can not be mapped to IPA objects
-ipaWord ''reɪsɪz' for 'races' can not be mapped to IPA objects
-ipaWord ''reɪdʒɪz' for 'rages' can not be mapped to IPA objects
-ipaWord ''reɪzɪz' for 'raises' can not be mapped to IPA objects
-ipaWord ''rɑːntʃɪz' for 'ranches' can not be mapped to IPA objects
-ipaWord ''reɪndʒɪz' for 'ranges' can not be mapped to IPA objects
-ipaWord ''ræʃɪz' for 'rashes' can not be mapped to IPA objects
-ipaWord ''riːtʃɪz' for 'reaches' can not be mapped to IPA objects
 No match for reappointments for these IPA objects r, iː, ə, p, ɔɪ, n, m, ə, n, ts
-ipaWord ''raɪsɪz' for 'rices' can not be mapped to IPA objects
-ipaWord ''rɪdʒɪz' for 'ridges' can not be mapped to IPA objects
-ipaWord ''rɪnsɪz' for 'rinses' can not be mapped to IPA objects
-ipaWord ''raɪzɪz' for 'rises' can not be mapped to IPA objects
-ipaWord ''rəʊtʃɪz' for 'roaches' can not be mapped to IPA objects
 No match for rooibos for these IPA objects r, ɔɪ, b, ɒ, s
-ipaWord ''rəʊzɪz' for 'roses' can not be mapped to IPA objects
-ipaWord ''ruːʒɪz' for 'rouges' can not be mapped to IPA objects
-ipaWord ''ruːzɪz' for 'ruses' can not be mapped to IPA objects
-ipaWord ''rʌʃɪz' for 'rushes' can not be mapped to IPA objects
 No match for Rwanda for these IPA objects r, u, æ, n, d, ə
-ipaWord ''seɪdʒɪz' for 'sages' can not be mapped to IPA objects
 No match for sanatoria for these IPA objects s, æ, n, ə, t, eər, i, ə
-ipaWord ''sɑːdʒɪz' for 'sarges' can not be mapped to IPA objects
-ipaWord ''sæʃɪz' for 'sashes' can not be mapped to IPA objects
-ipaWord ''sæsɪz' for 'sasses' can not be mapped to IPA objects
-ipaWord ''sɔːsɪz' for 'sauces' can not be mapped to IPA objects
-ipaWord ''sæksɪz' for 'saxes' can not be mapped to IPA objects
-ipaWord ''ʃmɔːltsɪz' for 'schmaltzes' can not be mapped to IPA objects
-ipaWord ''ʃnæpsɪz' for 'schnappses' can not be mapped to IPA objects
-ipaWord ''ʃʊsɪz' for 'schusses' can not be mapped to IPA objects
-ipaWord ''skɒtʃɪz' for 'scotches' can not be mapped to IPA objects
-ipaWord ''skɜːdʒɪz' for 'scourges' can not be mapped to IPA objects
-ipaWord ''skaʊsɪz' for 'scouses' can not be mapped to IPA objects
-ipaWord ''skriːtʃɪz' for 'screeches' can not be mapped to IPA objects
-ipaWord ''skruːdʒɪz' for 'scrooges' can not be mapped to IPA objects
-ipaWord ''skraʊndʒə' for 'scrounger' can not be mapped to IPA objects
-ipaWord ''skraʊndʒəz' for 'scroungers' can not be mapped to IPA objects
-ipaWord ''skraʊndʒɪz' for 'scrounges' can not be mapped to IPA objects
-ipaWord ''skrʌntʃɪz' for 'scrunches' can not be mapped to IPA objects
-ipaWord ''skʌndʒɪz' for 'scunges' can not be mapped to IPA objects
-ipaWord ''sɜːtʃɪz' for 'searches' can not be mapped to IPA objects
-ipaWord ''sedʒɪz' for 'sedges' can not be mapped to IPA objects
-ipaWord ''sensɪz' for 'senses' can not be mapped to IPA objects
-ipaWord ''sɜːdʒɪz' for 'serges' can not be mapped to IPA objects
-ipaWord ''seksɪz' for 'sexes' can not be mapped to IPA objects
 No match for Shavuoth for these IPA objects ʃ, ə, v, uː, ə, s
-ipaWord ''ʃɜːkəz' for 'shirkers' can not be mapped to IPA objects
-ipaWord ''siːdʒɪz' for 'sieges' can not be mapped to IPA objects
-ipaWord ''saɪnəz' for 'signers' can not be mapped to IPA objects
-ipaWord ''saɪzɪz' for 'sizes' can not be mapped to IPA objects
-ipaWord ''sketʃɪz' for 'sketches' can not be mapped to IPA objects
-ipaWord ''skaɪvə' for 'skiver' can not be mapped to IPA objects
-ipaWord ''skaɪvəz' for 'skivers' can not be mapped to IPA objects
-ipaWord ''slæʃɪz' for 'slashes' can not be mapped to IPA objects
-ipaWord ''sliːzɪz' for 'sleazes' can not be mapped to IPA objects
-ipaWord ''sledʒɪz' for 'sledges' can not be mapped to IPA objects
-ipaWord ''sleɪz' for 'sleighs' can not be mapped to IPA objects
-ipaWord ''slaɪsɪz' for 'slices' can not be mapped to IPA objects
-ipaWord ''slaʊtʃɪz' for 'slouches' can not be mapped to IPA objects
-ipaWord ''slʌdʒɪz' for 'sludges' can not be mapped to IPA objects
-ipaWord ''sluːsɪz' for 'sluices' can not be mapped to IPA objects
-ipaWord ''slʌʃɪz' for 'slushes' can not be mapped to IPA objects
-ipaWord ''smæʃɪz' for 'smashes' can not be mapped to IPA objects
-ipaWord ''smuːdʒɪz' for 'smoodges' can not be mapped to IPA objects
-ipaWord ''smʌdʒɪz' for 'smudges' can not be mapped to IPA objects
-ipaWord ''snætʃɪz' for 'snatches' can not be mapped to IPA objects
-ipaWord ''sniːzɪz' for 'sneezes' can not be mapped to IPA objects
-ipaWord ''snɪtʃɪz' for 'snitches' can not be mapped to IPA objects
-ipaWord ''snuːzɪz' for 'snoozes' can not be mapped to IPA objects
-ipaWord ''snɔːrəz' for 'snorers' can not be mapped to IPA objects
 No match for solicitations for these IPA objects s, əl, ɪ, s, ɪ, t, ə, ɪ, ʃ, n, z
-ipaWord ''sɔːsɪz' for 'sources' can not be mapped to IPA objects
-ipaWord ''speɪsɪz' for 'spaces' can not be mapped to IPA objects
-ipaWord ''spiːtʃɪz' for 'speeches' can not be mapped to IPA objects
-ipaWord ''sfɪŋksɪz' for 'sphinxes' can not be mapped to IPA objects
-ipaWord ''spaɪsɪz' for 'spices' can not be mapped to IPA objects
-ipaWord ''splæʃɪz' for 'splashes' can not be mapped to IPA objects
-ipaWord ''splaɪsɪz' for 'splices' can not be mapped to IPA objects
-ipaWord ''splɒdʒɪz' for 'splodges' can not be mapped to IPA objects
-ipaWord ''splɒʃɪz' for 'sploshes' can not be mapped to IPA objects
-ipaWord ''splɜːdʒɪz' for 'splurges' can not be mapped to IPA objects
-ipaWord ''spʌndʒɪz' for 'sponges' can not be mapped to IPA objects
-ipaWord ''spaʊsɪz' for 'spouses' can not be mapped to IPA objects
-ipaWord ''sprɪntə' for 'sprinter' can not be mapped to IPA objects
-ipaWord ''sprɪntəz' for 'sprinters' can not be mapped to IPA objects
-ipaWord ''sprɪtsɪz' for 'spritzes' can not be mapped to IPA objects
-ipaWord ''spruːsɪz' for 'spruces' can not be mapped to IPA objects
-ipaWord ''skwɒʃɪz' for 'squashes' can not be mapped to IPA objects
-ipaWord ''skwiːzɪz' for 'squeezes' can not be mapped to IPA objects
-ipaWord ''skweltʃɪz' for 'squelches' can not be mapped to IPA objects
-ipaWord ''steɪdʒɪz' for 'stages' can not be mapped to IPA objects
-ipaWord ''stɑːnsɪz' for 'stances' can not be mapped to IPA objects
-ipaWord ''stɑːtʃɪz' for 'starches' can not be mapped to IPA objects
-ipaWord ''stæʃɪz' for 'stashes' can not be mapped to IPA objects
-ipaWord ''stentʃɪz' for 'stenches' can not be mapped to IPA objects
-ipaWord ''stɪtʃɪz' for 'stitches' can not be mapped to IPA objects
-ipaWord ''stɒdʒɪz' for 'stodges' can not be mapped to IPA objects
-ipaWord ''stuːdʒɪz' for 'stooges' can not be mapped to IPA objects
-ipaWord ''stresɪz' for 'stresses' can not be mapped to IPA objects
-ipaWord ''stretʃɪz' for 'stretches' can not be mapped to IPA objects
-ipaWord ''sɜːdʒɪz' for 'surges' can not be mapped to IPA objects
-ipaWord ''swɒʃɪz' for 'swashes' can not be mapped to IPA objects
-ipaWord ''swɒtʃɪz' for 'swatches' can not be mapped to IPA objects
-ipaWord ''swɪʃɪz' for 'swishes' can not be mapped to IPA objects
-ipaWord ''swɪsɪz' for 'Swisses' can not be mapped to IPA objects
-ipaWord ''swɪtʃɪz' for 'switches' can not be mapped to IPA objects
-ipaWord ''swɪzɪz' for 'swizzes' can not be mapped to IPA objects
-ipaWord ''swuːʃɪz' for 'swooshes' can not be mapped to IPA objects
 No match for Taoiseach for these IPA objects tiː, ʃ, ə, x
 No match for Taoism for these IPA objects d, aʊ, ɪ, z, əm
 No match for Taoist for these IPA objects d, aʊ, ɪ, s, t
 No match for Taoists for these IPA objects d, aʊ, ɪ, s, ts
 No match for tapestry for these IPA objects t, æ, p, ə, s, t, r, i, d
-ipaWord ''tæksɪz' for 'taxes' can not be mapped to IPA objects
-ipaWord ''tiːzɪz' for 'teases' can not be mapped to IPA objects
-ipaWord ''tentʃɪz' for 'tenches' can not be mapped to IPA objects
-ipaWord ''tensɪz' for 'tenses' can not be mapped to IPA objects
 No match for textbooks for these IPA objects t, eks, t, b, ʊ, ks
-ipaWord ''θætʃɪz' for 'thatches' can not be mapped to IPA objects
-ipaWord ''θræʃɪz' for 'thrashes' can not be mapped to IPA objects
-ipaWord ''θrʌʃɪz' for 'thrushes' can not be mapped to IPA objects
-ipaWord ''tɪndʒɪz' for 'tinges' can not be mapped to IPA objects
-ipaWord ''tɪtʃɪz' for 'titches' can not be mapped to IPA objects
-ipaWord ''tɪzɪz' for 'tizzes' can not be mapped to IPA objects
-ipaWord ''tɔɪləz' for 'toilers' can not be mapped to IPA objects
 No match for tokoloshe for these IPA objects t, ɒ, k, ɒ, l, ɒ, ʃ
-ipaWord ''tɔːtʃɪz' for 'torches' can not be mapped to IPA objects
-ipaWord ''tɒʃɪz' for 'toshes' can not be mapped to IPA objects
-ipaWord ''tɒsɪz' for 'tosses' can not be mapped to IPA objects
-ipaWord ''tʌtʃɪz' for 'touches' can not be mapped to IPA objects
-ipaWord ''treɪsɪz' for 'traces' can not be mapped to IPA objects
-ipaWord ''trɑːnsɪz' for 'trances' can not be mapped to IPA objects
-ipaWord ''træʃɪz' for 'trashes' can not be mapped to IPA objects
-ipaWord ''trentʃɪz' for 'trenches' can not be mapped to IPA objects
-ipaWord ''traɪsɪz' for 'trices' can not be mapped to IPA objects
-ipaWord ''truːsɪz' for 'truces' can not be mapped to IPA objects
-ipaWord ''trʌdʒɪz' for 'trudges' can not be mapped to IPA objects
-ipaWord ''trʌsɪz' for 'trusses' can not be mapped to IPA objects
-ipaWord ''twɪndʒɪz' for 'twinges' can not be mapped to IPA objects
-ipaWord ''twɪtʃə' for 'twitcher' can not be mapped to IPA objects
-ipaWord ''twɪtʃəz' for 'twitchers' can not be mapped to IPA objects
-ipaWord ''twɪtʃɪz' for 'twitches' can not be mapped to IPA objects
-ipaWord ''ɜːdʒɪz' for 'urges' can not be mapped to IPA objects
-ipaWord ''juːsɪz' for 'uses' can not be mapped to IPA objects
-ipaWord ''vɑːzɪz' for 'vases' can not be mapped to IPA objects
 No match for Venezuela for these IPA objects v, en, ə, z, w, eɪ, l, ə
-ipaWord ''vɜːdʒɪz' for 'verges' can not be mapped to IPA objects
-ipaWord ''vɜːsɪz' for 'verses' can not be mapped to IPA objects
-ipaWord ''vetʃɪz' for 'vetches' can not be mapped to IPA objects
-ipaWord ''vaɪsɪz' for 'vices' can not be mapped to IPA objects
-ipaWord ''vaɪsɪz' for 'vises' can not be mapped to IPA objects
 No match for vlei for these IPA objects f, l, eɪ
 No match for vleis for these IPA objects f, l, eɪ, z
-ipaWord ''vɔɪsɪz' for 'voices' can not be mapped to IPA objects
-ipaWord ''weɪdʒɪz' for 'wages' can not be mapped to IPA objects
-ipaWord ''wɔːlsɪz' for 'waltzes' can not be mapped to IPA objects
-ipaWord ''wɒʃɪz' for 'washes' can not be mapped to IPA objects
-ipaWord ''wɒtʃɪz' for 'watches' can not be mapped to IPA objects
-ipaWord ''wæksɪz' for 'waxes' can not be mapped to IPA objects
-ipaWord ''wedʒɪz' for 'wedges' can not be mapped to IPA objects
 No match for Wednesday for these IPA objects w, en, z, d, eɪ
 No match for Wednesdays for these IPA objects w, en, z, d, eɪ, z
-ipaWord ''welʃɪz' for 'welshes' can not be mapped to IPA objects
-ipaWord ''wentʃɪz' for 'wenches' can not be mapped to IPA objects
-ipaWord ''wiːzɪz' for 'wheezes' can not be mapped to IPA objects
-ipaWord ''wɪndʒə' for 'whinger' can not be mapped to IPA objects
-ipaWord ''wɪndʒəz' for 'whingers' can not be mapped to IPA objects
-ipaWord ''wɪndʒɪz' for 'whinges' can not be mapped to IPA objects
-ipaWord ''wɪzɪz' for 'whizzes' can not be mapped to IPA objects
-ipaWord ''wʊʃɪz' for 'whooshes' can not be mapped to IPA objects
-ipaWord ''wɪnsɪz' for 'winces' can not be mapped to IPA objects
-ipaWord ''wɪntʃɪz' for 'winches' can not be mapped to IPA objects
-ipaWord ''wɪʃɪz' for 'wishes' can not be mapped to IPA objects
-ipaWord ''wɪtʃɪz' for 'witches' can not be mapped to IPA objects
-ipaWord ''wɒdʒɪz' for 'wodges' can not be mapped to IPA objects
 ipaWord 'BrE' for 'word' can not be mapped to IPA objects
-ipaWord ''ræsɪz' for 'wrasses' can not be mapped to IPA objects
-ipaWord ''rentʃɪz' for 'wrenches' can not be mapped to IPA objects
-ipaWord ''retʃɪz' for 'wretches' can not be mapped to IPA objects
-ipaWord ''wʊsɪz' for 'wusses' can not be mapped to IPA objects
 No match for Xhosa for these IPA objects k, ɔː, s, ə
 No match for Xhosas for these IPA objects k, ɔː, s, ə, z
-ipaWord ''jesɪz' for 'yeses' can not be mapped to IPA objects
-ipaWord ''zɪltʃɪz' for 'zilches' can not be mapped to IPA objects
 No match for abhorred for these IPA objects ə, b, h, ɔː, d
 No match for bestirred for these IPA objects b, ɪ, s, t, ɜː, d
 No match for betted for these IPA objects b, e, t
@@ -563,6 +93,7 @@ No match for grinded for these IPA objects ɡ, r, aʊ, n, d
 No match for hamstringed for these IPA objects h, æ, m, s, t, r, ʌ, ŋ
 No match for interbred for these IPA objects ɪ, n, t, ə, b, r, iː, d, ɪ, d
 No match for lighted for these IPA objects l, ɪ, t
+No match for OKˈd for these IPA objects əʊ, keɪ, d
 ipaWord 'rekəlektɪd/' for 'recollected' can not be mapped to IPA objects
 ipaWord 'rɪːkənfɜːmd' for 'reconfirmed' can not be mapped to IPA objects
 ipaWord 'rɪːkənfɜːmɪŋ' for 'reconfirming' can not be mapped to IPA objects
@@ -599,7 +130,6 @@ No match for widowed for these IPA objects w, ɪ, d, əʊ
 No match for whew for these IPA objects f, juː
 No match for bestir for these IPA objects b, ɪ, s, t, ɜː, r
 No match for blur for these IPA objects b, l, ɜː, r
-ipaWord ''brɔːlər' for 'brawler' can not be mapped to IPA objects
 No match for Camembert for these IPA objects k, æ, m, əm, b, eər
 No match for compère for these IPA objects k, ɒ, m, p, eər
 No match for concur for these IPA objects k, ə, n, k, ɜː, r
@@ -608,27 +138,18 @@ No match for cur for these IPA objects k, ɜː, r
 No match for demur for these IPA objects d, ɪ, m, ɜː, r
 No match for fur for these IPA objects f, ɜː, r
 No match for Gruyère for these IPA objects ɡ, r, uː, j, ɜː, r
-ipaWord ''heɪtər' for 'hater' can not be mapped to IPA objects
-ipaWord ''hɔːdər' for 'hoarder' can not be mapped to IPA objects
-ipaWord ''həʊksər' for 'hoaxer' can not be mapped to IPA objects
 No match for incur for these IPA objects ɪ, n, k, ɜː, r
 No match for krone for these IPA objects k, r, əʊ, n, ər
 No match for larkspur for these IPA objects l, ɑː, ks, p, ɜː, r
-ipaWord ''məʊnər' for 'moaner' can not be mapped to IPA objects
 No match for occur for these IPA objects ə, k, ɜː, r
 No match for rapport for these IPA objects r, æ, p, ɔː, r
 No match for recur for these IPA objects r, ɪ, k, ɜː, r
 No match for reoccur for these IPA objects r, iː, ə, k, ɜː, r
-ipaWord ''skraʊndʒər' for 'scrounger' can not be mapped to IPA objects
-ipaWord ''skaɪvər' for 'skiver' can not be mapped to IPA objects
 No match for slur for these IPA objects s, l, ɜː, r
-ipaWord ''sprɪntər' for 'sprinter' can not be mapped to IPA objects
 No match for spur for these IPA objects s, p, ɜː, r
 No match for stir for these IPA objects s, t, ɜː, r
-ipaWord ''twɪtʃər' for 'twitcher' can not be mapped to IPA objects
-ipaWord ''wɪndʒər' for 'whinger' can not be mapped to IPA objects
 No match for whir for these IPA objects w, ɜː, r
 ipaWord 'BrEr' for 'word' can not be mapped to IPA objects
-valid 70329
-error 631
-missed 917
+valid 70809
+error 152
+missed 916
