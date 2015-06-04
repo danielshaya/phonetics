@@ -8,7 +8,7 @@ import java.util.*;
  */
 public class Main {
 
-    public static final String DICTIONARY_VERSION = "15";
+    public static final String DICTIONARY_VERSION = "16";
 
     public static void main(String[] args) throws Exception{
         InputStreamReader readerReplace = new InputStreamReader(new FileInputStream("src/main/resources/replace.txt"), "UTF-16");
@@ -26,7 +26,7 @@ public class Main {
 
 
 
-        InputStreamReader reader = new InputStreamReader(new FileInputStream("src/main/resources/mappedWords1.txt"), "UTF-8");
+        InputStreamReader reader = new InputStreamReader(new FileInputStream("src/main/resources/mappedWords040615.txt"), "UTF-8");
         BufferedReader buff = new BufferedReader(reader);
 
         PhoneticsProcessor phoneticsProcessor = new PhoneticsProcessor();
@@ -35,21 +35,34 @@ public class Main {
 
         int valid = 0;
         int error = 0;
+        int missed = 0;
 
         FileWriter fw = new FileWriter("src/main/resources/errors.txt");
         FileWriter fw1 = new FileWriter("src/main/resources/wordlist.txt");
+        FileWriter fw2 = new FileWriter("src/main/resources/missedOut.txt");
+
 
         while((line = buff.readLine()) != null) {
+           // System.out.println(line);
+
             String word = line.split("\\t")[0];
+            //todo investigate why this crashes
+            if(word.startsWith("hydrochlorofluorocarbon")){
+                fw2.write(line + "\n");
+                missed++;
+                continue;
+            }
+
             String IPAword = line.split("\\t")[1];
 
             if(replacements.containsKey(word)){
                 IPAword = replacements.get(word);
             }
-            if(word.contains(" "))continue;
-            if(word.contains("-"))continue;
-            if(word.contains("'"))continue;
-
+            if(word.contains(" ") || word.contains("-") || word.contains("'")){
+                fw2.write(line + "\n");
+                missed++;
+                continue;
+            }
 
             try {
                 List<PhonicsResult> results = phoneticsProcessor.process(IPAword, word);
@@ -68,13 +81,19 @@ public class Main {
         }
         fw.write("valid " + valid + "\n");
         fw.write("error " + error + "\n");
+        fw.write("missed " + missed+ "\n");
 
         System.out.println("valid " + valid);
         System.out.println("error " + error);
+        System.out.println("missed " + missed);
         fw.flush();
         fw.close();
 
         fw1.flush();
         fw1.close();
+
+        fw2.flush();
+        fw2.close();
+
     }
 }

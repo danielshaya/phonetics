@@ -141,6 +141,13 @@ public class TestPhonetics {
         }
     }
 
+    @Test
+    public void testAcadian() throws Exception{
+        List<PhonicsResult> results = phoneticsProcessor.process("əˈkeɪdiən", "Acadian");
+        testIPAs(results,       new String[]{"ə", "k", "eɪ", "d", "i", "ə", "n"});
+        testSplitWords(results, new String[]{"A", "c", "a", "d", "i", "a", "n"});
+    }
+
 
     private void testIPAs(List<PhonicsResult> results, String[] matches) {
         List<IPA> ipas = results.get(0).getIpas();
