@@ -98,6 +98,10 @@ public class PhoneticsProcessor {
             //replaceSingleWithCombined(results, "ə", "r");
             replaceSingleWithCombined(results, "e", "ər");
             replaceSingleWithCombined(results, "eə", "r");
+            replaceSingleWithCombined(results, "k", "w");
+            replaceSingleWithCombined(results, "ɡ", "w");
+            replaceSingleWithCombined(results, "s", "w");
+            replaceSingleWithCombined(results, "p", "w");
 
 
             replaceCombinedWithSingles(results, "ə", "r");

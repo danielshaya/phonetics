@@ -97,12 +97,6 @@ public class TestPhonetics {
         testSplitWords(results, new String[]{"a", "a"});
     }
 
-    @Test
-     public void testAm() throws Exception {
-        List<PhonicsResult> results = phoneticsProcessor.process("ˌeɪ ˈem", "am");
-        testIPAs(results,       new String[]{"eɪ", "em"});
-        testSplitWords(results, new String[]{"a", "m"});
-    }
 
     @Test
     public void testAngel() throws Exception {

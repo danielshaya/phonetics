@@ -8,7 +8,7 @@ import java.util.*;
  */
 public class Main {
 
-    public static final String DICTIONARY_VERSION = "16";
+    public static final String DICTIONARY_VERSION = "18";
 
     public static void main(String[] args) throws Exception{
         InputStreamReader readerReplace = new InputStreamReader(new FileInputStream("src/main/resources/replace.txt"), "UTF-16");
@@ -26,7 +26,7 @@ public class Main {
 
 
 
-        InputStreamReader reader = new InputStreamReader(new FileInputStream("src/main/resources/mappedWords040615.txt"), "UTF-8");
+        InputStreamReader reader = new InputStreamReader(new FileInputStream("src/main/resources/mappedWords090615.txt"), "UTF-8");
         BufferedReader buff = new BufferedReader(reader);
 
         PhoneticsProcessor phoneticsProcessor = new PhoneticsProcessor();

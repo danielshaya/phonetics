@@ -1,155 +1,103 @@
-No match for advocaat for these IPA objects æ, d, v, ə, k, ɑː
-No match for anorexics for these IPA objects æ, n, ər, eks, ɪ, ks
-No match for Boer for these IPA objects b, ɔː
-No match for Boers for these IPA objects b, ɔː, z
-No match for bohrium for these IPA objects b, ɔː, r, i, əm
-No match for braaivleis for these IPA objects b, r, aɪ, f, l, eɪ, s
+No match for ABC for these IPA objects eɪ, b, iː, s, iː
+No match for am for these IPA objects eɪ, e, m
+No match for Apis for these IPA objects eɪ, p, iː, aɪ, z
+No match for bed for these IPA objects b, iː, e, d
+No match for beds for these IPA objects b, iː, e, d, z
+No match for BMX for these IPA objects b, iː, e, m, e, ks
+No match for bo for these IPA objects b, iː, əʊ
+No match for bos for these IPA objects b, iː, əʊ, z
 ipaWord 'brɪtaniə' for 'Britannia' can not be mapped to IPA objects
-No match for Camembert for these IPA objects k, æ, m, əm, b, eə
-No match for ceilidh for these IPA objects keɪ, l, i
-No match for ceilidhs for these IPA objects keɪ, l, i, z
-No match for chamois for these IPA objects ʃ, æ, m, i
-No match for compère for these IPA objects k, ɒ, m, p, eə
-No match for compères for these IPA objects k, ɒ, m, p, eə, z
-No match for corps for these IPA objects k, ɔː
-No match for cortège for these IPA objects k, ɔː, t, e, ʒ
-No match for cortèges for these IPA objects k, ɔː, t, e, ʒ, ɪ, z
-No match for crèche for these IPA objects k, r, e, ʃ
-No match for crèches for these IPA objects k, r, e, ʃ, z
 No match for Cymru for these IPA objects k, ʌ, m, r, i
-No match for Dadaism for these IPA objects d, ɑː, d, ɑː, ɪ, s, t
-No match for épée for these IPA objects e, p, eɪ
-No match for épées for these IPA objects e, p, eɪ, z
-ipaWord 'frɪːfəʊn' for 'freephone' can not be mapped to IPA objects
-No match for Gruyère for these IPA objects ɡ, r, uː, j, ɜː
-ipaWord 'hedstandz' for 'headstands' can not be mapped to IPA objects
-No match for hwyl for these IPA objects h, ɔɪ, l
-No match for hwyls for these IPA objects h, ɔɪ, l, z
-No match for inefficiencies for these IPA objects ɪ, n, ɪ, f, ɪ, ʃ, n, t, ə, n, s, i, z
-No match for Jewry for these IPA objects dʒ, ʊə, r, i
-No match for kalashnikov for these IPA objects k, əl, æ, ʃ, n, ɪ, k, ɒ, f
-No match for kalashnikovs for these IPA objects k, əl, æ, ʃ, n, ɪ, k, ɒ, f, s
-No match for lacunae for these IPA objects l, ə, k, uː, n, ə, z
-ipaWord 'leg' for 'leg' can not be mapped to IPA objects
-ipaWord 'legz' for 'legs' can not be mapped to IPA objects
-ipaWord 'lɔŋhɔːnz' for 'longhorns' can not be mapped to IPA objects
-No match for macramé for these IPA objects m, ə, k, r, ɑː, m, i
-No match for macramés for these IPA objects m, ə, k, r, ɑː, m, i, z
-No match for manège for these IPA objects m, æ, n, e, ʒ
-No match for manèges for these IPA objects m, æ, n, e, ʒ, ɪ, z
+No match for da for these IPA objects d, iː, eɪ
+No match for das for these IPA objects d, iː, eɪ, z
+No match for ged for these IPA objects dʒ, iː, iː, d, iː
+No match for geds for these IPA objects dʒ, iː, iː, d, iː, z
+No match for gi for these IPA objects dʒ, iː, aɪ
+No match for gis for these IPA objects dʒ, iː, aɪ, z
+No match for heiress for these IPA objects eə, r, e, s
+No match for heiresses for these IPA objects eə, r, e, s, ɪ, z
+No match for it for these IPA objects aɪ, t, iː
+No match for its for these IPA objects aɪ, t, iː, z
+No match for led for these IPA objects e, l, iː, d, iː
+No match for ma for these IPA objects e, m, eɪ
+No match for mas for these IPA objects e, m, eɪ, z
 No match for McCarthyism for these IPA objects m, ə, k, ɑː, θ, i, ɪ, z, əm
 No match for McCoy for these IPA objects m, ə, k, ɔɪ
-No match for métier for these IPA objects m, e, t, i, eɪ
-No match for métiers for these IPA objects m, e, t, i, eɪ, z
-No match for Michaelmas for these IPA objects m, ɪ, k, l, m, ə, s
-No match for mor for these IPA objects em, əʊ, ɑː
-No match for mors for these IPA objects em, əʊ, ɑː, z
+No match for me for these IPA objects e, m, iː
+No match for mes for these IPA objects e, m, iː, z
+No match for mid for these IPA objects e, m, aɪ, d, iː
+No match for mids for these IPA objects e, m, aɪ, d, iː, z
+No match for mna for these IPA objects e, m, e, n, eɪ
+No match for mnas for these IPA objects e, m, e, n, eɪ, z
+No match for mo for these IPA objects e, m, əʊ
+ipaWord 'mɔɪstʃəraɪzə(r)' for 'moisturizer' can not be mapped to IPA objects
+No match for mor for these IPA objects e, m, əʊ, ɑː
+No match for mors for these IPA objects e, m, əʊ, ɑː, z
+No match for mot for these IPA objects e, m, əʊ, t, iː
 No match for Naafi for these IPA objects n, æ, f, i
-No match for parfait for these IPA objects p, ɑː, f, eɪ
+No match for OK for these IPA objects əʊ, k, eɪ
+No match for OKs for these IPA objects əʊ, k, eɪ, z
+ipaWord 'aʊtfiːldə(r)' for 'outfielder' can not be mapped to IPA objects
+No match for pa for these IPA objects p, iː, eɪ
+No match for pas for these IPA objects p, iː, eɪ, z
 No match for pétanque for these IPA objects p, ə, t, ɒ, ŋ, k
 No match for pianos for these IPA objects p, i, æ, n, əʊ, f, ɔː, t, i
-ipaWord 'pleɪhɑʊsɪz' for 'playhouses' can not be mapped to IPA objects
+No match for pow for these IPA objects p, iː, əʊ, d, ʌ, b, lj, uː
+No match for pows for these IPA objects p, iː, əʊ, d, ʌ, b, lj, uː, z
 No match for protégé for these IPA objects p, r, ɒ, t, ə, ʒ, eɪ
 No match for protégés for these IPA objects p, r, ɒ, t, ə, ʒ, eɪ, z
-No match for reappointments for these IPA objects r, iː, ə, p, ɔɪ, n, m, ə, n, ts
-No match for rooibos for these IPA objects r, ɔɪ, b, ɒ, s
-No match for Rwanda for these IPA objects r, u, æ, n, d, ə
-No match for sanatoria for these IPA objects s, æ, n, ə, t, eər, i, ə
-No match for Shavuoth for these IPA objects ʃ, ə, v, uː, ə, s
+No match for re for these IPA objects ɑː, r, iː
+No match for ren for these IPA objects ɑː, r, iː, e, n
+No match for rens for these IPA objects ɑː, r, iː, e, n, z
+No match for res for these IPA objects ɑː, r, iː, z
+No match for sae for these IPA objects e, s, eɪ, iː
+No match for sat for these IPA objects e, s, eɪ, t, iː
 No match for solicitations for these IPA objects s, əl, ɪ, s, ɪ, t, ə, ɪ, ʃ, n, z
-No match for Taoiseach for these IPA objects tiː, ʃ, ə, x
-No match for Taoism for these IPA objects d, aʊ, ɪ, z, əm
-No match for Taoist for these IPA objects d, aʊ, ɪ, s, t
-No match for Taoists for these IPA objects d, aʊ, ɪ, s, ts
-No match for tapestry for these IPA objects t, æ, p, ə, s, t, r, i, d
-No match for textbooks for these IPA objects t, eks, t, b, ʊ, ks
-No match for tokoloshe for these IPA objects t, ɒ, k, ɒ, l, ɒ, ʃ
-No match for Venezuela for these IPA objects v, en, ə, z, w, eɪ, l, ə
-No match for vlei for these IPA objects f, l, eɪ
-No match for vleis for these IPA objects f, l, eɪ, z
-No match for Wednesday for these IPA objects w, en, z, d, eɪ
-No match for Wednesdays for these IPA objects w, en, z, d, eɪ, z
+No match for sos for these IPA objects e, s, əʊ, e, s
+No match for ta for these IPA objects t, iː, eɪ
+No match for Taoiseach for these IPA objects t, iː, ʃ, ə, x
+No match for tas for these IPA objects t, iː, eɪ, z
+No match for uva for these IPA objects juː, v, iː, eɪ
+No match for uvas for these IPA objects juː, v, iː, eɪ, z
 ipaWord 'BrE' for 'word' can not be mapped to IPA objects
-No match for Xhosa for these IPA objects k, ɔː, s, ə
-No match for Xhosas for these IPA objects k, ɔː, s, ə, z
-No match for abhorred for these IPA objects ə, b, h, ɔː, d
-No match for bestirred for these IPA objects b, ɪ, s, t, ɜː, d
-No match for betted for these IPA objects b, e, t
-No match for builded for these IPA objects b, ɪ, l, t
+No match for Xmas for these IPA objects e, ks, m, ə, s
+No match for Xmases for these IPA objects e, ks, m, ə, s, ɪ, z
 No match for catched for these IPA objects k, ɔː, t
 No match for clinged for these IPA objects k, l, ʌ, ŋ
-No match for collapsed for these IPA objects k, əl, æ, p, s
-No match for compère for these IPA objects k, ɒ, m, p, eə
-No match for compèred for these IPA objects k, ɒ, m, p, eə, d
-No match for compères for these IPA objects k, ɒ, m, p, eə, z
-No match for compèring for these IPA objects k, ɒ, m, p, eər, ɪ, ŋ
-No match for concertinaing for these IPA objects k, ɒ, n, s, ə, tiː, n, ər, ɪ, ŋ
-No match for daydreamt for these IPA objects d, eɪ, d, r, iː, m, d
-No match for digged for these IPA objects d, ʌ, ɡ
-No match for divorced for these IPA objects d, ɪ, v, ɔː, s
-No match for floodlighted for these IPA objects f, l, ʌ, d, l, ɪ, t
-No match for gambolled for these IPA objects ɡ, æ, m, b, l, d
-No match for grinded for these IPA objects ɡ, r, aʊ, n, d
-No match for hamstringed for these IPA objects h, æ, m, s, t, r, ʌ, ŋ
+No match for id for these IPA objects aɪ, d, iː
+No match for ids for these IPA objects aɪ, d, iː, z
 No match for interbred for these IPA objects ɪ, n, t, ə, b, r, iː, d, ɪ, d
-No match for lighted for these IPA objects l, ɪ, t
-No match for OKˈd for these IPA objects əʊ, keɪ, d
-ipaWord 'rekəlektɪd/' for 'recollected' can not be mapped to IPA objects
-ipaWord 'rɪːkənfɜːmd' for 'reconfirmed' can not be mapped to IPA objects
-ipaWord 'rɪːkənfɜːmɪŋ' for 'reconfirming' can not be mapped to IPA objects
-ipaWord 'rɪːkənfɜːmz' for 'reconfirms' can not be mapped to IPA objects
-No match for recuring for these IPA objects r, ɪ, k, ɜː, r, ɪ, ŋ
-No match for restringed for these IPA objects r, iː, s, t, r, ʌ, ŋ
-No match for ridded for these IPA objects r, ɪ, d
-No match for setted for these IPA objects s, e, t
-No match for shitted for these IPA objects ʃ, ɪ, t
-No match for slided for these IPA objects s, l, ɪ, d
-No match for spotlighted for these IPA objects s, p, ɒ, t, l, ɪ, t
-No match for sticked for these IPA objects s, t, ʌ, k
-No match for stinged for these IPA objects s, t, ʌ, ŋ
-No match for stirred for these IPA objects s, t, ɜː, d
-No match for stringed for these IPA objects s, t, r, ʌ, ŋ
-No match for subpoenaing for these IPA objects s, ə, piː, n, ər, ɪ, ŋ
+No match for od for these IPA objects əʊ, d, iː
+No match for ods for these IPA objects əʊ, d, iː, z
+No match for OK for these IPA objects əʊ, k, eɪ
+No match for OKs for these IPA objects əʊ, k, eɪ, z
+No match for subpoenaing for these IPA objects s, ə, p, iː, n, ər, ɪ, ŋ
 No match for swinged for these IPA objects sw, ʌ, ŋ
-No match for understanded for these IPA objects ʌ, n, d, ə, s, t, ʊ, d
-No match for welched for these IPA objects w, e, tʃ, t
-No match for whirred for these IPA objects w, ɜː, d
-No match for wicked for these IPA objects w, ɪ, k
-No match for widowed for these IPA objects w, ɪ, d, əʊ
-No match for winded for these IPA objects w, aʊ, n, d
-No match for wringed for these IPA objects r, ʌ, ŋ
-No match for animatronic for these IPA objects æ, n, ɪ, m, ə, t, r, ɒ, n, ɪ, ks
-No match for blameless for these IPA objects s, l, iː, v, l, ə, s
-No match for collapsed for these IPA objects k, əl, æ, p, s
-No match for Fahrenheit for these IPA objects f, æ, r, ə, n, h, aɪ, t
+No match for nth for these IPA objects e, n, θ
+No match for OK for these IPA objects əʊ, k, eɪ
 No match for QWERTY for these IPA objects kw, ɜː, t, i
-No match for Taoist for these IPA objects d, aʊ, ɪ, s, t
-No match for tapestried for these IPA objects t, æ, p, ə, s, t, r, i
-No match for voetstoots for these IPA objects f, ʊ, ts, t, ʊə, ts
-No match for widowed for these IPA objects w, ɪ, d, əʊ
-No match for whew for these IPA objects f, juː
-No match for bestir for these IPA objects b, ɪ, s, t, ɜː, r
-No match for blur for these IPA objects b, l, ɜː, r
-No match for Camembert for these IPA objects k, æ, m, əm, b, eər
-No match for compère for these IPA objects k, ɒ, m, p, eər
-No match for concur for these IPA objects k, ə, n, k, ɜː, r
+No match for b for these IPA objects b, iː
+No match for c for these IPA objects s, iː
+No match for d for these IPA objects d, iː
+No match for k for these IPA objects k, eɪ
+No match for l for these IPA objects e, l
+No match for m for these IPA objects e, m
+No match for n for these IPA objects e, n
+No match for OK for these IPA objects əʊ, k, eɪ
+No match for s for these IPA objects e, s
+No match for v for these IPA objects v, iː
+No match for x for these IPA objects e, ks
+No match for Camembert for these IPA objects k, æ, m, əm, b, eə, r
 No match for corps for these IPA objects k, ɔː, r
-No match for cur for these IPA objects k, ɜː, r
-No match for demur for these IPA objects d, ɪ, m, ɜː, r
-No match for fur for these IPA objects f, ɜː, r
 No match for Gruyère for these IPA objects ɡ, r, uː, j, ɜː, r
-No match for incur for these IPA objects ɪ, n, k, ɜː, r
+No match for heir for these IPA objects eə, r
 No match for krone for these IPA objects k, r, əʊ, n, ər
-No match for larkspur for these IPA objects l, ɑː, ks, p, ɜː, r
-No match for occur for these IPA objects ə, k, ɜː, r
+ipaWord 'mɔɪstʃəraɪzə(r)' for 'moisturizer' can not be mapped to IPA objects
+No match for mor for these IPA objects e, m, əʊ, ɑː, r
+ipaWord 'aʊtfiːldə(r)' for 'outfielder' can not be mapped to IPA objects
 No match for rapport for these IPA objects r, æ, p, ɔː, r
-No match for recur for these IPA objects r, ɪ, k, ɜː, r
-No match for reoccur for these IPA objects r, iː, ə, k, ɜː, r
-No match for slur for these IPA objects s, l, ɜː, r
-No match for spur for these IPA objects s, p, ɜː, r
-No match for stir for these IPA objects s, t, ɜː, r
-No match for whir for these IPA objects w, ɜː, r
 ipaWord 'BrEr' for 'word' can not be mapped to IPA objects
-valid 70809
-error 152
-missed 916
+No match for stringed for these IPA objects s, t, r, ʌ, ŋ
+valid 70886
+error 100
+missed 917
