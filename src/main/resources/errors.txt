@@ -1,24 +1,46 @@
 No match for ABC for these IPA objects eɪ, b, iː, s, iː
+No match for agents for these IPA objects æ, ʒ, ɒ̃
 No match for am for these IPA objects eɪ, e, m
 No match for Apis for these IPA objects eɪ, p, iː, aɪ, z
+No match for appeal for these IPA objects ə, p, iː, l, z
+No match for appeal for these IPA objects ə, p, iː, l, z
+No match for après for these IPA objects æ, p, r, eɪ
+No match for ratio for these IPA objects r, eɪ, ʃ, i, ə, u
 No match for bed for these IPA objects b, iː, e, d
 No match for beds for these IPA objects b, iː, e, d, z
+No match for belles for these IPA objects b, e, l
 No match for BMX for these IPA objects b, iː, e, m, e, ks
 No match for bo for these IPA objects b, iː, əʊ
 No match for bos for these IPA objects b, iː, əʊ, z
+No match for bouquets for these IPA objects b, uː, k, eɪ
 ipaWord 'brɪtaniə' for 'Britannia' can not be mapped to IPA objects
+ipaWord 'səʊvɪnjɒætildeː' for 'Sauvignon' can not be mapped to IPA objects
+No match for causes for these IPA objects k, ɔː, z
+No match for bag for these IPA objects b, ɒ, ks
+No match for bags for these IPA objects b, ɒ, ks, ɪ, z
+No match for brûlée for these IPA objects b, r, uː, l, eɪ
 No match for Cymru for these IPA objects k, ʌ, m, r, i
 No match for da for these IPA objects d, iː, eɪ
 No match for das for these IPA objects d, iː, eɪ, z
+ipaWord 'geɪm' for 'game' can not be mapped to IPA objects
+ipaWord 'geɪm' for 'game' can not be mapped to IPA objects
 No match for ged for these IPA objects dʒ, iː, iː, d, iː
 No match for geds for these IPA objects dʒ, iː, iː, d, iː, z
 No match for gi for these IPA objects dʒ, iː, aɪ
 No match for gis for these IPA objects dʒ, iː, aɪ, z
+No match for Grand for these IPA objects ɡ, r, ɒ̃
+No match for grand for these IPA objects ɡ, r, ɒ̃
+No match for Grand for these IPA objects ɡ, r, ɒ̃
 No match for heiress for these IPA objects eə, r, e, s
 No match for heiresses for these IPA objects eə, r, e, s, ɪ, z
+No match for idiots for these IPA objects iː, d, jə, ʊ
 No match for it for these IPA objects aɪ, t, iː
 No match for its for these IPA objects aɪ, t, iː, z
+No match for to for these IPA objects t, uː, z
+No match for tos for these IPA objects t, uː, z, ɪ, z
 No match for led for these IPA objects e, l, iː, d, iː
+No match for Möbius for these IPA objects m, ɜː, b, i, ə, s
+No match for Möbius for these IPA objects m, ɜː, b, i, ə, s
 No match for ma for these IPA objects e, m, eɪ
 No match for mas for these IPA objects e, m, eɪ, z
 No match for McCarthyism for these IPA objects m, ə, k, ɑː, θ, i, ɪ, z, əm
@@ -41,9 +63,14 @@ ipaWord 'aʊtfiːldə(r)' for 'outfielder' can not be mapped to IPA objects
 No match for pa for these IPA objects p, iː, eɪ
 No match for pas for these IPA objects p, iː, eɪ, z
 No match for pétanque for these IPA objects p, ə, t, ɒ, ŋ, k
+No match for petits for these IPA objects p, e, t, i
 No match for pianos for these IPA objects p, i, æ, n, əʊ, f, ɔː, t, i
+ipaWord 'pæÌƒs' for 'pince' can not be mapped to IPA objects
+No match for Cymru for these IPA objects k, ʌ, m, r, iː
 No match for pow for these IPA objects p, iː, əʊ, d, ʌ, b, lj, uː
 No match for pows for these IPA objects p, iː, əʊ, d, ʌ, b, lj, uː, z
+ipaWord 'tæg' for 'tag' can not be mapped to IPA objects
+ipaWord 'tægz' for 'tags' can not be mapped to IPA objects
 No match for protégé for these IPA objects p, r, ɒ, t, ə, ʒ, eɪ
 No match for protégés for these IPA objects p, r, ɒ, t, ə, ʒ, eɪ, z
 No match for re for these IPA objects ɑː, r, iː
@@ -51,15 +78,21 @@ No match for ren for these IPA objects ɑː, r, iː, e, n
 No match for rens for these IPA objects ɑː, r, iː, e, n, z
 No match for res for these IPA objects ɑː, r, iː, z
 No match for sae for these IPA objects e, s, eɪ, iː
+No match for sans for these IPA objects s, æ, n
 No match for sat for these IPA objects e, s, eɪ, t, iː
+No match for Savile for these IPA objects s, æ, v, l
 No match for solicitations for these IPA objects s, əl, ɪ, s, ɪ, t, ə, ɪ, ʃ, n, z
 No match for sos for these IPA objects e, s, əʊ, e, s
+No match for St for these IPA objects s, n, t
+No match for St for these IPA objects s, n, t
 No match for ta for these IPA objects t, iː, eɪ
 No match for Taoiseach for these IPA objects t, iː, ʃ, ə, x
 No match for tas for these IPA objects t, iː, eɪ, z
 No match for uva for these IPA objects juː, v, iː, eɪ
 No match for uvas for these IPA objects juː, v, iː, eɪ, z
 ipaWord 'BrE' for 'word' can not be mapped to IPA objects
+No match for X for these IPA objects e, ks
+No match for X for these IPA objects e, ks
 No match for Xmas for these IPA objects e, ks, m, ə, s
 No match for Xmases for these IPA objects e, ks, m, ə, s, ɪ, z
 No match for catched for these IPA objects k, ɔː, t
@@ -73,11 +106,18 @@ No match for OK for these IPA objects əʊ, k, eɪ
 No match for OKs for these IPA objects əʊ, k, eɪ, z
 No match for subpoenaing for these IPA objects s, ə, p, iː, n, ər, ɪ, ŋ
 No match for swinged for these IPA objects sw, ʌ, ŋ
+No match for X for these IPA objects e, ks
+No match for X for these IPA objects e, ks
+No match for X for these IPA objects e, ks
+No match for X for these IPA objects e, ks
+No match for trop for these IPA objects t, r, əʊ
 No match for nth for these IPA objects e, n, θ
 No match for OK for these IPA objects əʊ, k, eɪ
 No match for QWERTY for these IPA objects kw, ɜː, t, i
+No match for court for these IPA objects k, ʊə
 No match for b for these IPA objects b, iː
 No match for c for these IPA objects s, iː
+No match for bono? for these IPA objects b, ɒ, n, əʊ
 No match for d for these IPA objects d, iː
 No match for k for these IPA objects k, eɪ
 No match for l for these IPA objects e, l
@@ -96,8 +136,9 @@ ipaWord 'mɔɪstʃəraɪzə(r)' for 'moisturizer' can not be mapped to IPA objec
 No match for mor for these IPA objects e, m, əʊ, ɑː, r
 ipaWord 'aʊtfiːldə(r)' for 'outfielder' can not be mapped to IPA objects
 No match for rapport for these IPA objects r, æ, p, ɔː, r
+No match for court for these IPA objects k, ʊə, r
 ipaWord 'BrEr' for 'word' can not be mapped to IPA objects
 No match for stringed for these IPA objects s, t, r, ʌ, ŋ
-valid 70886
-error 100
-missed 917
+valid 71645
+error 141
+missed 117

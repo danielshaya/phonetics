@@ -58,23 +58,70 @@ public class Main {
             if(replacements.containsKey(word)){
                 IPAword = replacements.get(word);
             }
-            if(word.contains(" ") || word.contains("-") || word.contains("'")){
+
+            if(word.contains("'")){
                 fw2.write(line + "\n");
                 missed++;
                 continue;
             }
 
-            try {
-                List<PhonicsResult> results = phoneticsProcessor.process(IPAword, word);
-                for(PhonicsResult result : results){
-                    fw1.write(result.getWord() + " -> " +  IPA.getSymbolsAsString(result.getIpas()) + " -> " + result.getSplitWords() + "\n");
-                }
-            }catch(AssertionError e){
-                fw.write(e.getMessage() + "\n");
-                System.out.println(e.getMessage());
-                error++;
-                continue;
+            String[] words = null;
+            String[] IPAwords = null;
+            String joiningSymbol = null;
 
+            if(word.contains(" ")){
+                joiningSymbol = " ";
+                words = word.split(" ");
+                IPAwords = IPAword.split(" ");
+                //only process if 2 words each
+                if(words.length!=2 || IPAwords.length!=2){
+                    fw2.write(line + "\n");
+                    missed++;
+                    continue;
+                }
+            }
+
+            if(word.contains("-")){
+                joiningSymbol = "-";
+                words = word.split("-");
+                IPAwords = IPAword.split(" ");
+                //only process if 2 words each
+                if(words.length!=2 || IPAwords.length!=2){
+                    fw2.write(line + "\n");
+                    missed++;
+                    continue;
+                }
+            }
+
+            if(words==null) {
+                try {
+                    List<PhonicsResult> results = phoneticsProcessor.process(IPAword, word);
+                    for (PhonicsResult result : results) {
+                        fw1.write(result.getWord() + " -> " + IPA.getSymbolsAsString(result.getIpas()) + " -> " + result.getSplitWords() + "\n");
+                    }
+                } catch (AssertionError e) {
+                    fw.write(e.getMessage() + "\n");
+                    System.out.println(e.getMessage());
+                    error++;
+                    continue;
+
+                }
+            }else {
+                try {
+                    List<PhonicsResult> results1 = phoneticsProcessor.process(IPAwords[0], words[0]);
+                    List<PhonicsResult> results2 = phoneticsProcessor.process(IPAwords[1], words[1]);
+                    for(int i=0; i<results1.size(); i++) {
+                        fw1.write(results1.get(i).getWord() + joiningSymbol + results2.get(i).getWord()
+                                + " -> " + IPA.getSymbolsAsString(results1.get(i).getIpas()) + ", " + IPA.getSymbolsAsString(results2.get(i).getIpas())
+                                + " -> " + results1.get(i).getSplitWords() + joiningSymbol + results2.get(i).getSplitWords() + "\n");
+                    }
+                } catch (AssertionError e) {
+                    fw.write(e.getMessage() + "\n");
+                    System.out.println(e.getMessage());
+                    error++;
+                    continue;
+
+                }
             }
             valid++;
 
